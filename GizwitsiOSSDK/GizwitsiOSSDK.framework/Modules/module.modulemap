@@ -1,0 +1,11 @@
+framework module GizwitsiOSSDK {
+  umbrella header "GizwitsiOSSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module GizwitsiOSSDK.Swift {
+  header "GizwitsiOSSDK-Swift.h"
+  requires objc
+}

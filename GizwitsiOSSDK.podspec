@@ -23,7 +23,7 @@ spec.description  = <<-DESC
                    DESC
                    
 spec.homepage     = "https://github.com/gizwits/ios-v5-sdk"
-spec.license      = "MIT"
+spec.license = { :type => 'MIT', :file => 'LICENSE.txt' }
 spec.author       = { "Owner" => "rbwang@gizwits.com" }
 spec.platform     = :ios, "13.0"
 spec.source       = { :git => "https://github.com/gizwits/ios-v5-sdk.git", :tag => "#{spec.version}" }
@@ -31,7 +31,7 @@ spec.source       = { :git => "https://github.com/gizwits/ios-v5-sdk.git", :tag 
 # spec.source = {:path=> '.'}
 # 开放的头文件，从工程根目录下开始写起
 spec.source_files  = "GizwitsiOSSDK/GizwitsiOSSDK.framework/Headers/*.{h,m}"
-
+spec.swift_versions= "5.0"
 # 排除文件，没有排除文件可不写
 # spec.exclude_files = "Example"
 
@@ -45,6 +45,6 @@ spec.dependency 'Sentry', '~> 8.0'
 spec.dependency 'CryptoSwift', '~> 1.8.0'
 
 # 项目配置，注意这里的SDK不支持模拟器
-# 如果多个字段就用逗号分开 { 'VALID_ARCHS' => 'x86_64 armv7 arm64', 'ENABLE_BITCODE' => 'NO' }
-spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end

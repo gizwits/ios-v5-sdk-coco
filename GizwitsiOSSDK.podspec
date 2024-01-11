@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
 spec.name         = "GizwitsiOSSDK"
-spec.version      = "1.0.3"
+spec.version      = "1.0.4"
 spec.summary      = "GizwitsiOSSDK"
 spec.description  = <<-DESC
     机智云设备接入iOS SDK，用于和设备的连接和通讯
@@ -40,8 +40,6 @@ spec.vendored_frameworks = 'GizwitsiOSSDK/GizwitsiOSSDK.framework'
 # 依赖系统静态库，省略其名称的lib前缀，以及.后缀
 # spec.library   = "z"
 
-# 第三方依赖 有几个就写几个，
-spec.dependency 'Sentry', '~> 8.0'
 spec.dependency 'CryptoSwift', '~> 1.8.0'
 
 # 项目配置，注意这里的SDK不支持模拟器

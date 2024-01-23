@@ -1,7 +1,7 @@
 framework module GizwitsiOSSDK {
   umbrella header "GizwitsiOSSDK.h"
-  export *
 
+  export *
   module * { export * }
 }
 

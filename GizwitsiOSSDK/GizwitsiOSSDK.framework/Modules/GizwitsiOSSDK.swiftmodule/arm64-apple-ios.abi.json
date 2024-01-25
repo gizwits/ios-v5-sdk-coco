@@ -42855,6 +42855,34 @@
       "value": "\"api.gizwits.com\""
     },
     {
+      "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/LogFile\/swift_log_file.swift",
+      "kind": "FloatLiteral",
+      "offset": 321,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/LogFile\/swift_log_file.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/LogFile\/swift_log_file.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/LogFile\/swift_log_file.swift",
+      "kind": "IntegerLiteral",
+      "offset": 365,
+      "length": 2,
+      "value": "30"
+    },
+    {
       "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/Capability\/GizMQTTCapability.swift",
       "kind": "StringLiteral",
       "offset": 121,

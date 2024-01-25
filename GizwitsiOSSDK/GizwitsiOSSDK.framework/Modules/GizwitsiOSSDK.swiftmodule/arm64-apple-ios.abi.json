@@ -31791,6 +31791,27 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanCache",
+            "printedName": "cleanCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK13GizSDKManagerC10cleanCacheyyF",
+            "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC10cleanCacheyyF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -32001,27 +32022,6 @@
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "cleanCache",
-            "printedName": "cleanCache()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14ProductManagerC10cleanCacheyyF",
-            "mangledName": "$s13GizwitsiOSSDK14ProductManagerC10cleanCacheyyF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -36726,6 +36726,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
       },
       {
         "kind": "Import",
@@ -49752,23 +49759,23 @@
     {
       "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 393,
+      "offset": 406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 449,
+      "offset": 462,
       "length": 8,
       "value": "\"GizSDK\""
     },
     {
       "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 798,
-      "length": 11,
-      "value": "\"GizSDKLog\""
+      "offset": 811,
+      "length": 15,
+      "value": "\"GizSDKLog.log\""
     },
     {
       "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizDevice.swift",
@@ -50018,7 +50025,7 @@
     {
       "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 9061,
+      "offset": 9174,
       "length": 2,
       "value": "[]"
     }

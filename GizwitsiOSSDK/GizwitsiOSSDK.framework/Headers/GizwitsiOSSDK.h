@@ -9,7 +9,7 @@
 #import "MQTTClient.h"
 #import "_GizwitsParser.h"
 #import "CocoaAsyncSocket.h"
-
+#import "ZipArchive.h"
 //! Project version number for GizSDKV5.
 FOUNDATION_EXPORT double GizSDKV5VersionNumber;
 

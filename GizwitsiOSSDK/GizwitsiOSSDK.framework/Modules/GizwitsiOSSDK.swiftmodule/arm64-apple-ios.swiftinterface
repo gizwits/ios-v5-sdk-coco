@@ -1201,6 +1201,9 @@ extension Foundation.Data {
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
+extension GizwitsiOSSDK.GizSDKManager {
+  public func cleanCache()
+}
 @_hasMissingDesignatedInitializers public class ProductManager {
   public static let sharedInstance: GizwitsiOSSDK.ProductManager
   #if compiler(>=5.3) && $AsyncAwait
@@ -1209,7 +1212,6 @@ extension Foundation.Data {
   #if compiler(>=5.3) && $AsyncAwait
   public func getConfigStruct(productKey: Swift.String) async -> GizwitsiOSSDK.DataPointConfig?
   #endif
-  public func cleanCache()
   @objc deinit
 }
 public struct DataPointPosition : Swift.Codable {

@@ -1197,7 +1197,7 @@ extension Foundation.Data {
   #endif
   public func onDeviceListUpdate(devices: Swift.Array<GizwitsiOSSDK.GizBaseProfile>)
   public func onDeviceData(device: GizwitsiOSSDK.GizBaseProfile, result: GizwitsiOSSDK.GizJSON, type: GizwitsiOSSDK.GizCapability)
-  public func onDeviceState(device: GizwitsiOSSDK.GizBaseProfile, state: GizwitsiOSSDK.GizWifiDeviceNetStatus, type: GizwitsiOSSDK.GizCapability)
+  public func onDeviceState(device: GizwitsiOSSDK.GizBaseProfile, type: GizwitsiOSSDK.GizCapability)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -1344,7 +1344,8 @@ public enum GizCtrlException : Swift.Int, Swift.Codable {
 public protocol GizSdkEventHandlerDelegate {
   func onDeviceListUpdate(devices: Swift.Array<GizwitsiOSSDK.GizDevice>)
   func onDeviceData(device: GizwitsiOSSDK.GizDevice, result: GizwitsiOSSDK.GizJSON, type: GizwitsiOSSDK.GizCapability)
-  func onDeviceState(device: GizwitsiOSSDK.GizDevice, state: GizwitsiOSSDK.GizWifiDeviceNetStatus, type: GizwitsiOSSDK.GizCapability)
+  func onDeviceState(device: GizwitsiOSSDK.GizDevice, state: GizwitsiOSSDK.GizWifiDeviceNetStatus, isLogin: Swift.Bool, type: GizwitsiOSSDK.GizCapability)
+  func onDeviceBindState(did: Swift.String, isBind: Swift.Bool)
 }
 @_hasMissingDesignatedInitializers public class GizDevice : GizwitsiOSSDK.GizBaseProfile {
   @Combine.Published @_projectedValueProperty($bleCapability) public var bleCapability: GizwitsiOSSDK.GizBleCapability {

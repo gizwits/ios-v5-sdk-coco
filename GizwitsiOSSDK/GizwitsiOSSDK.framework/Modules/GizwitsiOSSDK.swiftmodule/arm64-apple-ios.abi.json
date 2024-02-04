@@ -31766,7 +31766,7 @@
           {
             "kind": "Function",
             "name": "onDeviceState",
-            "printedName": "onDeviceState(device:state:type:)",
+            "printedName": "onDeviceState(device:type:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -31781,20 +31781,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GizWifiDeviceNetStatus",
-                "printedName": "GizwitsiOSSDK.GizWifiDeviceNetStatus",
-                "usr": "s:13GizwitsiOSSDK22GizWifiDeviceNetStatusO"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "GizCapability",
                 "printedName": "GizwitsiOSSDK.GizCapability",
                 "usr": "s:13GizwitsiOSSDK13GizCapabilityO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK13GizSDKManagerC13onDeviceState6device5state4typeyAA0C11BaseProfileC_AA0c4WifiF9NetStatusOAA0C10CapabilityOtF",
-            "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC13onDeviceState6device5state4typeyAA0C11BaseProfileC_AA0c4WifiF9NetStatusOAA0C10CapabilityOtF",
+            "usr": "s:13GizwitsiOSSDK13GizSDKManagerC13onDeviceState6device4typeyAA0C11BaseProfileC_AA0C10CapabilityOtF",
+            "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC13onDeviceState6device4typeyAA0C11BaseProfileC_AA0C10CapabilityOtF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl",
@@ -36669,7 +36663,7 @@
           {
             "kind": "Function",
             "name": "onDeviceState",
-            "printedName": "onDeviceState(device:state:type:)",
+            "printedName": "onDeviceState(device:state:isLogin:type:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -36690,14 +36684,56 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "GizCapability",
                 "printedName": "GizwitsiOSSDK.GizCapability",
                 "usr": "s:13GizwitsiOSSDK13GizCapabilityO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK26GizSdkEventHandlerDelegateP13onDeviceState6device5state4typeyAA0cI0C_AA0c4WifiI9NetStatusOAA0C10CapabilityOtF",
-            "mangledName": "$s13GizwitsiOSSDK26GizSdkEventHandlerDelegateP13onDeviceState6device5state4typeyAA0cI0C_AA0c4WifiI9NetStatusOAA0C10CapabilityOtF",
+            "usr": "s:13GizwitsiOSSDK26GizSdkEventHandlerDelegateP13onDeviceState6device5state7isLogin4typeyAA0cI0C_AA0c4WifiI9NetStatusOSbAA0C10CapabilityOtF",
+            "mangledName": "$s13GizwitsiOSSDK26GizSdkEventHandlerDelegateP13onDeviceState6device5state7isLogin4typeyAA0cI0C_AA0c4WifiI9NetStatusOSbAA0C10CapabilityOtF",
+            "moduleName": "GizwitsiOSSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizSdkEventHandlerDelegate>",
+            "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizSdkEventHandlerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeviceBindState",
+            "printedName": "onDeviceBindState(did:isBind:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK26GizSdkEventHandlerDelegateP17onDeviceBindState3did02isJ0ySS_SbtF",
+            "mangledName": "$s13GizwitsiOSSDK26GizSdkEventHandlerDelegateP17onDeviceBindState3did02isJ0ySS_SbtF",
             "moduleName": "GizwitsiOSSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizSdkEventHandlerDelegate>",
             "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizSdkEventHandlerDelegate>",
@@ -49622,7 +49658,7 @@
     {
       "filePath": "\/Users\/gizmac01\/Documents\/workspace\/iossdk\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 1334,
+      "offset": 1329,
       "length": 7,
       "value": "\"1.0.0\""
     },

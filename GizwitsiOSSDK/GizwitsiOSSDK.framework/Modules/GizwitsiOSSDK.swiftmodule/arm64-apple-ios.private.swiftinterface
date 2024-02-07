@@ -1,10 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GizwitsiOSSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
 import CoreBluetooth
 import CoreTelephony
-import CryptoSwift
 import Darwin
 import Foundation
 @_exported import GizwitsiOSSDK
@@ -12,6 +12,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public enum GizActivatorException : Swift.Int, Swift.Codable {
   case GIZ_SDK_DEVICE_CONFIG_TIMEOUT
   case GIZ_SDK_BLE_DEVICE_NOT_FOUND
@@ -26,8 +27,8 @@ public enum GizActivatorCombinedException : Swift.Equatable, Swift.Codable {
   case ActivatorExceptionError(GizwitsiOSSDK.GizActivatorException)
   case ConnectExceptionError(GizwitsiOSSDK.GizConnectException)
   public static func == (a: GizwitsiOSSDK.GizActivatorCombinedException, b: GizwitsiOSSDK.GizActivatorCombinedException) -> Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol ActivatorProfile {
   var mac: Swift.String? { get }
@@ -42,14 +43,14 @@ public struct GizProductInfoStruct : Swift.Codable {
   public var productKey: Swift.String
   public var productSecret: Swift.String
   public init(productKey: Swift.String, productSecret: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizServerInfoStruct : Swift.Codable {
   public var openAPIInfo: Swift.String
   public init(openAPIInfo: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizConfigStruct : Swift.Codable {
   public var appID: Swift.String
@@ -57,17 +58,19 @@ public struct GizConfigStruct : Swift.Codable {
   public var productInfos: [GizwitsiOSSDK.GizProductInfoStruct]
   public var serverInfo: GizwitsiOSSDK.GizServerInfoStruct?
   public init(appID: Swift.String, appSecret: Swift.String, productInfos: [GizwitsiOSSDK.GizProductInfoStruct], serverInfo: GizwitsiOSSDK.GizServerInfoStruct?)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class GizMQTTCapability : GizwitsiOSSDK.GizBaseCapability {
-  override public func encode(to encoder: Swift.Encoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class GizBaseCapability : Foundation.ObservableObject, Swift.Encodable {
   @Combine.Published @_projectedValueProperty($isActive) public var isActive: Swift.Bool {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $isActive: Combine.Published<Swift.Bool>.Publisher {
@@ -77,7 +80,9 @@ public struct GizConfigStruct : Swift.Codable {
   }
   @Combine.Published @_projectedValueProperty($deviceProfile) public var deviceProfile: GizwitsiOSSDK.GizBaseProfile? {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $deviceProfile: Combine.Published<GizwitsiOSSDK.GizBaseProfile?>.Publisher {
@@ -93,7 +98,7 @@ public struct GizConfigStruct : Swift.Codable {
     get
     set
   }
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public var netStatus: GizwitsiOSSDK.GizWifiDeviceNetStatus {
     get
   }
@@ -176,7 +181,9 @@ public protocol GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($isOnline) public var isOnline: Swift.Bool {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $isOnline: Combine.Published<Swift.Bool>.Publisher {
@@ -186,7 +193,9 @@ public protocol GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($isLogin) public var isLogin: Swift.Bool {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $isLogin: Combine.Published<Swift.Bool>.Publisher {
@@ -214,7 +223,9 @@ public protocol GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($supportOTA) public var supportOTA: Swift.Bool {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $supportOTA: Combine.Published<Swift.Bool>.Publisher {
@@ -224,7 +235,9 @@ public protocol GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($requiresAuthentication) public var requiresAuthentication: Swift.Bool {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $requiresAuthentication: Combine.Published<Swift.Bool>.Publisher {
@@ -234,7 +247,9 @@ public protocol GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($authenticationMethod) public var authenticationMethod: GizwitsiOSSDK.AuthenticationMethod {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $authenticationMethod: Combine.Published<GizwitsiOSSDK.AuthenticationMethod>.Publisher {
@@ -284,7 +299,7 @@ public protocol GizBaseProfileProvider {
   public var $isBind: Combine.Published<Swift.Bool>.Publisher {
     get
   }
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public func isSame(device: GizwitsiOSSDK.GizBaseProfile) -> Swift.Bool
   #if compiler(>=5.3) && $AsyncAwait
   public func getDataPointConfig() async -> GizwitsiOSSDK.DataPointConfig?
@@ -302,7 +317,9 @@ public protocol GizLanProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   public var port: Swift.UInt16
   @Combine.Published @_projectedValueProperty($ip) public var ip: Swift.String {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $ip: Combine.Published<Swift.String>.Publisher {
@@ -312,7 +329,9 @@ public protocol GizLanProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($cTime) public var cTime: Swift.Int {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $cTime: Combine.Published<Swift.Int>.Publisher {
@@ -320,7 +339,7 @@ public protocol GizLanProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  override public func encode(to encoder: Swift.Encoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 public protocol GizMQTTProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
@@ -332,7 +351,9 @@ public protocol GizMQTTProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
 @_hasMissingDesignatedInitializers public class GizMqttProfile : GizwitsiOSSDK.GizBaseProfile, Swift.Equatable, GizwitsiOSSDK.GizMQTTProfileProvider {
   @Combine.Published @_projectedValueProperty($host) public var host: Swift.String {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $host: Combine.Published<Swift.String>.Publisher {
@@ -342,7 +363,9 @@ public protocol GizMQTTProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($port) public var port: Swift.UInt16 {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $port: Combine.Published<Swift.UInt16>.Publisher {
@@ -351,7 +374,7 @@ public protocol GizMQTTProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
     set
   }
   public static func == (lhs: GizwitsiOSSDK.GizMqttProfile, rhs: GizwitsiOSSDK.GizMqttProfile) -> Swift.Bool
-  override public func encode(to encoder: Swift.Encoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 public enum BlueToothType : Swift.String {
@@ -387,7 +410,9 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
 @_hasMissingDesignatedInitializers public class GizBleProfile : GizwitsiOSSDK.GizBaseProfile, Swift.Equatable, GizwitsiOSSDK.GizBleProfileProvider {
   @Combine.Published @_projectedValueProperty($deviceId) public var deviceId: Swift.String {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $deviceId: Combine.Published<Swift.String>.Publisher {
@@ -397,7 +422,9 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($cTime) public var cTime: Swift.Int {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $cTime: Combine.Published<Swift.Int>.Publisher {
@@ -407,7 +434,9 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($RSSI) public var RSSI: Foundation.NSNumber {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $RSSI: Combine.Published<Foundation.NSNumber>.Publisher {
@@ -417,7 +446,9 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($blueToothType) public var blueToothType: GizwitsiOSSDK.BlueToothType {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $blueToothType: Combine.Published<GizwitsiOSSDK.BlueToothType>.Publisher {
@@ -427,7 +458,9 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   }
   @Combine.Published @_projectedValueProperty($blueToothVersion) public var blueToothVersion: GizwitsiOSSDK.BlueToothVersion {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $blueToothVersion: Combine.Published<GizwitsiOSSDK.BlueToothVersion>.Publisher {
@@ -437,7 +470,7 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   }
   public var peripheral: CoreBluetooth.CBPeripheral?
   public static func == (lhs: GizwitsiOSSDK.GizBleProfile, rhs: GizwitsiOSSDK.GizBleProfile) -> Swift.Bool
-  override public func encode(to encoder: Swift.Encoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 public enum GizOTAException : Swift.Int, Swift.Codable {
@@ -578,11 +611,11 @@ public enum GizAPIException : Swift.Int, Swift.Codable {
   }
 }
 @_hasMissingDesignatedInitializers public class GizLanCapability : GizwitsiOSSDK.GizBaseCapability {
-  override public func encode(to encoder: Swift.Encoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class GizBleCapability : GizwitsiOSSDK.GizBaseCapability {
-  override public func encode(to encoder: Swift.Encoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 public enum GizJSONError : Swift.Int, Swift.Error {
@@ -691,11 +724,11 @@ extension Swift.String : GizwitsiOSSDK.JSONSubscriptType {
   }
 }
 extension GizwitsiOSSDK.GizJSON {
-  public subscript(path: [GizwitsiOSSDK.JSONSubscriptType]) -> GizwitsiOSSDK.GizJSON {
+  public subscript(path: [any GizwitsiOSSDK.JSONSubscriptType]) -> GizwitsiOSSDK.GizJSON {
     get
     set
   }
-  public subscript(path: GizwitsiOSSDK.JSONSubscriptType...) -> GizwitsiOSSDK.GizJSON {
+  public subscript(path: any GizwitsiOSSDK.JSONSubscriptType...) -> GizwitsiOSSDK.GizJSON {
     get
     set
   }
@@ -931,8 +964,8 @@ public enum writingOptionsKeys {
   }
 }
 extension GizwitsiOSSDK.GizJSON : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum GizWiFiActivatorEvent : Swift.String, Swift.Decodable, Swift.Encodable {
   case GIZ_CONNECT_SUCCESS
@@ -979,8 +1012,8 @@ public struct RegisterDeviceInfo : Swift.Codable {
   public var did: Swift.String
   public var mac: Swift.String
   public var passcode: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @preconcurrency public protocol _SwiftLogSendableLogHandler : Swift.Sendable {
 }
@@ -1022,7 +1055,7 @@ open class GizResult<T, U> : Swift.Encodable where T : Swift.Encodable, U : Swif
   convenience public init(error: U?)
   convenience public init(error: U?, message: Swift.String)
   @objc deinit
-  open func encode(to encoder: Swift.Encoder) throws
+  open func encode(to encoder: any Swift.Encoder) throws
 }
 public enum GizUserGenderType : Swift.Int {
   case GizUserGenderMale
@@ -1058,7 +1091,9 @@ public enum GizAuth2AccountType : Swift.Int {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GizUserModel : GizwitsiOSSDK.GizUserProfile, Foundation.ObservableObject {
   @Combine.Published @_projectedValueProperty($uid) public var uid: Swift.String? {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $uid: Combine.Published<Swift.String?>.Publisher {
@@ -1068,7 +1103,9 @@ public enum GizAuth2AccountType : Swift.Int {
   }
   @Combine.Published @_projectedValueProperty($token) public var token: Swift.String? {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $token: Combine.Published<Swift.String?>.Publisher {
@@ -1155,8 +1192,8 @@ public struct DeviceInfoProfile : Swift.Codable {
   public var reserve2: Swift.String
   public var productKey: Swift.String
   public var hardwareInfo: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension Swift.StringProtocol {
   public func toPointer() -> Swift.UnsafePointer<Swift.UInt8>?
@@ -1191,7 +1228,7 @@ extension Foundation.Data {
   #endif
   public func startBleScan()
   public func stopBleScan()
-  public func setDelegate(delegate: GizwitsiOSSDK.GizSdkEventHandlerDelegate)
+  public func setDelegate(delegate: any GizwitsiOSSDK.GizSdkEventHandlerDelegate)
   #if compiler(>=5.3) && $AsyncAwait
   public func getDevices() async -> Swift.Array<GizwitsiOSSDK.GizDevice>
   #endif
@@ -1219,8 +1256,8 @@ public struct DataPointPosition : Swift.Codable {
   public let unit: Swift.String
   public let len: Swift.Int
   public let bit_offset: Swift.Int
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointEnumAttribute : Swift.Codable {
   public let display_name: Swift.String
@@ -1231,8 +1268,8 @@ public struct DataPointEnumAttribute : Swift.Codable {
   public let id: Swift.Int
   public let desc: Swift.String
   public let enumValues: [Swift.String]
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointUIntSpec : Swift.Codable {
   public let addition: Swift.Double?
@@ -1240,8 +1277,8 @@ public struct DataPointUIntSpec : Swift.Codable {
   public let ratio: Swift.Int?
   public let step: Swift.Double?
   public let min: Swift.Double
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointUIntAttribute : Swift.Codable {
   public let display_name: Swift.String
@@ -1252,16 +1289,16 @@ public struct DataPointUIntAttribute : Swift.Codable {
   public let type: Swift.String
   public let id: Swift.Int
   public let desc: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointEntity : Swift.Codable {
   public let display_name: Swift.String
   public let attrs: [GizwitsiOSSDK.DataPointAttribute]
   public let name: Swift.String
   public let id: Swift.Int
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointAttribute : Swift.Codable {
   public let display_name: Swift.String
@@ -1273,19 +1310,19 @@ public struct DataPointAttribute : Swift.Codable {
   public let desc: Swift.String
   public let `enum`: [Swift.String]?
   public let uintAttribute: GizwitsiOSSDK.DataPointUIntAttribute?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointUIObject : Swift.Codable {
   public let version: Swift.Int
   public let showEditButton: Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointUISection : Swift.Codable {
   public let elements: [GizwitsiOSSDK.DataPointUIElement]
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointUIElement : Swift.Codable, Swift.Hashable {
   public static func == (lhs: GizwitsiOSSDK.DataPointUIElement, rhs: GizwitsiOSSDK.DataPointUIElement) -> Swift.Bool
@@ -1300,19 +1337,19 @@ public struct DataPointUIElement : Swift.Codable, Swift.Hashable {
   public let value: Swift.Float?
   public let maximumValue: Swift.Float?
   public let minimumValue: Swift.Float?
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointUIElementObject : Swift.Codable {
   public let action: Swift.String
   public let bind: [Swift.String]
   public let perm: Swift.String
   public let uint_spec: GizwitsiOSSDK.DataPointUIntSpec?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointConfig : Swift.Codable {
   public let name: Swift.String
@@ -1321,14 +1358,14 @@ public struct DataPointConfig : Swift.Codable {
   public let product_key: Swift.String
   public let entities: [GizwitsiOSSDK.DataPointEntity]
   public let ui: GizwitsiOSSDK.DataPointUI
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataPointUI : Swift.Codable {
   public let object: GizwitsiOSSDK.DataPointUIObject
   public let sections: [GizwitsiOSSDK.DataPointUISection]
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum GizCtrlException : Swift.Int, Swift.Codable {
   case GIZ_SDK_REQUEST_TIMEOUT
@@ -1350,7 +1387,9 @@ public protocol GizSdkEventHandlerDelegate {
 @_hasMissingDesignatedInitializers public class GizDevice : GizwitsiOSSDK.GizBaseProfile {
   @Combine.Published @_projectedValueProperty($bleCapability) public var bleCapability: GizwitsiOSSDK.GizBleCapability {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $bleCapability: Combine.Published<GizwitsiOSSDK.GizBleCapability>.Publisher {
@@ -1360,7 +1399,9 @@ public protocol GizSdkEventHandlerDelegate {
   }
   @Combine.Published @_projectedValueProperty($mqttCapability) public var mqttCapability: GizwitsiOSSDK.GizMQTTCapability {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $mqttCapability: Combine.Published<GizwitsiOSSDK.GizMQTTCapability>.Publisher {
@@ -1370,7 +1411,9 @@ public protocol GizSdkEventHandlerDelegate {
   }
   @Combine.Published @_projectedValueProperty($lanCapability) public var lanCapability: GizwitsiOSSDK.GizLanCapability {
     get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
   public var $lanCapability: Combine.Published<GizwitsiOSSDK.GizLanCapability>.Publisher {
@@ -1378,7 +1421,7 @@ public protocol GizSdkEventHandlerDelegate {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  override public func encode(to encoder: Swift.Encoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
   public init(bleDevice: GizwitsiOSSDK.GizBleProfile?, lanDevice: GizwitsiOSSDK.GizLanProfile?, mqttDevice: GizwitsiOSSDK.GizMqttProfile?)
   #if compiler(>=5.3) && $AsyncAwait
   public func register() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizRegisterDeviceResultInfo, GizwitsiOSSDK.GizAPIException?>
@@ -1406,7 +1449,7 @@ public enum GizConnectException : Swift.Int, Swift.Codable {
 public struct GizOTAProgressData : Swift.Encodable {
   public var percentage: Swift.Int
   public var event: GizwitsiOSSDK.GizOTAEvent
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum GizOTAEvent : Swift.String, Swift.Encodable {
   case GizOTAEventCheckingDeviceVersion
@@ -1429,28 +1472,28 @@ public protocol GizOpenApiResultInfo : Swift.Decodable, Swift.Encodable {
 }
 public struct GizOpenApiErrorInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizDataPointResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizLoginResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public var uid: Swift.String
   public var token: Swift.String
   public var expireAt: Swift.Int
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizRegisterDeviceResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swift.Codable {
   public var failedDevices: [GizwitsiOSSDK.RegisterDeviceInfo]
   public var successDevices: [GizwitsiOSSDK.RegisterDeviceInfo]
   public init(_: Swift.Dictionary<Swift.String, Any>)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizCheckUpdateResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swift.Codable {
   public var downloadUrl: Swift.String
@@ -1458,13 +1501,13 @@ public struct GizCheckUpdateResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swi
   public var currentSoftVersion: Swift.String
   public mutating func setCurrentSoftVersion(currentSoftVersion: Swift.String)
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizUnBindDeviceResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swift.Codable {
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizBindDeviceResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swift.Codable {
   public var mac: Swift.String
@@ -1472,8 +1515,8 @@ public struct GizBindDeviceResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swif
   public var productKey: Swift.String
   public var alias: Swift.String
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension GizwitsiOSSDK.GizActivatorException : Swift.Equatable {}
 extension GizwitsiOSSDK.GizActivatorException : Swift.Hashable {}

@@ -50176,343 +50176,343 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3695,
+      "offset": 3729,
       "length": 80,
       "value": "\"超过时间没有发现广播包，设备离线: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3774,
+      "offset": 3808,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3822,
+      "offset": 3856,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4275,
+      "offset": 4309,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4353,
+      "offset": 4387,
       "length": 24,
       "value": "\"run scanForPeripherals\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4515,
+      "offset": 4549,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4589,
+      "offset": 4623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4667,
+      "offset": 4701,
       "length": 22,
       "value": "\"stop scan ble device\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5029,
+      "offset": 5063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5196,
+      "offset": 5230,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5226,
+      "offset": 5260,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5686,
+      "offset": 5720,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5774,
+      "offset": 5808,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5862,
+      "offset": 5896,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5938,
+      "offset": 5972,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5968,
+      "offset": 6002,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 6131,
+      "offset": 6165,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7658,
+      "offset": 7692,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7903,
+      "offset": 7937,
       "length": 67,
       "value": "\"inser BLE device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7940,
+      "offset": 7974,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7955,
+      "offset": 7989,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7969,
+      "offset": 8003,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8724,
+      "offset": 8758,
       "length": 28,
       "value": "\"kCBAdvDataManufacturerData\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8867,
+      "offset": 8901,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9037,
+      "offset": 9071,
       "length": 21,
       "value": "\"kCBAdvDataLocalName\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 9113,
+      "offset": 9147,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 9118,
+      "offset": 9152,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9199,
+      "offset": 9233,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9632,
+      "offset": 9666,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9662,
+      "offset": 9696,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9851,
+      "offset": 9885,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9885,
+      "offset": 9919,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9915,
+      "offset": 9949,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10166,
+      "offset": 10200,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 10217,
+      "offset": 10251,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10515,
+      "offset": 10549,
       "length": 62,
       "value": "\"BLE Error: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10540,
+      "offset": 10574,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10576,
+      "offset": 10610,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11000,
+      "offset": 11034,
       "length": 37,
       "value": "\"Login device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11028,
+      "offset": 11062,
       "length": 7,
       "value": "\" success\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11251,
+      "offset": 11285,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11863,
+      "offset": 11897,
       "length": 51,
       "value": "\"onDeviceData: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11891,
+      "offset": 11925,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11913,
+      "offset": 11947,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12290,
+      "offset": 12324,
       "length": 44,
       "value": "\"Connect BLE Success, try discover services\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12509,
+      "offset": 12543,
       "length": 27,
       "value": "\"Ble Connect Fail \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12535,
+      "offset": 12569,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12711,
+      "offset": 12745,
       "length": 32,
       "value": "\"Ble Disconnect, code: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12742,
+      "offset": 12776,
       "length": 2,
       "value": "\"\""
     },
@@ -60256,308 +60256,315 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 3556,
-      "length": 44,
-      "value": "\"http:\/\/172.16.11.163:3000\/sdklog\/uploadlog\""
+      "offset": 3460,
+      "length": 40,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
+      "kind": "StringLiteral",
+      "offset": 3482,
+      "length": 1,
+      "value": "\"\/sdklog\/uploadlog\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3643,
+      "offset": 3741,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 3667,
+      "offset": 3765,
       "length": 25,
       "value": "\"X-Gizwits-Authorization\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3724,
+      "offset": 3822,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 3748,
+      "offset": 3846,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 3838,
+      "offset": 3936,
       "length": 26,
       "value": "\"X-Gizwits-Application-Id\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 3895,
+      "offset": 3993,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4011,
+      "offset": 4109,
       "length": 43,
       "value": "\"multipart\/form-data; boundary=\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4053,
+      "offset": 4151,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4076,
+      "offset": 4174,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4231,
+      "offset": 4329,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4245,
+      "offset": 4343,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4296,
+      "offset": 4394,
       "length": 57,
       "value": "\"Content-Disposition: form-data; name=\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4342,
+      "offset": 4440,
       "length": 1,
       "value": "\"\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4399,
+      "offset": 4497,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4408,
+      "offset": 4506,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4652,
+      "offset": 4750,
       "length": 15,
       "value": "\"GizSDKLog.zip\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4848,
+      "offset": 4946,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4862,
+      "offset": 4960,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 4917,
+      "offset": 5015,
       "length": 94,
       "value": "\"Content-Disposition: form-data; name=\"file\"; filename=\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 5004,
+      "offset": 5102,
       "length": 1,
       "value": "\"\"\r\n\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 5061,
+      "offset": 5159,
       "length": 48,
       "value": "\"Content-Type: application\/octet-stream\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 5362,
+      "offset": 5460,
       "length": 25,
       "value": "\"\r\n--\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 5380,
+      "offset": 5478,
       "length": 2,
       "value": "\"--\r\n\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 5649,
+      "offset": 5747,
       "length": 32,
       "value": "\"Log Zip File delete successful\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 5749,
+      "offset": 5847,
       "length": 37,
       "value": "\"Log Zip File delete fail：\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 5785,
+      "offset": 5883,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 5962,
       "length": 20,
       "value": "\"Zip Log File error\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 6060,
+      "offset": 6158,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 6066,
+      "offset": 6164,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 6139,
+      "offset": 6237,
       "length": 23,
       "value": "\"Uploda Log File Error\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 6198,
+      "offset": 6296,
       "length": 33,
       "value": "\"com.gizwits.v5SDK.GizwitsiOSSDK\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 6239,
+      "offset": 6337,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 6280,
+      "offset": 6378,
       "length": 23,
       "value": "\"Uploda Log File Error\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 6354,
+      "offset": 6452,
       "length": 28,
       "value": "\"Uploda Log File Successful\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 7039,
+      "offset": 7137,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 7044,
+      "offset": 7142,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 7068,
+      "offset": 7166,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 7073,
+      "offset": 7171,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 7098,
+      "offset": 7196,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 7103,
+      "offset": 7201,
       "length": 2,
       "value": "41"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "Array",
-      "offset": 7170,
+      "offset": 7268,
       "length": 67,
       "value": "[48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 97, 98, 99, 100, 101, 102]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 7422,
+      "offset": 7520,
       "length": 33,
       "value": "\"AES encryption failed: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 7454,
+      "offset": 7552,
       "length": 2,
       "value": "\"\""
     },

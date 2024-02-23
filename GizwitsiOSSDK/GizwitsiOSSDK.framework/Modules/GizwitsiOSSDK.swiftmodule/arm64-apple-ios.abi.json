@@ -44136,230 +44136,230 @@
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 3596,
-      "length": 4,
-      "value": "true"
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4783,
+      "offset": 4784,
       "length": 16,
       "value": "\"authentication\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5065,
+      "offset": 5066,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5117,
+      "offset": 5118,
       "length": 35,
       "value": "\"get Ble Key, \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5151,
+      "offset": 5152,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5603,
+      "offset": 5604,
       "length": 48,
       "value": "\"start disConnect, device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5650,
+      "offset": 5651,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5706,
+      "offset": 5707,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5884,
+      "offset": 5885,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5908,
+      "offset": 5909,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6031,
+      "offset": 6032,
       "length": 48,
       "value": "\"Start Connect Ble Device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6078,
+      "offset": 6079,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6108,
+      "offset": 6109,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6317,
+      "offset": 6318,
       "length": 51,
       "value": "\"start getDeviceInfo, device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6367,
+      "offset": 6368,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 6471,
+      "offset": 6472,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 6763,
+      "offset": 6764,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7321,
+      "offset": 7322,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7598,
+      "offset": 7599,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8155,
+      "offset": 8156,
       "length": 49,
       "value": "\"start checkUpdate, device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8203,
+      "offset": 8204,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8663,
+      "offset": 8664,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9182,
+      "offset": 9183,
       "length": 45,
       "value": "\"cancelUpgrade, device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9226,
+      "offset": 9227,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9367,
+      "offset": 9368,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9582,
+      "offset": 9583,
       "length": 44,
       "value": "\"startUpgrade, device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9625,
+      "offset": 9626,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9688,
+      "offset": 9689,
       "length": 36,
       "value": "\"GIZ_SDK_OTA_DEVICE_BUSY_IN_UPGRADE\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10448,
+      "offset": 10449,
       "length": 47,
       "value": "\"getDeviceStatus, device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10494,
+      "offset": 10495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11101,
+      "offset": 11102,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11150,
+      "offset": 11151,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11603,
+      "offset": 11604,
       "length": 1,
       "value": "0"
     },
@@ -44373,357 +44373,371 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 12128,
+      "offset": 12129,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 12500,
+      "offset": 12501,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13312,
+      "length": 40,
+      "value": "\"ble characteristic is null. ctrl fail.\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13655,
+      "length": 38,
+      "value": "\"ble device not connected. ctrl fail.\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 13838,
+      "offset": 13985,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 14316,
+      "offset": 14463,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 14961,
+      "offset": 15108,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 15001,
+      "offset": 15148,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 15456,
+      "offset": 15603,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15729,
+      "offset": 15876,
       "length": 69,
       "value": "\"send ble data: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 15797,
+      "offset": 15944,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 15895,
+      "offset": 16042,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 16069,
+      "offset": 16216,
       "length": 19,
       "value": "\"preAuthentication\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 16259,
+      "offset": 16406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 16639,
+      "offset": 16786,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 16951,
+      "offset": 17098,
       "length": 23,
       "value": "\"Skip BLE authorizatio\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 17017,
+      "offset": 17164,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 17322,
+      "offset": 17469,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 17361,
+      "offset": 17508,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 17462,
+      "offset": 17609,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 18414,
+      "offset": 18561,
       "length": 33,
       "value": "\"try connect ble error: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 18446,
+      "offset": 18593,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 18991,
+      "offset": 19138,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 19079,
+      "offset": 19226,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 19350,
+      "offset": 19497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 19818,
+      "offset": 19965,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 20258,
+      "offset": 20405,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 21296,
+      "offset": 21443,
       "length": 65,
       "value": "\"find Characteristics error \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 21357,
+      "offset": 21504,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 21360,
+      "offset": 21507,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 22337,
+      "offset": 22484,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 22681,
+      "offset": 22828,
       "length": 95,
       "value": "\"device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 22710,
+      "offset": 22857,
       "length": 1,
       "value": "\", writeNoResponseMtu: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 22753,
+      "offset": 22900,
       "length": 1,
       "value": "\", writeMtu \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 22775,
+      "offset": 22922,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 23026,
+      "offset": 23173,
       "length": 57,
       "value": "\"find service error \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 23079,
+      "offset": 23226,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 23082,
+      "offset": 23229,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 23144,
+      "offset": 23291,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 23492,
+      "offset": 23639,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 23536,
+      "offset": 23683,
       "length": 40,
       "value": "\"services match discoverCharacteristics\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 23745,
+      "offset": 23892,
       "length": 44,
       "value": "\"没有找到对应的服务，断开连接\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 24189,
+      "offset": 24336,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 24224,
+      "offset": 24371,
       "length": 63,
       "value": "\"recive ble data: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 24283,
+      "offset": 24430,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 24286,
+      "offset": 24433,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 25717,
+      "offset": 25864,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 25743,
+      "offset": 25890,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 25938,
+      "offset": 26085,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 26077,
+      "offset": 26224,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 26397,
+      "offset": 26544,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 26420,
+      "offset": 26567,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 26672,
+      "offset": 26819,
       "length": 1,
       "value": "0"
     },
@@ -50505,77 +50519,77 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11099,
+      "offset": 11285,
       "length": 37,
       "value": "\"Login device: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11127,
+      "offset": 11313,
       "length": 7,
       "value": "\" success\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11350,
+      "offset": 11536,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11962,
+      "offset": 12087,
       "length": 51,
       "value": "\"onDeviceData: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11990,
+      "offset": 12115,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12012,
+      "offset": 12137,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12389,
+      "offset": 12514,
       "length": 44,
       "value": "\"Connect BLE Success, try discover services\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12608,
+      "offset": 12733,
       "length": 27,
       "value": "\"Ble Connect Fail \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12634,
+      "offset": 12759,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12810,
+      "offset": 12935,
       "length": 32,
       "value": "\"Ble Disconnect, code: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12841,
+      "offset": 12966,
       "length": 2,
       "value": "\"\""
     },
@@ -58953,274 +58967,288 @@
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1387,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 1683,
+      "offset": 1739,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 1848,
       "length": 29,
       "value": "\"sdk version is：\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1876,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 1874,
+      "offset": 1930,
       "length": 29,
       "value": "\"sdk version is：\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 1902,
+      "offset": 1958,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
+      "offset": 2225,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 2199,
+      "offset": 2255,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 2329,
+      "offset": 2385,
       "length": 16,
       "value": "\"start init sdk\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3098,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "FloatLiteral",
-      "offset": 2971,
+      "offset": 3160,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 3868,
+      "offset": 4057,
       "length": 19,
       "value": "\"call startBleScan\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4018,
+      "offset": 4207,
       "length": 18,
       "value": "\"call stopBleScan\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4366,
+      "offset": 4555,
       "length": 12,
       "value": "\"getDevices\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4650,
+      "offset": 4839,
       "length": 49,
       "value": "\"onDeviceListUpdate: len = \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4698,
+      "offset": 4887,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4900,
+      "offset": 5089,
       "length": 53,
       "value": "\"onDeviceBindState: device = \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4935,
+      "offset": 5124,
       "length": 4,
       "value": "\" bind = \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4952,
+      "offset": 5141,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5201,
+      "offset": 5390,
       "length": 84,
       "value": "\"onDeviceData: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5229,
+      "offset": 5418,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5251,
+      "offset": 5440,
       "length": 1,
       "value": "\". GizCapability: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5284,
+      "offset": 5473,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6121,
+      "offset": 6310,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6893,
+      "offset": 7082,
       "length": 76,
       "value": "\"onDeviceData: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6921,
+      "offset": 7110,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6935,
+      "offset": 7124,
       "length": 1,
       "value": "\". GizCapability: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 6968,
+      "offset": 7157,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "Array",
-      "offset": 8144,
+      "offset": 8333,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "Array",
-      "offset": 8190,
+      "offset": 8379,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "Array",
-      "offset": 8237,
+      "offset": 8426,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8628,
+      "offset": 8817,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9043,
+      "offset": 9232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9453,
+      "offset": 9642,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "Array",
-      "offset": 9691,
+      "offset": 9880,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9776,
+      "offset": 9965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9859,
+      "offset": 10048,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9955,
+      "offset": 10144,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10052,
+      "offset": 10241,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10113,
+      "offset": 10302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 10911,
+      "offset": 11100,
       "length": 20,
       "value": "\"cleanCache success\""
     },
@@ -60319,9 +60347,16 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 3654,
-      "length": 44,
-      "value": "\"http:\/\/172.16.11.163:3000\/sdklog\/uploadlog\""
+      "offset": 3460,
+      "length": 40,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
+      "kind": "StringLiteral",
+      "offset": 3482,
+      "length": 1,
+      "value": "\"\/sdklog\/uploadlog\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",

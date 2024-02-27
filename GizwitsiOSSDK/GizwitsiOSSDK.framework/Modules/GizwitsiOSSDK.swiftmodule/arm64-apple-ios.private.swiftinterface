@@ -614,6 +614,11 @@ public enum GizAPIException : Swift.Int, Swift.Codable {
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
+extension GizwitsiOSSDK.GizUserManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func registerWithAccount(username: Swift.String, password: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+}
 @_hasMissingDesignatedInitializers public class GizBleCapability : GizwitsiOSSDK.GizBaseCapability {
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -1019,16 +1024,19 @@ public struct RegisterDeviceInfo : Swift.Codable {
 }
 extension GizwitsiOSSDK.GizUserManager {
   #if compiler(>=5.3) && $AsyncAwait
-  public func loginWithPhone(phone: Swift.String, password: Swift.String) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
+  public func loginWithAccount(account: Swift.String, password: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func loginWithMobileCode(phone: Swift.String, code: Swift.String) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
+  public func sendMobileLoginVerifyCode(phoneCode: Swift.String, phone: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeInfo?, GizwitsiOSSDK.GizAPIException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func loginWithEmail(email: Swift.String, password: Swift.String) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
+  public func loginWithMobile(phone: Swift.String, code: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func loginWithEmailCode(email: Swift.String, code: Swift.String) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
+  public func loginWithEmail(email: Swift.String, code: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendEmailLoginVerifyCode(email: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeInfo?, GizwitsiOSSDK.GizAPIException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func loginByAnonymous() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
@@ -1484,6 +1492,12 @@ public struct GizLoginResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public var uid: Swift.String
   public var token: Swift.String
   public var expireAt: Swift.Int
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizVerifyCodeInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
+  public var code: Swift.String
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

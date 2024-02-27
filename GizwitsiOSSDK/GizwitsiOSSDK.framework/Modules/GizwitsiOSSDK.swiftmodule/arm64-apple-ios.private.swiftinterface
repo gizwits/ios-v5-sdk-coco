@@ -616,7 +616,7 @@ public enum GizAPIException : Swift.Int, Swift.Codable {
 }
 extension GizwitsiOSSDK.GizUserManager {
   #if compiler(>=5.3) && $AsyncAwait
-  public func registerWithAccount(username: Swift.String, password: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  public func registerWithAccount(username: Swift.String, password: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
   #endif
 }
 @_hasMissingDesignatedInitializers public class GizBleCapability : GizwitsiOSSDK.GizBaseCapability {
@@ -1024,7 +1024,7 @@ public struct RegisterDeviceInfo : Swift.Codable {
 }
 extension GizwitsiOSSDK.GizUserManager {
   #if compiler(>=5.3) && $AsyncAwait
-  public func loginWithAccount(account: Swift.String, password: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  public func loginWithAccount(username: Swift.String, password: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func sendMobileLoginVerifyCode(phoneCode: Swift.String, phone: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeInfo?, GizwitsiOSSDK.GizAPIException?>

@@ -55129,196 +55129,203 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 6032,
+      "offset": 6037,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 6406,
+      "offset": 6411,
       "length": 12,
       "value": "\"normalData\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 6441,
+      "offset": 6446,
       "length": 8,
       "value": "\"binary\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 6486,
+      "offset": 6491,
       "length": 8,
       "value": "\"binary\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 6509,
+      "offset": 6514,
       "length": 8,
       "value": "\"binary\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "BooleanLiteral",
-      "offset": 6596,
+      "offset": 6601,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 6628,
+      "offset": 6633,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 6669,
+      "offset": 6674,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 6744,
+      "offset": 6762,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7081,
+      "offset": 6826,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
+      "kind": "StringLiteral",
+      "offset": 7169,
       "length": 10,
       "value": "\"enumData\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7145,
+      "offset": 7233,
       "length": 10,
       "value": "\"enumData\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7207,
+      "offset": 7295,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7294,
+      "offset": 7382,
       "length": 9,
       "value": "\"extData\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7357,
+      "offset": 7445,
       "length": 9,
       "value": "\"extData\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7607,
+      "offset": 7690,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7642,
+      "offset": 7725,
       "length": 8,
       "value": "\"alerts\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "Dictionary",
-      "offset": 7654,
+      "offset": 7737,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7669,
+      "offset": 7752,
       "length": 8,
       "value": "\"faults\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "Dictionary",
-      "offset": 7681,
+      "offset": 7764,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7708,
+      "offset": 7791,
       "length": 8,
       "value": "\"alerts\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7770,
+      "offset": 7853,
       "length": 8,
       "value": "\"alerts\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7801,
+      "offset": 7884,
       "length": 8,
       "value": "\"alerts\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7834,
+      "offset": 7917,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7892,
+      "offset": 7975,
       "length": 8,
       "value": "\"faults\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7954,
+      "offset": 8037,
       "length": 8,
       "value": "\"faults\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 7985,
+      "offset": 8068,
       "length": 8,
       "value": "\"faults\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 8018,
+      "offset": 8101,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "BooleanLiteral",
-      "offset": 8131,
+      "offset": 8214,
       "length": 4,
       "value": "true"
     },

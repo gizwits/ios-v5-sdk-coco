@@ -209,6 +209,9 @@ public protocol GizBaseProfileProvider {
   public var name: Swift.String {
     get
   }
+  public var remark: Swift.String {
+    get
+  }
   @Combine.Published @_projectedValueProperty($did) public var did: Swift.String? {
     get
   }
@@ -1436,6 +1439,9 @@ public protocol GizSdkEventHandlerDelegate {
   public func register() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizRegisterDeviceResultInfo, GizwitsiOSSDK.GizAPIException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
+  public func updateDeviceInfo(alias: Swift.String?, remark: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizUpdateDeviceResultInfo, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
   public func bind(alias: Swift.String?, remark: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBindDeviceResultInfo, GizwitsiOSSDK.GizAPIException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
@@ -1519,6 +1525,13 @@ public struct GizCheckUpdateResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swi
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizUnBindDeviceResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swift.Codable {
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizUpdateDeviceResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swift.Codable {
+  public var remark: Swift.String
+  public var alias: Swift.String
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

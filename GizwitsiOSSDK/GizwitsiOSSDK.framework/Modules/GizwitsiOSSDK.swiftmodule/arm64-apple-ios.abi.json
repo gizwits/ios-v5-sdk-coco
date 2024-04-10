@@ -32556,6 +32556,32 @@
           },
           {
             "kind": "Function",
+            "name": "initWithDomain",
+            "printedName": "initWithDomain(domain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14ProductManagerC14initWithDomain6domainySS_tF",
+            "mangledName": "$s13GizwitsiOSSDK14ProductManagerC14initWithDomain6domainySS_tF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getConfig",
             "printedName": "getConfig(productKey:)",
             "children": [
@@ -44132,231 +44158,231 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "FloatLiteral",
-      "offset": 18153,
+      "offset": 18186,
       "length": 6,
       "value": "3600.0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18221,
+      "offset": 18262,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 18281,
+      "offset": 18326,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 18384,
+      "offset": 18437,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18407,
+      "offset": 18464,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18420,
+      "offset": 18477,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 18477,
+      "offset": 18538,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18552,
+      "offset": 18617,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 18603,
+      "offset": 18672,
       "length": 3,
       "value": "\"A\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18651,
+      "offset": 18720,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 18722,
+      "offset": 18799,
       "length": 3,
       "value": "\"a\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18771,
+      "offset": 18848,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18814,
+      "offset": 18899,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18910,
+      "offset": 19007,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "FloatLiteral",
-      "offset": 18930,
+      "offset": 19027,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18963,
+      "offset": 19064,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "FloatLiteral",
-      "offset": 18999,
+      "offset": 19104,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "FloatLiteral",
-      "offset": 19022,
+      "offset": 19127,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 19044,
+      "offset": 19153,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "FloatLiteral",
-      "offset": 19080,
+      "offset": 19193,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "FloatLiteral",
-      "offset": 19102,
+      "offset": 19215,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 19125,
+      "offset": 19242,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 19160,
+      "offset": 19285,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19271,
-      "length": 1,
-      "value": "0"
+      "kind": "StringLiteral",
+      "offset": 19412,
+      "length": 3,
+      "value": "\"0\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "Array",
-      "offset": 19532,
+      "offset": 19699,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19745,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 19862,
-      "length": 54,
+      "offset": 20038,
+      "length": 58,
       "value": "\"\u0000\u001B\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 19880,
+      "offset": 20060,
       "length": 1,
       "value": "\"\u001B\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 19890,
+      "offset": 20070,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 19894,
+      "offset": 20074,
       "length": 1,
       "value": "\"\u001B\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 19915,
+      "offset": 20095,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 19991,
+      "offset": 20183,
       "length": 35,
       "value": "\"Error parsing JSON data: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 20025,
+      "offset": 20217,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
+      "kind": "StringLiteral",
+      "offset": 20348,
       "length": 2,
       "value": "\"\""
     },
@@ -60043,224 +60069,224 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3150,
+      "offset": 3305,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3212,
+      "offset": 3367,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4109,
+      "offset": 4264,
       "length": 19,
       "value": "\"call startBleScan\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4259,
+      "offset": 4414,
       "length": 18,
       "value": "\"call stopBleScan\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4607,
+      "offset": 4762,
       "length": 12,
       "value": "\"getDevices\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4891,
+      "offset": 5046,
       "length": 49,
       "value": "\"onDeviceListUpdate: len = \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 4939,
+      "offset": 5094,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5255,
+      "offset": 5410,
       "length": 53,
       "value": "\"onDeviceBindState: device = \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5290,
+      "offset": 5445,
       "length": 4,
       "value": "\" bind = \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5307,
+      "offset": 5462,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5556,
+      "offset": 5711,
       "length": 84,
       "value": "\"onDeviceData: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5584,
+      "offset": 5739,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5606,
+      "offset": 5761,
       "length": 1,
       "value": "\". GizCapability: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 5639,
+      "offset": 5794,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6458,
+      "offset": 6613,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 7230,
+      "offset": 7385,
       "length": 76,
       "value": "\"onDeviceData: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 7258,
+      "offset": 7413,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 7272,
+      "offset": 7427,
       "length": 1,
       "value": "\". GizCapability: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 7305,
+      "offset": 7460,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "Array",
-      "offset": 8481,
+      "offset": 8636,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "Array",
-      "offset": 8527,
+      "offset": 8682,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "Array",
-      "offset": 8574,
+      "offset": 8729,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8965,
+      "offset": 9120,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9380,
+      "offset": 9535,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9790,
+      "offset": 9945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "Array",
-      "offset": 10028,
+      "offset": 10183,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10113,
+      "offset": 10268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10196,
+      "offset": 10351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10292,
+      "offset": 10447,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10389,
+      "offset": 10544,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10450,
+      "offset": 10605,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 11248,
+      "offset": 11403,
       "length": 20,
       "value": "\"cleanCache success\""
     },
@@ -60645,182 +60671,189 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 1175,
+      "offset": 405,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1255,
       "length": 24,
       "value": "\"解码错误: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 1198,
+      "offset": 1278,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 1609,
+      "offset": 1689,
       "length": 47,
       "value": "\"fetchDataPointAndSave result: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 1655,
+      "offset": 1735,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 1881,
+      "offset": 1961,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 1895,
+      "offset": 1975,
       "length": 1,
       "value": "\".json\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2037,
+      "offset": 2117,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2229,
+      "offset": 2309,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2377,
+      "offset": 2457,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 2484,
+      "offset": 2564,
       "length": 58,
       "value": "\"产品配置写入失败：\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 2541,
+      "offset": 2621,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 2799,
+      "offset": 2879,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 2813,
+      "offset": 2893,
       "length": 1,
       "value": "\".json\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2916,
+      "offset": 2996,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3453,
+      "offset": 3533,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 3926,
+      "offset": 4006,
       "length": 58,
       "value": "\"产品配置读取失败：\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 3983,
+      "offset": 4063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 4156,
+      "offset": 4236,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 4170,
+      "offset": 4250,
       "length": 1,
       "value": "\".json\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4277,
+      "offset": 4357,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 4838,
+      "offset": 4918,
       "length": 70,
       "value": "\"获取产品配置编辑时间失败：\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 4907,
+      "offset": 4987,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5122,
+      "offset": 5202,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "Array",
-      "offset": 5299,
+      "offset": 5379,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 5460,
+      "offset": 5540,
       "length": 52,
       "value": "\"清空缓存失败：\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/ProductManager\/ProductManager.swift",
       "kind": "StringLiteral",
-      "offset": 5511,
+      "offset": 5591,
       "length": 2,
       "value": "\"\""
     },
@@ -62571,804 +62604,804 @@
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
       "offset": 3460,
-      "length": 39,
-      "value": "\"\/app\/ota\/v4.1\/update_and_check\/\""
+      "length": 38,
+      "value": "\"app\/ota\/v4.1\/update_and_check\/\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 3498,
+      "offset": 3497,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 3568,
-      "length": 27,
-      "value": "\"\/dev\/\""
+      "offset": 3567,
+      "length": 26,
+      "value": "\"dev\/\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 3587,
+      "offset": 3585,
       "length": 1,
       "value": "\"\/device\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 3641,
-      "length": 15,
-      "value": "\"\/app\/bind_mac\""
+      "offset": 3639,
+      "length": 14,
+      "value": "\"app\/bind_mac\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 3704,
-      "length": 15,
-      "value": "\"\/app\/bindings\""
+      "offset": 3701,
+      "length": 14,
+      "value": "\"app\/bindings\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 3786,
-      "length": 22,
-      "value": "\"\/app\/bindings\/\""
+      "offset": 3782,
+      "length": 21,
+      "value": "\"app\/bindings\/\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 3807,
+      "offset": 3802,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 3860,
-      "length": 33,
-      "value": "\"\/app\/bindings?limit=9999&skip=0\""
+      "offset": 3855,
+      "length": 32,
+      "value": "\"app\/bindings?limit=9999&skip=0\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 4662,
+      "offset": 4656,
       "length": 10,
       "value": "\"phone_id\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 4762,
+      "offset": 4756,
       "length": 10,
       "value": "\"username\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 4783,
+      "offset": 4777,
       "length": 10,
       "value": "\"password\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 4888,
+      "offset": 4882,
       "length": 10,
       "value": "\"username\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 4909,
+      "offset": 4903,
       "length": 10,
       "value": "\"password\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5047,
+      "offset": 5041,
       "length": 8,
       "value": "\"mobile\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5063,
+      "offset": 5057,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5077,
+      "offset": 5071,
       "length": 6,
       "value": "\"lang\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5126,
+      "offset": 5120,
       "length": 8,
       "value": "\"mobile\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5142,
+      "offset": 5136,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5271,
+      "offset": 5265,
       "length": 6,
       "value": "\"mail\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5285,
+      "offset": 5279,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5299,
+      "offset": 5293,
       "length": 6,
       "value": "\"lang\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5348,
+      "offset": 5342,
       "length": 6,
       "value": "\"mail\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5362,
+      "offset": 5356,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5448,
+      "offset": 5442,
       "length": 8,
       "value": "\"mobile\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5465,
+      "offset": 5459,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5550,
+      "offset": 5544,
       "length": 6,
       "value": "\"mail\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5565,
+      "offset": 5559,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5724,
+      "offset": 5718,
       "length": 9,
       "value": "\"devices\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5783,
+      "offset": 5777,
       "length": 5,
       "value": "\"did\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 5991,
+      "offset": 5985,
       "length": 13,
       "value": "\"product_key\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6082,
+      "offset": 6076,
       "length": 14,
       "value": "\"random_codes\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6162,
+      "offset": 6156,
       "length": 5,
       "value": "\"mac\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6237,
+      "offset": 6231,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6352,
+      "offset": 6346,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6366,
+      "offset": 6360,
       "length": 14,
       "value": "\"hard_version\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6395,
+      "offset": 6389,
       "length": 14,
       "value": "\"soft_version\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6424,
+      "offset": 6418,
       "length": 7,
       "value": "\"https\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6433,
+      "offset": 6427,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6535,
+      "offset": 6529,
       "length": 5,
       "value": "\"mac\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6547,
+      "offset": 6541,
       "length": 13,
       "value": "\"product_key\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6574,
+      "offset": 6568,
       "length": 8,
       "value": "\"remark\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6594,
+      "offset": 6588,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6598,
+      "offset": 6592,
       "length": 11,
       "value": "\"dev_alias\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6620,
+      "offset": 6614,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6624,
+      "offset": 6618,
       "length": 11,
       "value": "\"set_owner\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 6637,
+      "offset": 6631,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Dictionary",
-      "offset": 6739,
+      "offset": 6733,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6797,
+      "offset": 6791,
       "length": 8,
       "value": "\"remark\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 6883,
+      "offset": 6877,
       "length": 11,
       "value": "\"dev_alias\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 7164,
+      "offset": 7158,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 8060,
+      "offset": 8054,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 8176,
+      "offset": 8170,
       "length": 37,
       "value": "\"open api json parse error: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 8212,
+      "offset": 8206,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 8307,
+      "offset": 8301,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 8391,
+      "offset": 8385,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 8470,
+      "offset": 8464,
       "length": 26,
       "value": "\"open api result: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 8495,
+      "offset": 8489,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 8527,
+      "offset": 8521,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 8533,
+      "offset": 8527,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 8762,
+      "offset": 8756,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 9163,
+      "offset": 9157,
       "length": 29,
       "value": "\"open api error: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 9191,
+      "offset": 9185,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 9642,
+      "offset": 9636,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 10152,
+      "offset": 10146,
       "length": 12,
       "value": "\"error_code\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 10191,
+      "offset": 10185,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 10608,
+      "offset": 10602,
       "length": 15,
       "value": "\"error_message\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 10696,
+      "offset": 10690,
       "length": 16,
       "value": "\"detail_message\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 10953,
+      "offset": 10947,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 11262,
+      "offset": 11256,
       "length": 12,
       "value": "\"secret_key\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 11759,
+      "offset": 11753,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 11851,
+      "offset": 11845,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 11960,
+      "offset": 11954,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 12151,
+      "offset": 12145,
       "length": 17,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 12167,
+      "offset": 12161,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 12521,
+      "offset": 12515,
       "length": 5,
       "value": "\"uid\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 12564,
+      "offset": 12558,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 12612,
+      "offset": 12606,
       "length": 11,
       "value": "\"expire_at\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 13342,
+      "offset": 13336,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 13371,
+      "offset": 13365,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 14312,
+      "offset": 14306,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 14412,
+      "offset": 14406,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 14607,
+      "offset": 14601,
       "length": 9,
       "value": "\"devices\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 14709,
+      "offset": 14703,
       "length": 43,
       "value": "\"Error converting to JSON string: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 14751,
+      "offset": 14745,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 15267,
+      "offset": 15261,
       "length": 14,
       "value": "\"download_url\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 15297,
+      "offset": 15291,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 15331,
+      "offset": 15325,
       "length": 10,
       "value": "\"soft_ver\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 15357,
+      "offset": 15351,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 15394,
+      "offset": 15388,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 15736,
+      "offset": 15730,
       "length": 8,
       "value": "\"remark\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 15777,
+      "offset": 15771,
       "length": 11,
       "value": "\"dev_alias\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 16087,
+      "offset": 16081,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 16104,
+      "offset": 16098,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 16128,
+      "offset": 16122,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 16147,
+      "offset": 16141,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 16224,
+      "offset": 16218,
       "length": 5,
       "value": "\"mac\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 16260,
+      "offset": 16254,
       "length": 5,
       "value": "\"did\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 16303,
+      "offset": 16297,
       "length": 13,
       "value": "\"product_key\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 16349,
+      "offset": 16343,
       "length": 11,
       "value": "\"dev_alias\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 18114,
+      "offset": 18108,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 18608,
+      "offset": 18602,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 18621,
+      "offset": 18615,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 18629,
+      "offset": 18623,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 18638,
+      "offset": 18632,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 19111,
+      "offset": 19105,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 19124,
+      "offset": 19118,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 19132,
+      "offset": 19126,
       "length": 42,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 20859,
+      "offset": 20853,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 21078,
+      "offset": 21072,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 21126,
+      "offset": 21120,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 21758,
+      "offset": 21752,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 21764,
+      "offset": 21758,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "StringLiteral",
-      "offset": 24165,
+      "offset": 24159,
       "length": 8,
       "value": "\"123456\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 24491,
+      "offset": 24485,
       "length": 1,
       "value": "0"
     }

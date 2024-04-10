@@ -1255,6 +1255,7 @@ extension GizwitsiOSSDK.GizSDKManager {
 }
 @_hasMissingDesignatedInitializers public class ProductManager {
   public static let sharedInstance: GizwitsiOSSDK.ProductManager
+  public func initWithDomain(domain: Swift.String)
   #if compiler(>=5.3) && $AsyncAwait
   public func getConfig(productKey: Swift.String) async -> Swift.String?
   #endif

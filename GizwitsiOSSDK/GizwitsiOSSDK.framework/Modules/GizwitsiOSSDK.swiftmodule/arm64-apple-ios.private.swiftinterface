@@ -17,18 +17,15 @@ public enum GizActivatorException : Swift.Int, Swift.Codable {
   case GIZ_SDK_DEVICE_CONFIG_TIMEOUT
   case GIZ_SDK_BLE_DEVICE_NOT_FOUND
   case GIZ_SDK_DEVICE_CONFIG_IS_RUNNING
+  case GIZ_SDK_CONNECTION_REFUSED
+  case GIZ_SDK_CONNECTING
+  case GIZ_SDK_DEVICE_NOT_READY
+  case GIZ_SDK_DISCONNECT_FAILED
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
-}
-public enum GizActivatorCombinedException : Swift.Equatable, Swift.Codable {
-  case ActivatorExceptionError(GizwitsiOSSDK.GizActivatorException)
-  case ConnectExceptionError(GizwitsiOSSDK.GizConnectException)
-  public static func == (a: GizwitsiOSSDK.GizActivatorCombinedException, b: GizwitsiOSSDK.GizActivatorCombinedException) -> Swift.Bool
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol ActivatorProfile {
   var mac: Swift.String? { get }
@@ -115,10 +112,10 @@ public struct GizConfigStruct : Swift.Codable {
   public func disConnect() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizConnectException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func provideWiFiCredentials(ssid: Swift.String, password: Swift.String, timeout: Swift.Int, processHandler: @escaping (GizwitsiOSSDK.GizWiFiActivatorEvent) -> ()) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorCombinedException?>
+  public func provideWiFiCredentials(ssid: Swift.String, password: Swift.String, timeout: Swift.Int, processHandler: @escaping (GizwitsiOSSDK.GizWiFiActivatorEvent) -> ()) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func stopProvideWiFiCredentials() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizActivatorCombinedException?>
+  public func stopProvideWiFiCredentials() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizActivatorException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func sendDp(data: GizwitsiOSSDK.GizJSON) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizJSON?, GizwitsiOSSDK.GizCtrlException?>

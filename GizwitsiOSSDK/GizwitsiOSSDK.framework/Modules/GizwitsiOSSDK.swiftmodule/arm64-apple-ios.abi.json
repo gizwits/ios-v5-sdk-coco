@@ -61983,281 +61983,337 @@
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 280,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "Dictionary",
-      "offset": 296,
+      "offset": 329,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 596,
       "length": 45,
       "value": "\"app2dev\/\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 619,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 640,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 624,
+      "offset": 657,
       "length": 26,
       "value": "\"dev2app\/\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 647,
+      "offset": 680,
       "length": 1,
       "value": "\"\/#\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 654,
+      "offset": 687,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 671,
+      "offset": 704,
       "length": 45,
       "value": "\"dev2app\/\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 727,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 715,
+      "offset": 748,
       "length": 6,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 720,
+      "offset": 753,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 929,
+      "offset": 964,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1015,
+      "offset": 1050,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1317,
+      "offset": 1352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1341,
+      "offset": 1376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1518,
+      "offset": 1553,
       "length": 15,
       "value": "\"getDeviceInfo\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1634,
+      "offset": 1669,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1720,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1730,
+      "offset": 1765,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1775,
+      "offset": 1810,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1860,
+      "offset": 1895,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1874,
+      "offset": 1909,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1888,
+      "offset": 1923,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 1976,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1997,
+      "offset": 2032,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2137,
+      "offset": 2172,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2267,
+      "offset": 2302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2291,
+      "offset": 2326,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2530,
+      "offset": 2354,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2397,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2876,
+      "offset": 2471,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2675,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2925,
+      "offset": 2717,
+      "length": 35,
+      "value": "\"run subscribe MQTT \""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2751,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3093,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3142,
       "length": 40,
       "value": "\"subscribe MQTT success: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2964,
+      "offset": 3181,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3052,
+      "offset": 3269,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3145,
+      "offset": 3362,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3196,
+      "offset": 3413,
       "length": 47,
       "value": "\"subscribe MQTT ERROR: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3242,
+      "offset": 3459,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3809,
+      "length": 37,
+      "value": "\"run unsubscribe MQTT \""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3845,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3734,
+      "offset": 4021,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4113,
+      "offset": 4400,
       "length": 28,
       "value": "\"sent data to MQTT: \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4140,
+      "offset": 4427,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4273,
+      "offset": 4560,
       "length": 5,
       "value": "false"
     },

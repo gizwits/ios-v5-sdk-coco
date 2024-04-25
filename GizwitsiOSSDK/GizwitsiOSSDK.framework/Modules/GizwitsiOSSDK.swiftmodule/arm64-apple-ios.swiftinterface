@@ -1221,6 +1221,7 @@ extension Foundation.Data {
   public func asciiEncodedString() -> Swift.String
 }
 @_hasMissingDesignatedInitializers public class GizSDKManager : Foundation.ObservableObject {
+  public var isInit: Swift.Bool
   @Combine.Published @_projectedValueProperty($devices) public var devices: [GizwitsiOSSDK.GizDevice] {
     get
   }

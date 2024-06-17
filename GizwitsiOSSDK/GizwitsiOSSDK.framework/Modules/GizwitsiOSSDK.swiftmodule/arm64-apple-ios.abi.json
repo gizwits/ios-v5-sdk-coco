@@ -3457,6 +3457,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
         "declKind": "Import",
@@ -11151,6 +11161,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -28545,262 +28565,6 @@
           },
           {
             "kind": "Function",
-            "name": "sendVerifyMobileCodeWithPhone",
-            "printedName": "sendVerifyMobileCodeWithPhone(phone:countryCode:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GizResult",
-                "printedName": "GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "GizwitsiOSSDK.GizAPIException?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GizAPIException",
-                        "printedName": "GizwitsiOSSDK.GizAPIException",
-                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:13GizwitsiOSSDK9GizResultC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC29sendVerifyMobileCodeWithPhone5phone07countryI0AA0C6ResultCySiSgAA0C12APIExceptionOSgGSS_SitYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC29sendVerifyMobileCodeWithPhone5phone07countryI0AA0C6ResultCySiSgAA0C12APIExceptionOSgGSS_SitYaF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "resetPasswordByPhone",
-            "printedName": "resetPasswordByPhone(phone:newPassword:code:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GizResult",
-                "printedName": "GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "GizwitsiOSSDK.GizAPIException?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GizAPIException",
-                        "printedName": "GizwitsiOSSDK.GizAPIException",
-                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:13GizwitsiOSSDK9GizResultC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC20resetPasswordByPhone5phone03newG04codeAA0C6ResultCySiSgAA0C12APIExceptionOSgGSS_S2StYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC20resetPasswordByPhone5phone03newG04codeAA0C6ResultCySiSgAA0C12APIExceptionOSgGSS_S2StYaF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "resetPasswordByEmail",
-            "printedName": "resetPasswordByEmail(email:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GizResult",
-                "printedName": "GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "GizwitsiOSSDK.GizAPIException?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GizAPIException",
-                        "printedName": "GizwitsiOSSDK.GizAPIException",
-                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:13GizwitsiOSSDK9GizResultC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC20resetPasswordByEmail5emailAA0C6ResultCySiSgAA0C12APIExceptionOSgGSS_tYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC20resetPasswordByEmail5emailAA0C6ResultCySiSgAA0C12APIExceptionOSgGSS_tYaF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "resetPasswordWithOldPassword",
-            "printedName": "resetPasswordWithOldPassword(oldPassWord:newPassWord:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GizResult",
-                "printedName": "GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "GizwitsiOSSDK.GizAPIException?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GizAPIException",
-                        "printedName": "GizwitsiOSSDK.GizAPIException",
-                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:13GizwitsiOSSDK9GizResultC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC020resetPasswordWithOldG011oldPassWord03newkL0AA0C6ResultCySiSgAA0C12APIExceptionOSgGSS_SStYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC020resetPasswordWithOldG011oldPassWord03newkL0AA0C6ResultCySiSgAA0C12APIExceptionOSgGSS_SStYaF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "transAnonymousUserToEmailUser",
             "printedName": "transAnonymousUserToEmailUser(email:password:)",
             "children": [
@@ -29208,6 +28972,694 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changePasswordWithOldPassword",
+            "printedName": "changePasswordWithOldPassword(oldPassword:newPassword:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizChangePasswordResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizChangePasswordResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizChangePasswordResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizChangePasswordResultInfo",
+                        "usr": "s:13GizwitsiOSSDK27GizChangePasswordResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC021changePasswordWithOldG003oldG003newG0AA0C6ResultCyAA0c6ChangegL4InfoVSgAA0C12APIExceptionOSgGSS_SStYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC021changePasswordWithOldG003oldG003newG0AA0C6ResultCyAA0c6ChangegL4InfoVSgAA0C12APIExceptionOSgGSS_SStYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendMobileForgotPasswordVerifyCode",
+            "printedName": "sendMobileForgotPasswordVerifyCode(phoneCode:phone:lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizVerifyCodeResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo",
+                        "usr": "s:13GizwitsiOSSDK23GizVerifyCodeResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC34sendMobileForgotPasswordVerifyCode05phoneK00L04langAA0C6ResultCyAA0cjkN4InfoVSgAA0C12APIExceptionOSgGSS_S2SSgtYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC34sendMobileForgotPasswordVerifyCode05phoneK00L04langAA0C6ResultCyAA0cjkN4InfoVSgAA0C12APIExceptionOSgGSS_S2SSgtYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forgotWithEmail",
+            "printedName": "forgotWithEmail(email:code:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizForgotPasswordResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizForgotPasswordResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizForgotPasswordResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizForgotPasswordResultInfo",
+                        "usr": "s:13GizwitsiOSSDK27GizForgotPasswordResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC15forgotWithEmail5email4code8passwordAA0C6ResultCyAA0c14ForgotPasswordL4InfoVSgAA0C12APIExceptionOSgGSS_S2StYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC15forgotWithEmail5email4code8passwordAA0C6ResultCyAA0c14ForgotPasswordL4InfoVSgAA0C12APIExceptionOSgGSS_S2StYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEmailForgotPasswordVerifyCode",
+            "printedName": "sendEmailForgotPasswordVerifyCode(email:lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizVerifyCodeResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo",
+                        "usr": "s:13GizwitsiOSSDK23GizVerifyCodeResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC33sendEmailForgotPasswordVerifyCode5email4langAA0C6ResultCyAA0cjkN4InfoVSgAA0C12APIExceptionOSgGSS_SSSgtYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC33sendEmailForgotPasswordVerifyCode5email4langAA0C6ResultCyAA0cjkN4InfoVSgAA0C12APIExceptionOSgGSS_SSSgtYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forgotWithMobile",
+            "printedName": "forgotWithMobile(phoneCode:phone:code:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizForgotPasswordResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizForgotPasswordResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizForgotPasswordResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizForgotPasswordResultInfo",
+                        "usr": "s:13GizwitsiOSSDK27GizForgotPasswordResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC16forgotWithMobile9phoneCode0I04code8passwordAA0C6ResultCyAA0c14ForgotPasswordM4InfoVSgAA0C12APIExceptionOSgGSS_S3StYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC16forgotWithMobile9phoneCode0I04code8passwordAA0C6ResultCyAA0c14ForgotPasswordM4InfoVSgAA0C12APIExceptionOSgGSS_S3StYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWithPhone",
+            "printedName": "registerWithPhone(phoneCode:phone:password:code:lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizLoginResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizLoginResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizLoginResultInfo",
+                        "usr": "s:13GizwitsiOSSDK18GizLoginResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC17registerWithPhone9phoneCode0I08password4code4langAA0C6ResultCyAA0c5LoginN4InfoVSgAA0C12APIExceptionOSgGSS_S4SSgtYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC17registerWithPhone9phoneCode0I08password4code4langAA0C6ResultCyAA0c5LoginN4InfoVSgAA0C12APIExceptionOSgGSS_S4SSgtYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendMobileRegisterVerifyCode",
+            "printedName": "sendMobileRegisterVerifyCode(phoneCode:phone:lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizVerifyCodeResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo",
+                        "usr": "s:13GizwitsiOSSDK23GizVerifyCodeResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC28sendMobileRegisterVerifyCode05phoneJ00K04langAA0C6ResultCyAA0cijM4InfoVSgAA0C12APIExceptionOSgGSS_S2SSgtYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC28sendMobileRegisterVerifyCode05phoneJ00K04langAA0C6ResultCyAA0cijM4InfoVSgAA0C12APIExceptionOSgGSS_S2SSgtYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWithEmail",
+            "printedName": "registerWithEmail(email:password:code:lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizLoginResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizLoginResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizLoginResultInfo",
+                        "usr": "s:13GizwitsiOSSDK18GizLoginResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC17registerWithEmail5email8password4code4langAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3SSgtYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC17registerWithEmail5email8password4code4langAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3SSgtYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEmailRegisterVerifyCode",
+            "printedName": "sendEmailRegisterVerifyCode(email:lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizVerifyCodeResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo",
+                        "usr": "s:13GizwitsiOSSDK23GizVerifyCodeResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC27sendEmailRegisterVerifyCode5email4langAA0C6ResultCyAA0cijM4InfoVSgAA0C12APIExceptionOSgGSS_SSSgtYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC27sendEmailRegisterVerifyCode5email4langAA0C6ResultCyAA0cijM4InfoVSgAA0C12APIExceptionOSgGSS_SSSgtYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -40190,6 +40642,262 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GizOpenApiResultInfo",
+            "printedName": "GizOpenApiResultInfo",
+            "usr": "s:13GizwitsiOSSDK20GizOpenApiResultInfoP",
+            "mangledName": "$s13GizwitsiOSSDK20GizOpenApiResultInfoP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GizForgotPasswordResultInfo",
+        "printedName": "GizForgotPasswordResultInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizForgotPasswordResultInfo",
+                "printedName": "GizwitsiOSSDK.GizForgotPasswordResultInfo",
+                "usr": "s:13GizwitsiOSSDK27GizForgotPasswordResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK27GizForgotPasswordResultInfoVyACSDySSypGcfc",
+            "mangledName": "$s13GizwitsiOSSDK27GizForgotPasswordResultInfoVyACSDySSypGcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizForgotPasswordResultInfo",
+                "printedName": "GizwitsiOSSDK.GizForgotPasswordResultInfo",
+                "usr": "s:13GizwitsiOSSDK27GizForgotPasswordResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK27GizForgotPasswordResultInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13GizwitsiOSSDK27GizForgotPasswordResultInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK27GizForgotPasswordResultInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GizwitsiOSSDK27GizForgotPasswordResultInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GizwitsiOSSDK27GizForgotPasswordResultInfoV",
+        "mangledName": "$s13GizwitsiOSSDK27GizForgotPasswordResultInfoV",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GizOpenApiResultInfo",
+            "printedName": "GizOpenApiResultInfo",
+            "usr": "s:13GizwitsiOSSDK20GizOpenApiResultInfoP",
+            "mangledName": "$s13GizwitsiOSSDK20GizOpenApiResultInfoP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GizChangePasswordResultInfo",
+        "printedName": "GizChangePasswordResultInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizChangePasswordResultInfo",
+                "printedName": "GizwitsiOSSDK.GizChangePasswordResultInfo",
+                "usr": "s:13GizwitsiOSSDK27GizChangePasswordResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK27GizChangePasswordResultInfoVyACSDySSypGcfc",
+            "mangledName": "$s13GizwitsiOSSDK27GizChangePasswordResultInfoVyACSDySSypGcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizChangePasswordResultInfo",
+                "printedName": "GizwitsiOSSDK.GizChangePasswordResultInfo",
+                "usr": "s:13GizwitsiOSSDK27GizChangePasswordResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK27GizChangePasswordResultInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13GizwitsiOSSDK27GizChangePasswordResultInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK27GizChangePasswordResultInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GizwitsiOSSDK27GizChangePasswordResultInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GizwitsiOSSDK27GizChangePasswordResultInfoV",
+        "mangledName": "$s13GizwitsiOSSDK27GizChangePasswordResultInfoV",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -51501,7 +52209,7 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 11753,
+      "offset": 13340,
       "length": 2,
       "value": "[]"
     }

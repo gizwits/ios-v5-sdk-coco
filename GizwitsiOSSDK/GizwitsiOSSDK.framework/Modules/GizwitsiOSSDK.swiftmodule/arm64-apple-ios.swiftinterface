@@ -133,6 +133,11 @@ public struct GizConfigStruct : Swift.Codable {
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
+extension GizwitsiOSSDK.GizUserManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func changePasswordWithOldPassword(oldPassword: Swift.String, newPassword: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizChangePasswordResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+}
 public enum AuthenticationMethod : Swift.String {
   case oneProductKey
   case oneKey
@@ -472,6 +477,20 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
+extension GizwitsiOSSDK.GizUserManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendMobileForgotPasswordVerifyCode(phoneCode: Swift.String, phone: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func forgotWithEmail(email: Swift.String, code: Swift.String, password: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizForgotPasswordResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendEmailForgotPasswordVerifyCode(email: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func forgotWithMobile(phoneCode: Swift.String, phone: Swift.String, code: Swift.String, password: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizForgotPasswordResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+}
 public enum GizOTAException : Swift.Int, Swift.Codable {
   case GIZ_SDK_OTA_UPGRADE_FAILED
   case GIZ_SDK_DEVICE_NOT_SUPPORT
@@ -614,6 +633,18 @@ public enum GizAPIException : Swift.Int, Swift.Codable {
   @objc deinit
 }
 extension GizwitsiOSSDK.GizUserManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func registerWithPhone(phoneCode: Swift.String, phone: Swift.String, password: Swift.String, code: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendMobileRegisterVerifyCode(phoneCode: Swift.String, phone: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func registerWithEmail(email: Swift.String, password: Swift.String, code: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendEmailRegisterVerifyCode(email: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func registerWithAccount(username: Swift.String, password: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
   #endif
@@ -1126,18 +1157,6 @@ public enum GizAuth2AccountType : Swift.Int {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GizUserManager : GizwitsiOSSDK.GizUserModel {
   public static let sharedInstance: GizwitsiOSSDK.GizUserManager
   #if compiler(>=5.3) && $AsyncAwait
-  public func sendVerifyMobileCodeWithPhone(phone: Swift.String, countryCode: Swift.Int) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func resetPasswordByPhone(phone: Swift.String, newPassword: Swift.String, code: Swift.String) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func resetPasswordByEmail(email: Swift.String) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func resetPasswordWithOldPassword(oldPassWord: Swift.String, newPassWord: Swift.String) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func transAnonymousUserToEmailUser(email: Swift.String, password: Swift.String) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
@@ -1497,6 +1516,16 @@ public struct GizLoginResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public var uid: Swift.String
   public var token: Swift.String
   public var expireAt: Swift.Int
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizForgotPasswordResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizChangePasswordResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

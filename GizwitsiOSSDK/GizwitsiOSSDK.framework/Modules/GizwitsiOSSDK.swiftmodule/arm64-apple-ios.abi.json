@@ -29339,7 +29339,7 @@
           {
             "kind": "Function",
             "name": "registerWithPhone",
-            "printedName": "registerWithPhone(phoneCode:phone:password:code:lang:)",
+            "printedName": "registerWithPhone(phoneCode:phone:password:code:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29400,25 +29400,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC17registerWithPhone9phoneCode0I08password4code4langAA0C6ResultCyAA0c5LoginN4InfoVSgAA0C12APIExceptionOSgGSS_S4SSgtYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC17registerWithPhone9phoneCode0I08password4code4langAA0C6ResultCyAA0c5LoginN4InfoVSgAA0C12APIExceptionOSgGSS_S4SSgtYaF",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC17registerWithPhone9phoneCode0I08password4codeAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3StYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC17registerWithPhone9phoneCode0I08password4codeAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3StYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl",
@@ -29508,7 +29494,7 @@
           {
             "kind": "Function",
             "name": "registerWithEmail",
-            "printedName": "registerWithEmail(email:password:code:lang:)",
+            "printedName": "registerWithEmail(email:password:code:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29563,25 +29549,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC17registerWithEmail5email8password4code4langAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3SSgtYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC17registerWithEmail5email8password4code4langAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3SSgtYaF",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC17registerWithEmail5email8password4codeAA0C6ResultCyAA0c5LoginL4InfoVSgAA0C12APIExceptionOSgGSS_S2StYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC17registerWithEmail5email8password4codeAA0C6ResultCyAA0c5LoginL4InfoVSgAA0C12APIExceptionOSgGSS_S2StYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl",

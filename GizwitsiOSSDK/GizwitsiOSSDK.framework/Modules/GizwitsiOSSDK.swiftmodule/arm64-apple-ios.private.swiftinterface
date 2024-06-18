@@ -634,7 +634,7 @@ public enum GizAPIException : Swift.Int, Swift.Codable {
 }
 extension GizwitsiOSSDK.GizUserManager {
   #if compiler(>=5.3) && $AsyncAwait
-  public func registerWithPhone(phoneCode: Swift.String, phone: Swift.String, password: Swift.String, code: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  public func registerWithMobile(phoneCode: Swift.String, phone: Swift.String, password: Swift.String, code: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func sendMobileRegisterVerifyCode(phoneCode: Swift.String, phone: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo?, GizwitsiOSSDK.GizAPIException?>

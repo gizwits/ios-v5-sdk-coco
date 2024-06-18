@@ -29338,8 +29338,8 @@
           },
           {
             "kind": "Function",
-            "name": "registerWithPhone",
-            "printedName": "registerWithPhone(phoneCode:phone:password:code:)",
+            "name": "registerWithMobile",
+            "printedName": "registerWithMobile(phoneCode:phone:password:code:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29403,8 +29403,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC17registerWithPhone9phoneCode0I08password4codeAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3StYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC17registerWithPhone9phoneCode0I08password4codeAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3StYaF",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC18registerWithMobile9phoneCode0I08password4codeAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3StYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC18registerWithMobile9phoneCode0I08password4codeAA0C6ResultCyAA0c5LoginM4InfoVSgAA0C12APIExceptionOSgGSS_S3StYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl",

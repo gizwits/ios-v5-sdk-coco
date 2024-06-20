@@ -137,6 +137,21 @@ extension GizwitsiOSSDK.GizUserManager {
   #if compiler(>=5.3) && $AsyncAwait
   public func changePasswordWithOldPassword(oldPassword: Swift.String, newPassword: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizChangePasswordResultInfo?, GizwitsiOSSDK.GizAPIException?>
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func changeUserInfo(info: GizwitsiOSSDK.GizUserProfileParams) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.ChangeUserInfoRes, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getUserInfo() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizUserResultInfo?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func changeEmail(newEmail: Swift.String, code: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizChangeEmailResultInfo, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendEmailChangeEmailVerifyCode(email: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendMobileChangeEmailVerifyCode(phoneCode: Swift.String, phone: Swift.String, lang: Swift.String?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo, GizwitsiOSSDK.GizAPIException?>
+  #endif
 }
 public enum AuthenticationMethod : Swift.String {
   case oneProductKey
@@ -1126,6 +1141,16 @@ public enum GizAuth2AccountType : Swift.Int {
   public var remark: Swift.String?
   @objc deinit
 }
+public class GizUserProfileParams {
+  public var lang: Swift.String?
+  public var name: Swift.String?
+  public var userGender: GizwitsiOSSDK.GizUserGenderType?
+  public var birthday: Swift.String?
+  public var address: Swift.String?
+  public var remark: Swift.String?
+  public init(lang: Swift.String?, name: Swift.String?, userGender: GizwitsiOSSDK.GizUserGenderType?, birthday: Swift.String?, address: Swift.String?, remark: Swift.String?)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GizUserModel : GizwitsiOSSDK.GizUserProfile, Foundation.ObservableObject {
   @Combine.Published @_projectedValueProperty($uid) public var uid: Swift.String? {
     get
@@ -1167,12 +1192,6 @@ public enum GizAuth2AccountType : Swift.Int {
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func logout() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func changeUserInfo(info: GizwitsiOSSDK.GizUserProfile) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getUserInfo() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>
   #endif
   public func getAuthorizeData() -> GizwitsiOSSDK.GizLoginResultInfo
   public func updateAuthorizeData(token: Swift.String, uid: Swift.String)
@@ -1512,6 +1531,22 @@ public struct GizDataPointResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct GizUserResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
+  public var username: Swift.String
+  public var phone: Swift.String
+  public var email: Swift.String
+  public var name: Swift.String
+  public var gender: Swift.String
+  public var birthday: Swift.String
+  public var address: Swift.String
+  public var lang: Swift.String
+  public var remark: Swift.String
+  public var uid: Swift.String
+  public var isAnonymous: Swift.Bool
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct GizLoginResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public var uid: Swift.String
   public var token: Swift.String
@@ -1520,7 +1555,17 @@ public struct GizLoginResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct GizChangeEmailResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct GizForgotPasswordResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizDestoryResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -1531,6 +1576,11 @@ public struct GizChangePasswordResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizVerifyCodeResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ChangeUserInfoRes : GizwitsiOSSDK.GizOpenApiResultInfo {
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

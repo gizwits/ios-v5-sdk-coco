@@ -28004,6 +28004,788 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "GizUserProfileParams",
+        "printedName": "GizUserProfileParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lang",
+            "printedName": "lang",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC4langSSSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC4langSSSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC4langSSSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC4langSSSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC4langSSSgvs",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC4langSSSgvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC4langSSSgvM",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC4langSSSgvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC4nameSSSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC4nameSSSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC4nameSSSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC4nameSSSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC4nameSSSgvs",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC4nameSSSgvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC4nameSSSgvM",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC4nameSSSgvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userGender",
+            "printedName": "userGender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GizwitsiOSSDK.GizUserGenderType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizUserGenderType",
+                    "printedName": "GizwitsiOSSDK.GizUserGenderType",
+                    "usr": "s:13GizwitsiOSSDK17GizUserGenderTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC10userGenderAA0cdH4TypeOSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC10userGenderAA0cdH4TypeOSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizUserGenderType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizUserGenderType",
+                        "printedName": "GizwitsiOSSDK.GizUserGenderType",
+                        "usr": "s:13GizwitsiOSSDK17GizUserGenderTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC10userGenderAA0cdH4TypeOSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC10userGenderAA0cdH4TypeOSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizUserGenderType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizUserGenderType",
+                        "printedName": "GizwitsiOSSDK.GizUserGenderType",
+                        "usr": "s:13GizwitsiOSSDK17GizUserGenderTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC10userGenderAA0cdH4TypeOSgvs",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC10userGenderAA0cdH4TypeOSgvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC10userGenderAA0cdH4TypeOSgvM",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC10userGenderAA0cdH4TypeOSgvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthday",
+            "printedName": "birthday",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC8birthdaySSSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC8birthdaySSSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC8birthdaySSSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC8birthdaySSSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC8birthdaySSSgvs",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC8birthdaySSSgvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC8birthdaySSSgvM",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC8birthdaySSSgvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC7addressSSSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC7addressSSSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC7addressSSSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC7addressSSSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC7addressSSSgvs",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC7addressSSSgvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC7addressSSSgvM",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC7addressSSSgvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remark",
+            "printedName": "remark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC6remarkSSSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC6remarkSSSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC6remarkSSSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC6remarkSSSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC6remarkSSSgvs",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC6remarkSSSgvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC6remarkSSSgvM",
+                "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC6remarkSSSgvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(lang:name:userGender:birthday:address:remark:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizUserProfileParams",
+                "printedName": "GizwitsiOSSDK.GizUserProfileParams",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GizwitsiOSSDK.GizUserGenderType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizUserGenderType",
+                    "printedName": "GizwitsiOSSDK.GizUserGenderType",
+                    "usr": "s:13GizwitsiOSSDK17GizUserGenderTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC4lang4name10userGender8birthday7address6remarkACSSSg_AjA0cdJ4TypeOSgA3Jtcfc",
+            "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC4lang4name10userGender8birthday7address6remarkACSSSg_AjA0cdJ4TypeOSgA3Jtcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC",
+        "mangledName": "$s13GizwitsiOSSDK20GizUserProfileParamsC",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GizUserModel",
         "printedName": "GizUserModel",
         "children": [
@@ -28815,114 +29597,6 @@
           },
           {
             "kind": "Function",
-            "name": "changeUserInfo",
-            "printedName": "changeUserInfo(info:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GizResult",
-                "printedName": "GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "GizwitsiOSSDK.GizAPIException?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GizAPIException",
-                        "printedName": "GizwitsiOSSDK.GizAPIException",
-                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:13GizwitsiOSSDK9GizResultC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GizUserProfile",
-                "printedName": "GizwitsiOSSDK.GizUserProfile",
-                "usr": "s:13GizwitsiOSSDK14GizUserProfileC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC06changeD4Info4infoAA0C6ResultCySiSgAA0C12APIExceptionOSgGAA0cD7ProfileC_tYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC06changeD4Info4infoAA0C6ResultCySiSgAA0C12APIExceptionOSgGAA0cD7ProfileC_tYaF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getUserInfo",
-            "printedName": "getUserInfo()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GizResult",
-                "printedName": "GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizAPIException?>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "GizwitsiOSSDK.GizAPIException?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GizAPIException",
-                        "printedName": "GizwitsiOSSDK.GizAPIException",
-                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:13GizwitsiOSSDK9GizResultC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC03getD4InfoAA0C6ResultCySiSgAA0C12APIExceptionOSgGyYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC03getD4InfoAA0C6ResultCySiSgAA0C12APIExceptionOSgGyYaF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "getAuthorizeData",
             "printedName": "getAuthorizeData()",
             "children": [
@@ -29035,6 +29709,299 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeUserInfo",
+            "printedName": "changeUserInfo(info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.ChangeUserInfoRes, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChangeUserInfoRes",
+                    "printedName": "GizwitsiOSSDK.ChangeUserInfoRes",
+                    "usr": "s:13GizwitsiOSSDK17ChangeUserInfoResV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GizUserProfileParams",
+                "printedName": "GizwitsiOSSDK.GizUserProfileParams",
+                "usr": "s:13GizwitsiOSSDK20GizUserProfileParamsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC06changeD4Info4infoAA0C6ResultCyAA06ChangedG3ResVAA0C12APIExceptionOSgGAA0cD13ProfileParamsC_tYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC06changeD4Info4infoAA0C6ResultCyAA06ChangedG3ResVAA0C12APIExceptionOSgGAA0cD13ProfileParamsC_tYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserInfo",
+            "printedName": "getUserInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizUserResultInfo?, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizUserResultInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizUserResultInfo",
+                        "printedName": "GizwitsiOSSDK.GizUserResultInfo",
+                        "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC03getD4InfoAA0C6ResultCyAA0cdhG0VSgAA0C12APIExceptionOSgGyYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC03getD4InfoAA0C6ResultCyAA0cdhG0VSgAA0C12APIExceptionOSgGyYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeEmail",
+            "printedName": "changeEmail(newEmail:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizChangeEmailResultInfo, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizChangeEmailResultInfo",
+                    "printedName": "GizwitsiOSSDK.GizChangeEmailResultInfo",
+                    "usr": "s:13GizwitsiOSSDK24GizChangeEmailResultInfoV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC11changeEmail03newG04codeAA0C6ResultCyAA0c6ChangegJ4InfoVAA0C12APIExceptionOSgGSS_SStYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC11changeEmail03newG04codeAA0C6ResultCyAA0c6ChangegJ4InfoVAA0C12APIExceptionOSgGSS_SStYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEmailChangeEmailVerifyCode",
+            "printedName": "sendEmailChangeEmailVerifyCode(email:lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizVerifyCodeResultInfo",
+                    "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo",
+                    "usr": "s:13GizwitsiOSSDK23GizVerifyCodeResultInfoV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC015sendEmailChangeG10VerifyCode5email4langAA0C6ResultCyAA0cijM4InfoVAA0C12APIExceptionOSgGSS_SSSgtYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC015sendEmailChangeG10VerifyCode5email4langAA0C6ResultCyAA0cijM4InfoVAA0C12APIExceptionOSgGSS_SSSgtYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendMobileChangeEmailVerifyCode",
+            "printedName": "sendMobileChangeEmailVerifyCode(phoneCode:phone:lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizVerifyCodeResultInfo, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizVerifyCodeResultInfo",
+                    "printedName": "GizwitsiOSSDK.GizVerifyCodeResultInfo",
+                    "usr": "s:13GizwitsiOSSDK23GizVerifyCodeResultInfoV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC31sendMobileChangeEmailVerifyCode05phoneK00L04langAA0C6ResultCyAA0cjkN4InfoVAA0C12APIExceptionOSgGSS_S2SSgtYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC31sendMobileChangeEmailVerifyCode05phoneK00L04langAA0C6ResultCyAA0cjkN4InfoVAA0C12APIExceptionOSgGSS_S2SSgtYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -40254,6 +41221,1069 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "GizUserResultInfo",
+        "printedName": "GizUserResultInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "username",
+            "printedName": "username",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV8usernameSSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV8usernameSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV8usernameSSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV8usernameSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV8usernameSSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV8usernameSSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV8usernameSSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV8usernameSSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV5phoneSSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV5phoneSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV5phoneSSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV5phoneSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV5phoneSSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV5phoneSSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV5phoneSSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV5phoneSSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV5emailSSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV5emailSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV5emailSSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV5emailSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV5emailSSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV5emailSSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV5emailSSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV5emailSSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV4nameSSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV4nameSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV4nameSSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV4nameSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV4nameSSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV4nameSSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV4nameSSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV4nameSSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gender",
+            "printedName": "gender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV6genderSSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV6genderSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV6genderSSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV6genderSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV6genderSSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV6genderSSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV6genderSSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV6genderSSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthday",
+            "printedName": "birthday",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV8birthdaySSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV8birthdaySSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV8birthdaySSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV8birthdaySSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV8birthdaySSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV8birthdaySSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV8birthdaySSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV8birthdaySSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV7addressSSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV7addressSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV7addressSSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV7addressSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV7addressSSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV7addressSSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV7addressSSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV7addressSSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lang",
+            "printedName": "lang",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV4langSSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV4langSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV4langSSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV4langSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV4langSSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV4langSSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV4langSSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV4langSSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remark",
+            "printedName": "remark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV6remarkSSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV6remarkSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV6remarkSSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV6remarkSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV6remarkSSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV6remarkSSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV6remarkSSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV6remarkSSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uid",
+            "printedName": "uid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV3uidSSvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV3uidSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV3uidSSvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV3uidSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV3uidSSvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV3uidSSvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV3uidSSvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV3uidSSvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAnonymous",
+            "printedName": "isAnonymous",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV11isAnonymousSbvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV11isAnonymousSbvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV11isAnonymousSbvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV11isAnonymousSbvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV11isAnonymousSbvs",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV11isAnonymousSbvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV11isAnonymousSbvM",
+                "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV11isAnonymousSbvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizUserResultInfo",
+                "printedName": "GizwitsiOSSDK.GizUserResultInfo",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoVyACSDySSypGcfc",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoVyACSDySSypGcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizUserResultInfo",
+                "printedName": "GizwitsiOSSDK.GizUserResultInfo",
+                "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GizwitsiOSSDK17GizUserResultInfoV",
+        "mangledName": "$s13GizwitsiOSSDK17GizUserResultInfoV",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GizOpenApiResultInfo",
+            "printedName": "GizOpenApiResultInfo",
+            "usr": "s:13GizwitsiOSSDK20GizOpenApiResultInfoP",
+            "mangledName": "$s13GizwitsiOSSDK20GizOpenApiResultInfoP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GizLoginResultInfo",
         "printedName": "GizLoginResultInfo",
         "children": [
@@ -40641,6 +42671,134 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "GizChangeEmailResultInfo",
+        "printedName": "GizChangeEmailResultInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizChangeEmailResultInfo",
+                "printedName": "GizwitsiOSSDK.GizChangeEmailResultInfo",
+                "usr": "s:13GizwitsiOSSDK24GizChangeEmailResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK24GizChangeEmailResultInfoVyACSDySSypGcfc",
+            "mangledName": "$s13GizwitsiOSSDK24GizChangeEmailResultInfoVyACSDySSypGcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizChangeEmailResultInfo",
+                "printedName": "GizwitsiOSSDK.GizChangeEmailResultInfo",
+                "usr": "s:13GizwitsiOSSDK24GizChangeEmailResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK24GizChangeEmailResultInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13GizwitsiOSSDK24GizChangeEmailResultInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK24GizChangeEmailResultInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GizwitsiOSSDK24GizChangeEmailResultInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GizwitsiOSSDK24GizChangeEmailResultInfoV",
+        "mangledName": "$s13GizwitsiOSSDK24GizChangeEmailResultInfoV",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GizOpenApiResultInfo",
+            "printedName": "GizOpenApiResultInfo",
+            "usr": "s:13GizwitsiOSSDK20GizOpenApiResultInfoP",
+            "mangledName": "$s13GizwitsiOSSDK20GizOpenApiResultInfoP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GizForgotPasswordResultInfo",
         "printedName": "GizForgotPasswordResultInfo",
         "children": [
@@ -40739,6 +42897,134 @@
         "declKind": "Struct",
         "usr": "s:13GizwitsiOSSDK27GizForgotPasswordResultInfoV",
         "mangledName": "$s13GizwitsiOSSDK27GizForgotPasswordResultInfoV",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GizOpenApiResultInfo",
+            "printedName": "GizOpenApiResultInfo",
+            "usr": "s:13GizwitsiOSSDK20GizOpenApiResultInfoP",
+            "mangledName": "$s13GizwitsiOSSDK20GizOpenApiResultInfoP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GizDestoryResultInfo",
+        "printedName": "GizDestoryResultInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizDestoryResultInfo",
+                "printedName": "GizwitsiOSSDK.GizDestoryResultInfo",
+                "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoVyACSDySSypGcfc",
+            "mangledName": "$s13GizwitsiOSSDK20GizDestoryResultInfoVyACSDySSypGcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizDestoryResultInfo",
+                "printedName": "GizwitsiOSSDK.GizDestoryResultInfo",
+                "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13GizwitsiOSSDK20GizDestoryResultInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GizwitsiOSSDK20GizDestoryResultInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV",
+        "mangledName": "$s13GizwitsiOSSDK20GizDestoryResultInfoV",
         "moduleName": "GizwitsiOSSDK",
         "declAttributes": [
           "AccessControl"
@@ -40999,6 +43285,134 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GizOpenApiResultInfo",
+            "printedName": "GizOpenApiResultInfo",
+            "usr": "s:13GizwitsiOSSDK20GizOpenApiResultInfoP",
+            "mangledName": "$s13GizwitsiOSSDK20GizOpenApiResultInfoP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangeUserInfoRes",
+        "printedName": "ChangeUserInfoRes",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChangeUserInfoRes",
+                "printedName": "GizwitsiOSSDK.ChangeUserInfoRes",
+                "usr": "s:13GizwitsiOSSDK17ChangeUserInfoResV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK17ChangeUserInfoResVyACSDySSypGcfc",
+            "mangledName": "$s13GizwitsiOSSDK17ChangeUserInfoResVyACSDySSypGcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChangeUserInfoRes",
+                "printedName": "GizwitsiOSSDK.ChangeUserInfoRes",
+                "usr": "s:13GizwitsiOSSDK17ChangeUserInfoResV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK17ChangeUserInfoResV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13GizwitsiOSSDK17ChangeUserInfoResV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK17ChangeUserInfoResV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GizwitsiOSSDK17ChangeUserInfoResV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GizwitsiOSSDK17ChangeUserInfoResV",
+        "mangledName": "$s13GizwitsiOSSDK17ChangeUserInfoResV",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -50865,14 +53279,14 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/User\/GizUserManager.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 2616,
       "length": 8,
       "value": "\"GizUid\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/User\/GizUserManager.swift",
       "kind": "StringLiteral",
-      "offset": 1193,
+      "offset": 2652,
       "length": 10,
       "value": "\"GizToken\""
     },
@@ -52181,7 +54595,7 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 13669,
+      "offset": 14623,
       "length": 2,
       "value": "[]"
     }

@@ -31073,19 +31073,19 @@
           },
           {
             "kind": "Function",
-            "name": "destoryAccount",
-            "printedName": "destoryAccount()",
+            "name": "destroyAccount",
+            "printedName": "destroyAccount()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "GizResult",
-                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDestoryResultInfo, GizwitsiOSSDK.GizAPIException?>",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDestroyResultInfo, GizwitsiOSSDK.GizAPIException?>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GizDestoryResultInfo",
-                    "printedName": "GizwitsiOSSDK.GizDestoryResultInfo",
-                    "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV"
+                    "name": "GizDestroyResultInfo",
+                    "printedName": "GizwitsiOSSDK.GizDestroyResultInfo",
+                    "usr": "s:13GizwitsiOSSDK20GizDestroyResultInfoV"
                   },
                   {
                     "kind": "TypeNominal",
@@ -31106,8 +31106,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK14GizUserManagerC14destoryAccountAA0C6ResultCyAA0c7DestoryH4InfoVAA0C12APIExceptionOSgGyYaF",
-            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC14destoryAccountAA0C6ResultCyAA0c7DestoryH4InfoVAA0C12APIExceptionOSgGyYaF",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC14destroyAccountAA0C6ResultCyAA0c7DestroyH4InfoVAA0C12APIExceptionOSgGyYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC14destroyAccountAA0C6ResultCyAA0c7DestroyH4InfoVAA0C12APIExceptionOSgGyYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -42971,8 +42971,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GizDestoryResultInfo",
-        "printedName": "GizDestoryResultInfo",
+        "name": "GizDestroyResultInfo",
+        "printedName": "GizDestroyResultInfo",
         "children": [
           {
             "kind": "Constructor",
@@ -42981,9 +42981,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GizDestoryResultInfo",
-                "printedName": "GizwitsiOSSDK.GizDestoryResultInfo",
-                "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV"
+                "name": "GizDestroyResultInfo",
+                "printedName": "GizwitsiOSSDK.GizDestroyResultInfo",
+                "usr": "s:13GizwitsiOSSDK20GizDestroyResultInfoV"
               },
               {
                 "kind": "TypeNominal",
@@ -43006,8 +43006,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoVyACSDySSypGcfc",
-            "mangledName": "$s13GizwitsiOSSDK20GizDestoryResultInfoVyACSDySSypGcfc",
+            "usr": "s:13GizwitsiOSSDK20GizDestroyResultInfoVyACSDySSypGcfc",
+            "mangledName": "$s13GizwitsiOSSDK20GizDestroyResultInfoVyACSDySSypGcfc",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -43021,9 +43021,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GizDestoryResultInfo",
-                "printedName": "GizwitsiOSSDK.GizDestoryResultInfo",
-                "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV"
+                "name": "GizDestroyResultInfo",
+                "printedName": "GizwitsiOSSDK.GizDestroyResultInfo",
+                "usr": "s:13GizwitsiOSSDK20GizDestroyResultInfoV"
               },
               {
                 "kind": "TypeNominal",
@@ -43033,8 +43033,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s13GizwitsiOSSDK20GizDestoryResultInfoV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:13GizwitsiOSSDK20GizDestroyResultInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13GizwitsiOSSDK20GizDestroyResultInfoV4fromACs7Decoder_p_tKcfc",
             "moduleName": "GizwitsiOSSDK",
             "implicit": true,
             "throwing": true,
@@ -43058,8 +43058,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s13GizwitsiOSSDK20GizDestoryResultInfoV6encode2toys7Encoder_p_tKF",
+            "usr": "s:13GizwitsiOSSDK20GizDestroyResultInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GizwitsiOSSDK20GizDestroyResultInfoV6encode2toys7Encoder_p_tKF",
             "moduleName": "GizwitsiOSSDK",
             "implicit": true,
             "throwing": true,
@@ -43067,8 +43067,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV",
-        "mangledName": "$s13GizwitsiOSSDK20GizDestoryResultInfoV",
+        "usr": "s:13GizwitsiOSSDK20GizDestroyResultInfoV",
+        "mangledName": "$s13GizwitsiOSSDK20GizDestroyResultInfoV",
         "moduleName": "GizwitsiOSSDK",
         "declAttributes": [
           "AccessControl"

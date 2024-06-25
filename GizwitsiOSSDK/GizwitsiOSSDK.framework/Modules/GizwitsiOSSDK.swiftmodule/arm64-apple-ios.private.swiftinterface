@@ -1259,7 +1259,7 @@ extension Foundation.Data {
 }
 extension GizwitsiOSSDK.GizUserManager {
   #if compiler(>=5.3) && $AsyncAwait
-  public func destoryAccount() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDestoryResultInfo, GizwitsiOSSDK.GizAPIException?>
+  public func destroyAccount() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDestroyResultInfo, GizwitsiOSSDK.GizAPIException?>
   #endif
 }
 @_hasMissingDesignatedInitializers public class GizSDKManager : Foundation.ObservableObject {
@@ -1570,7 +1570,7 @@ public struct GizForgotPasswordResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct GizDestoryResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
+public struct GizDestroyResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo {
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

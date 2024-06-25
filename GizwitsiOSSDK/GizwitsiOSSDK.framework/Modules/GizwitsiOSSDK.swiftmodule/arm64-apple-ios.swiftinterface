@@ -1257,6 +1257,11 @@ extension Foundation.Data {
   public func hexEncodedString(options: Foundation.Data.HexEncodingOptions = []) -> Swift.String
   public func asciiEncodedString() -> Swift.String
 }
+extension GizwitsiOSSDK.GizUserManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func destoryAccount() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDestoryResultInfo, GizwitsiOSSDK.GizAPIException?>
+  #endif
+}
 @_hasMissingDesignatedInitializers public class GizSDKManager : Foundation.ObservableObject {
   public var isInit: Swift.Bool
   @Combine.Published @_projectedValueProperty($devices) public var devices: [GizwitsiOSSDK.GizDevice] {

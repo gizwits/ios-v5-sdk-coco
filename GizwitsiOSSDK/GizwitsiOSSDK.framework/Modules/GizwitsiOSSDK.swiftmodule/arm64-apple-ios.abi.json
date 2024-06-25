@@ -31070,6 +31070,50 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destoryAccount",
+            "printedName": "destoryAccount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDestoryResultInfo, GizwitsiOSSDK.GizAPIException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizDestoryResultInfo",
+                    "printedName": "GizwitsiOSSDK.GizDestoryResultInfo",
+                    "usr": "s:13GizwitsiOSSDK20GizDestoryResultInfoV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizAPIException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizAPIException",
+                        "printedName": "GizwitsiOSSDK.GizAPIException",
+                        "usr": "s:13GizwitsiOSSDK15GizAPIExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK14GizUserManagerC14destoryAccountAA0C6ResultCyAA0c7DestoryH4InfoVAA0C12APIExceptionOSgGyYaF",
+            "mangledName": "$s13GizwitsiOSSDK14GizUserManagerC14destoryAccountAA0C6ResultCyAA0c7DestoryH4InfoVAA0C12APIExceptionOSgGyYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -54595,7 +54639,7 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApi.swift",
       "kind": "Array",
-      "offset": 14623,
+      "offset": 14555,
       "length": 2,
       "value": "[]"
     }

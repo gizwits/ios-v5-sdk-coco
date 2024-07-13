@@ -11168,6 +11168,787 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AudioUnit",
+        "printedName": "AudioUnit",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GizLightDanceDataProvider",
+        "printedName": "GizLightDanceDataProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isBeat",
+            "printedName": "isBeat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP6isBeatSbSgvp",
+            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP6isBeatSbSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP6isBeatSbSgvg",
+                "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP6isBeatSbSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bpm",
+            "printedName": "bpm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP3bpmSiSgvp",
+            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP3bpmSiSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP3bpmSiSgvg",
+                "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP3bpmSiSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "midiValue",
+            "printedName": "midiValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP9midiValueSiSgvp",
+            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP9midiValueSiSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP9midiValueSiSgvg",
+                "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP9midiValueSiSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fft",
+            "printedName": "fft",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Float]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Float]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP3fftSaySfGSgvp",
+            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP3fftSaySfGSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Float]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Float]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP3fftSaySfGSgvg",
+                "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP3fftSaySfGSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP",
+        "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GizLightDanceData",
+        "printedName": "GizLightDanceData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isBeat",
+            "printedName": "isBeat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC6isBeatSbSgvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC6isBeatSbSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC6isBeatSbSgvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC6isBeatSbSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bpm",
+            "printedName": "bpm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC3bpmSiSgvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC3bpmSiSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC3bpmSiSgvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC3bpmSiSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "midiValue",
+            "printedName": "midiValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC9midiValueSiSgvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC9midiValueSiSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC9midiValueSiSgvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC9midiValueSiSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fft",
+            "printedName": "fft",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Float]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Float]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC3fftSaySfGSgvp",
+            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC3fftSaySfGSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Float]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Float]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC3fftSaySfGSgvg",
+                "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC3fftSaySfGSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC6encode2toys7Encoder_p_tKF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC8toStringSSyF",
+            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC8toStringSSyF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC",
+        "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GizLightDanceDataProvider",
+            "printedName": "GizLightDanceDataProvider",
+            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP",
+            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LightDance",
+        "printedName": "LightDance",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "startRecording",
+            "printedName": "startRecording(mac:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GizwitsiOSSDK.GizLightDanceData) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizLightDanceData",
+                    "printedName": "GizwitsiOSSDK.GizLightDanceData",
+                    "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK10LightDanceC14startRecording3mac8callbackySS_yAA03GizcD4DataCctF",
+            "mangledName": "$s13GizwitsiOSSDK10LightDanceC14startRecording3mac8callbackySS_yAA03GizcD4DataCctF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LightDance",
+                "printedName": "GizwitsiOSSDK.LightDance",
+                "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance(im)init",
+            "mangledName": "$s13GizwitsiOSSDK10LightDanceCACycfc",
+            "moduleName": "GizwitsiOSSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance",
+        "mangledName": "$s13GizwitsiOSSDK10LightDanceC",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "GizwitsiOSSDK",
         "declAttributes": [
           "RawDocComment"
@@ -33300,6 +34081,93 @@
         "children": [
           {
             "kind": "Var",
+            "name": "lightDance",
+            "printedName": "lightDance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LightDance",
+                "printedName": "GizwitsiOSSDK.LightDance",
+                "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvp",
+            "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LightDance",
+                    "printedName": "GizwitsiOSSDK.LightDance",
+                    "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvg",
+                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LightDance",
+                    "printedName": "GizwitsiOSSDK.LightDance",
+                    "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvs",
+                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0CvM",
+                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0CvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isInit",
             "printedName": "isInit",
             "children": [
@@ -33568,7 +34436,8 @@
             "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC8feedback9uploadLog7contact7contentySb_S2StYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -39837,6 +40706,72 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLightDance",
+            "printedName": "startLightDance(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((GizwitsiOSSDK.GizLightDanceData) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GizwitsiOSSDK.GizLightDanceData) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizLightDanceData",
+                        "printedName": "GizwitsiOSSDK.GizLightDanceData",
+                        "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK9GizDeviceC15startLightDance8callbackyyAA0cfG4DataCcSg_tF",
+            "mangledName": "$s13GizwitsiOSSDK9GizDeviceC15startLightDance8callbackyyAA0cfG4DataCcSg_tF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopLightDance",
+            "printedName": "stopLightDance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK9GizDeviceC14stopLightDanceyyF",
+            "mangledName": "$s13GizwitsiOSSDK9GizDeviceC14stopLightDanceyyF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -47651,6 +48586,237 @@
       "value": "\"GizwitsiOSSDK.GizBleProfile\""
     },
     {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 253,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 4,
+      "value": "4096"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "FloatLiteral",
+      "offset": 316,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "Dictionary",
+      "offset": 1745,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1809,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "StringLiteral",
+      "offset": 1851,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "FloatLiteral",
+      "offset": 1906,
+      "length": 7,
+      "value": "44100.0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "StringLiteral",
+      "offset": 1948,
+      "length": 5,
+      "value": "\"yin\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "FloatLiteral",
+      "offset": 2003,
+      "length": 7,
+      "value": "44100.0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2141,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2175,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2198,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2275,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2308,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "FloatLiteral",
+      "offset": 2382,
+      "length": 7,
+      "value": "44100.0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2446,
+      "length": 5,
+      "value": "32768"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2540,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2550,
+      "length": 5,
+      "value": "32768"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2610,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "FloatLiteral",
+      "offset": 2642,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "FloatLiteral",
+      "offset": 2677,
+      "length": 7,
+      "value": "48000.0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2772,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2804,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3763,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3809,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3850,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11086,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11164,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11199,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11753,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Exception\/GizOTAException.swift",
       "kind": "IntegerLiteral",
       "offset": 214,
@@ -54100,21 +55266,21 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 1381,
+      "offset": 1439,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1418,
+      "offset": 1476,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1474,
+      "offset": 1532,
       "length": 5,
       "value": "false"
     },

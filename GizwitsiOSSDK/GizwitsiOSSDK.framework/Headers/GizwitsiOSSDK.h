@@ -10,6 +10,8 @@
 #import "_GizwitsParser.h"
 #import "CocoaAsyncSocket.h"
 #import "_ZipArchive.h"
+#import "aubio.h"
+
 //! Project version number for GizSDKV5.
 FOUNDATION_EXPORT double GizSDKV5VersionNumber;
 

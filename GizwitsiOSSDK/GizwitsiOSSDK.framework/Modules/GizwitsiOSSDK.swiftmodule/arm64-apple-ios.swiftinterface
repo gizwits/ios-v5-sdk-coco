@@ -1,6 +1,9 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GizwitsiOSSDK
+import AVFoundation
+import Accelerate
+import AudioUnit
 import Combine
 import CoreBluetooth
 import CoreTelephony
@@ -490,6 +493,34 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   public var peripheral: CoreBluetooth.CBPeripheral?
   public static func == (lhs: GizwitsiOSSDK.GizBleProfile, rhs: GizwitsiOSSDK.GizBleProfile) -> Swift.Bool
   override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public protocol GizLightDanceDataProvider {
+  var isBeat: Swift.Bool? { get }
+  var bpm: Swift.Int? { get }
+  var midiValue: Swift.Int? { get }
+  var fft: [Swift.Float]? { get }
+}
+@_hasMissingDesignatedInitializers public class GizLightDanceData : GizwitsiOSSDK.GizLightDanceDataProvider, Swift.Encodable {
+  public var isBeat: Swift.Bool? {
+    get
+  }
+  public var bpm: Swift.Int? {
+    get
+  }
+  public var midiValue: Swift.Int? {
+    get
+  }
+  public var fft: [Swift.Float]? {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func toString() -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class LightDance : ObjectiveC.NSObject {
+  public func startRecording(mac: Swift.String, callback: @escaping (GizwitsiOSSDK.GizLightDanceData) -> Swift.Void)
+  @objc override dynamic public init()
   @objc deinit
 }
 extension GizwitsiOSSDK.GizUserManager {
@@ -1263,6 +1294,7 @@ extension GizwitsiOSSDK.GizUserManager {
   #endif
 }
 @_hasMissingDesignatedInitializers public class GizSDKManager : Foundation.ObservableObject {
+  public var lightDance: GizwitsiOSSDK.LightDance
   public var isInit: Swift.Bool
   @Combine.Published @_projectedValueProperty($devices) public var devices: [GizwitsiOSSDK.GizDevice] {
     get
@@ -1488,6 +1520,8 @@ public protocol GizSdkEventHandlerDelegate {
   #if compiler(>=5.3) && $AsyncAwait
   public func unBind() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizUnBindDeviceResultInfo, GizwitsiOSSDK.GizAPIException?>
   #endif
+  public func startLightDance(callback: ((GizwitsiOSSDK.GizLightDanceData) -> Swift.Void)?)
+  public func stopLightDance()
   @objc deinit
 }
 public enum GizConnectException : Swift.Int, Swift.Codable {

@@ -11193,8 +11193,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GizLightDanceDataProvider",
-        "printedName": "GizLightDanceDataProvider",
+        "name": "GizMusicalRhythmDataProvider",
+        "printedName": "GizMusicalRhythmDataProvider",
         "children": [
           {
             "kind": "Var",
@@ -11217,8 +11217,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP6isBeatSbSgvp",
-            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP6isBeatSbSgvp",
+            "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP6isBeatSbSgvp",
+            "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP6isBeatSbSgvp",
             "moduleName": "GizwitsiOSSDK",
             "protocolReq": true,
             "declAttributes": [
@@ -11246,11 +11246,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP6isBeatSbSgvg",
-                "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP6isBeatSbSgvg",
+                "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP6isBeatSbSgvg",
+                "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP6isBeatSbSgvg",
                 "moduleName": "GizwitsiOSSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizLightDanceDataProvider>",
-                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -11278,8 +11278,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP3bpmSiSgvp",
-            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP3bpmSiSgvp",
+            "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3bpmSiSgvp",
+            "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3bpmSiSgvp",
             "moduleName": "GizwitsiOSSDK",
             "protocolReq": true,
             "accessors": [
@@ -11304,11 +11304,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP3bpmSiSgvg",
-                "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP3bpmSiSgvg",
+                "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3bpmSiSgvg",
+                "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3bpmSiSgvg",
                 "moduleName": "GizwitsiOSSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizLightDanceDataProvider>",
-                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -11336,8 +11336,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP9midiValueSiSgvp",
-            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP9midiValueSiSgvp",
+            "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP9midiValueSiSgvp",
+            "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP9midiValueSiSgvp",
             "moduleName": "GizwitsiOSSDK",
             "protocolReq": true,
             "declAttributes": [
@@ -11365,11 +11365,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP9midiValueSiSgvg",
-                "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP9midiValueSiSgvg",
+                "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP9midiValueSiSgvg",
+                "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP9midiValueSiSgvg",
                 "moduleName": "GizwitsiOSSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizLightDanceDataProvider>",
-                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -11405,8 +11405,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP3fftSaySfGSgvp",
-            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP3fftSaySfGSgvp",
+            "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3fftSaySfGSgvp",
+            "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3fftSaySfGSgvp",
             "moduleName": "GizwitsiOSSDK",
             "protocolReq": true,
             "declAttributes": [
@@ -11442,11 +11442,127 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP3fftSaySfGSgvg",
-                "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP3fftSaySfGSgvg",
+                "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3fftSaySfGSgvg",
+                "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3fftSaySfGSgvg",
                 "moduleName": "GizwitsiOSSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizLightDanceDataProvider>",
-                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizLightDanceDataProvider>",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "powerLevel",
+            "printedName": "powerLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP10powerLevelSfSgvp",
+            "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP10powerLevelSfSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP10powerLevelSfSgvg",
+                "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP10powerLevelSfSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hue",
+            "printedName": "hue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3hueSfSgvp",
+            "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3hueSfSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3hueSfSgvg",
+                "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP3hueSfSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizMusicalRhythmDataProvider>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -11455,8 +11571,8 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP",
-        "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP",
+        "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP",
+        "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP",
         "moduleName": "GizwitsiOSSDK",
         "declAttributes": [
           "AccessControl"
@@ -11464,8 +11580,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GizLightDanceData",
-        "printedName": "GizLightDanceData",
+        "name": "GizMusicalRhythmData",
+        "printedName": "GizMusicalRhythmData",
         "children": [
           {
             "kind": "Var",
@@ -11488,8 +11604,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC6isBeatSbSgvp",
-            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC6isBeatSbSgvp",
+            "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC6isBeatSbSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC6isBeatSbSgvp",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -11521,8 +11637,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC6isBeatSbSgvg",
-                "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC6isBeatSbSgvg",
+                "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC6isBeatSbSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC6isBeatSbSgvg",
                 "moduleName": "GizwitsiOSSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11550,8 +11666,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC3bpmSiSgvp",
-            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC3bpmSiSgvp",
+            "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC3bpmSiSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC3bpmSiSgvp",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -11582,8 +11698,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC3bpmSiSgvg",
-                "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC3bpmSiSgvg",
+                "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC3bpmSiSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC3bpmSiSgvg",
                 "moduleName": "GizwitsiOSSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11611,8 +11727,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC9midiValueSiSgvp",
-            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC9midiValueSiSgvp",
+            "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC9midiValueSiSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC9midiValueSiSgvp",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -11643,8 +11759,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC9midiValueSiSgvg",
-                "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC9midiValueSiSgvg",
+                "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC9midiValueSiSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC9midiValueSiSgvg",
                 "moduleName": "GizwitsiOSSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11680,8 +11796,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC3fftSaySfGSgvp",
-            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC3fftSaySfGSgvp",
+            "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC3fftSaySfGSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC3fftSaySfGSgvp",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -11720,8 +11836,130 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC3fftSaySfGSgvg",
-                "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC3fftSaySfGSgvg",
+                "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC3fftSaySfGSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC3fftSaySfGSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "powerLevel",
+            "printedName": "powerLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC10powerLevelSfSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC10powerLevelSfSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC10powerLevelSfSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC10powerLevelSfSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hue",
+            "printedName": "hue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC3hueSfSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC3hueSfSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC3hueSfSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC3hueSfSgvg",
                 "moduleName": "GizwitsiOSSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11746,8 +11984,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC6encode2toys7Encoder_p_tKF",
+            "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC6encode2toys7Encoder_p_tKF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -11768,8 +12006,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC8toStringSSyF",
-            "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC8toStringSSyF",
+            "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC8toStringSSyF",
+            "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC8toStringSSyF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -11778,8 +12016,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC",
-        "mangledName": "$s13GizwitsiOSSDK17GizLightDanceDataC",
+        "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC",
+        "mangledName": "$s13GizwitsiOSSDK20GizMusicalRhythmDataC",
         "moduleName": "GizwitsiOSSDK",
         "declAttributes": [
           "AccessControl"
@@ -11788,10 +12026,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "GizLightDanceDataProvider",
-            "printedName": "GizLightDanceDataProvider",
-            "usr": "s:13GizwitsiOSSDK25GizLightDanceDataProviderP",
-            "mangledName": "$s13GizwitsiOSSDK25GizLightDanceDataProviderP"
+            "name": "GizMusicalRhythmDataProvider",
+            "printedName": "GizMusicalRhythmDataProvider",
+            "usr": "s:13GizwitsiOSSDK28GizMusicalRhythmDataProviderP",
+            "mangledName": "$s13GizwitsiOSSDK28GizMusicalRhythmDataProviderP"
           },
           {
             "kind": "Conformance",
@@ -11804,8 +12042,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "LightDance",
-        "printedName": "LightDance",
+        "name": "MusicalRhythm",
+        "printedName": "MusicalRhythm",
         "children": [
           {
             "kind": "Function",
@@ -11826,7 +12064,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(GizwitsiOSSDK.GizLightDanceData) -> ()",
+                "printedName": "(GizwitsiOSSDK.GizMusicalRhythmData) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -11835,16 +12073,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "GizLightDanceData",
-                    "printedName": "GizwitsiOSSDK.GizLightDanceData",
-                    "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC"
+                    "name": "GizMusicalRhythmData",
+                    "printedName": "GizwitsiOSSDK.GizMusicalRhythmData",
+                    "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK10LightDanceC14startRecording3mac8callbackySS_yAA03GizcD4DataCctF",
-            "mangledName": "$s13GizwitsiOSSDK10LightDanceC14startRecording3mac8callbackySS_yAA03GizcD4DataCctF",
+            "usr": "s:13GizwitsiOSSDK13MusicalRhythmC14startRecording3mac8callbackySS_yAA03GizcD4DataCctF",
+            "mangledName": "$s13GizwitsiOSSDK13MusicalRhythmC14startRecording3mac8callbackySS_yAA03GizcD4DataCctF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl",
@@ -11859,14 +12097,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "LightDance",
-                "printedName": "GizwitsiOSSDK.LightDance",
-                "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance"
+                "name": "MusicalRhythm",
+                "printedName": "GizwitsiOSSDK.MusicalRhythm",
+                "usr": "c:@M@GizwitsiOSSDK@objc(cs)MusicalRhythm"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance(im)init",
-            "mangledName": "$s13GizwitsiOSSDK10LightDanceCACycfc",
+            "usr": "c:@M@GizwitsiOSSDK@objc(cs)MusicalRhythm(im)init",
+            "mangledName": "$s13GizwitsiOSSDK13MusicalRhythmCACycfc",
             "moduleName": "GizwitsiOSSDK",
             "overriding": true,
             "implicit": true,
@@ -11880,8 +12118,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance",
-        "mangledName": "$s13GizwitsiOSSDK10LightDanceC",
+        "usr": "c:@M@GizwitsiOSSDK@objc(cs)MusicalRhythm",
+        "mangledName": "$s13GizwitsiOSSDK13MusicalRhythmC",
         "moduleName": "GizwitsiOSSDK",
         "declAttributes": [
           "AccessControl",
@@ -34081,19 +34319,19 @@
         "children": [
           {
             "kind": "Var",
-            "name": "lightDance",
-            "printedName": "lightDance",
+            "name": "musicalRhythm",
+            "printedName": "musicalRhythm",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "LightDance",
-                "printedName": "GizwitsiOSSDK.LightDance",
-                "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance"
+                "name": "MusicalRhythm",
+                "printedName": "GizwitsiOSSDK.MusicalRhythm",
+                "usr": "c:@M@GizwitsiOSSDK@objc(cs)MusicalRhythm"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvp",
-            "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvp",
+            "usr": "s:13GizwitsiOSSDK13GizSDKManagerC13musicalRhythmAA07MusicalF0Cvp",
+            "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC13musicalRhythmAA07MusicalF0Cvp",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -34110,14 +34348,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LightDance",
-                    "printedName": "GizwitsiOSSDK.LightDance",
-                    "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance"
+                    "name": "MusicalRhythm",
+                    "printedName": "GizwitsiOSSDK.MusicalRhythm",
+                    "usr": "c:@M@GizwitsiOSSDK@objc(cs)MusicalRhythm"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvg",
-                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvg",
+                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC13musicalRhythmAA07MusicalF0Cvg",
+                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC13musicalRhythmAA07MusicalF0Cvg",
                 "moduleName": "GizwitsiOSSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -34134,14 +34372,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "LightDance",
-                    "printedName": "GizwitsiOSSDK.LightDance",
-                    "usr": "c:@M@GizwitsiOSSDK@objc(cs)LightDance"
+                    "name": "MusicalRhythm",
+                    "printedName": "GizwitsiOSSDK.MusicalRhythm",
+                    "usr": "c:@M@GizwitsiOSSDK@objc(cs)MusicalRhythm"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvs",
-                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0Cvs",
+                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC13musicalRhythmAA07MusicalF0Cvs",
+                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC13musicalRhythmAA07MusicalF0Cvs",
                 "moduleName": "GizwitsiOSSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -34158,8 +34396,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0CvM",
-                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC10lightDanceAA05LightF0CvM",
+                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC13musicalRhythmAA07MusicalF0CvM",
+                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC13musicalRhythmAA07MusicalF0CvM",
                 "moduleName": "GizwitsiOSSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -34436,8 +34674,7 @@
             "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC8feedback9uploadLog7contact7contentySb_S2StYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -40711,8 +40948,8 @@
           },
           {
             "kind": "Function",
-            "name": "startLightDance",
-            "printedName": "startLightDance(callback:)",
+            "name": "startMusicalRhythm",
+            "printedName": "startMusicalRhythm(callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -40722,12 +40959,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((GizwitsiOSSDK.GizLightDanceData) -> ())?",
+                "printedName": "((GizwitsiOSSDK.GizMusicalRhythmData) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(GizwitsiOSSDK.GizLightDanceData) -> ()",
+                    "printedName": "(GizwitsiOSSDK.GizMusicalRhythmData) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -40736,9 +40973,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "GizLightDanceData",
-                        "printedName": "GizwitsiOSSDK.GizLightDanceData",
-                        "usr": "s:13GizwitsiOSSDK17GizLightDanceDataC"
+                        "name": "GizMusicalRhythmData",
+                        "printedName": "GizwitsiOSSDK.GizMusicalRhythmData",
+                        "usr": "s:13GizwitsiOSSDK20GizMusicalRhythmDataC"
                       }
                     ]
                   }
@@ -40747,8 +40984,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK9GizDeviceC15startLightDance8callbackyyAA0cfG4DataCcSg_tF",
-            "mangledName": "$s13GizwitsiOSSDK9GizDeviceC15startLightDance8callbackyyAA0cfG4DataCcSg_tF",
+            "usr": "s:13GizwitsiOSSDK9GizDeviceC18startMusicalRhythm8callbackyyAA0cfG4DataCcSg_tF",
+            "mangledName": "$s13GizwitsiOSSDK9GizDeviceC18startMusicalRhythm8callbackyyAA0cfG4DataCcSg_tF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -40757,8 +40994,8 @@
           },
           {
             "kind": "Function",
-            "name": "stopLightDance",
-            "printedName": "stopLightDance()",
+            "name": "stopMusicalRhythm",
+            "printedName": "stopMusicalRhythm()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -40767,8 +41004,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK9GizDeviceC14stopLightDanceyyF",
-            "mangledName": "$s13GizwitsiOSSDK9GizDeviceC14stopLightDanceyyF",
+            "usr": "s:13GizwitsiOSSDK9GizDeviceC17stopMusicalRhythmyyF",
+            "mangledName": "$s13GizwitsiOSSDK9GizDeviceC17stopMusicalRhythmyyF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -48586,233 +48823,233 @@
       "value": "\"GizwitsiOSSDK.GizBleProfile\""
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
       "offset": 222,
       "length": 3,
       "value": "512"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
       "offset": 253,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 4,
       "value": "4096"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 3,
       "value": "512"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
       "offset": 316,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "Dictionary",
-      "offset": 1745,
+      "offset": 2163,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1809,
+      "offset": 2227,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "StringLiteral",
-      "offset": 1851,
+      "offset": 2269,
       "length": 9,
       "value": "\"default\""
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 1906,
+      "offset": 2324,
       "length": 7,
       "value": "44100.0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "StringLiteral",
-      "offset": 1948,
+      "offset": 2366,
       "length": 5,
       "value": "\"yin\""
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 2003,
+      "offset": 2421,
       "length": 7,
       "value": "44100.0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 2141,
+      "offset": 2559,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 2175,
+      "offset": 2593,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 2198,
+      "offset": 2616,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "BooleanLiteral",
-      "offset": 2275,
+      "offset": 2697,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "BooleanLiteral",
-      "offset": 2308,
+      "offset": 2730,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "BooleanLiteral",
-      "offset": 2341,
+      "offset": 2763,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 2382,
+      "offset": 2804,
       "length": 7,
       "value": "44100.0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 2446,
+      "offset": 2872,
       "length": 5,
       "value": "32768"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 2540,
+      "offset": 2966,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 2550,
+      "offset": 2976,
       "length": 5,
       "value": "32768"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 2610,
+      "offset": 3036,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 2642,
+      "offset": 3068,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 2677,
+      "offset": 3103,
       "length": 7,
       "value": "48000.0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 2772,
+      "offset": 3198,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "BooleanLiteral",
-      "offset": 2804,
+      "offset": 3230,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3763,
+      "offset": 4228,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3809,
+      "offset": 4274,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3850,
+      "offset": 4315,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 11086,
+      "offset": 11538,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 11164,
+      "offset": 11616,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 11199,
+      "offset": 11651,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/LightDance.swift",
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 11753,
+      "offset": 12205,
       "length": 1,
       "value": "0"
     },
@@ -55266,21 +55503,21 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1448,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1476,
+      "offset": 1485,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1532,
+      "offset": 1541,
       "length": 5,
       "value": "false"
     },

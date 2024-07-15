@@ -495,13 +495,15 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
-public protocol GizLightDanceDataProvider {
+public protocol GizMusicalRhythmDataProvider {
   var isBeat: Swift.Bool? { get }
   var bpm: Swift.Int? { get }
   var midiValue: Swift.Int? { get }
   var fft: [Swift.Float]? { get }
+  var powerLevel: Swift.Float? { get }
+  var hue: Swift.Float? { get }
 }
-@_hasMissingDesignatedInitializers public class GizLightDanceData : GizwitsiOSSDK.GizLightDanceDataProvider, Swift.Encodable {
+@_hasMissingDesignatedInitializers public class GizMusicalRhythmData : GizwitsiOSSDK.GizMusicalRhythmDataProvider, Swift.Encodable {
   public var isBeat: Swift.Bool? {
     get
   }
@@ -514,12 +516,18 @@ public protocol GizLightDanceDataProvider {
   public var fft: [Swift.Float]? {
     get
   }
+  public var powerLevel: Swift.Float? {
+    get
+  }
+  public var hue: Swift.Float? {
+    get
+  }
   public func encode(to encoder: any Swift.Encoder) throws
   public func toString() -> Swift.String
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class LightDance : ObjectiveC.NSObject {
-  public func startRecording(mac: Swift.String, callback: @escaping (GizwitsiOSSDK.GizLightDanceData) -> Swift.Void)
+@objc @_inheritsConvenienceInitializers public class MusicalRhythm : ObjectiveC.NSObject {
+  public func startRecording(mac: Swift.String, callback: @escaping (GizwitsiOSSDK.GizMusicalRhythmData) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -1294,7 +1302,7 @@ extension GizwitsiOSSDK.GizUserManager {
   #endif
 }
 @_hasMissingDesignatedInitializers public class GizSDKManager : Foundation.ObservableObject {
-  public var lightDance: GizwitsiOSSDK.LightDance
+  public var musicalRhythm: GizwitsiOSSDK.MusicalRhythm
   public var isInit: Swift.Bool
   @Combine.Published @_projectedValueProperty($devices) public var devices: [GizwitsiOSSDK.GizDevice] {
     get
@@ -1520,8 +1528,8 @@ public protocol GizSdkEventHandlerDelegate {
   #if compiler(>=5.3) && $AsyncAwait
   public func unBind() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizUnBindDeviceResultInfo, GizwitsiOSSDK.GizAPIException?>
   #endif
-  public func startLightDance(callback: ((GizwitsiOSSDK.GizLightDanceData) -> Swift.Void)?)
-  public func stopLightDance()
+  public func startMusicalRhythm(callback: ((GizwitsiOSSDK.GizMusicalRhythmData) -> Swift.Void)?)
+  public func stopMusicalRhythm()
   @objc deinit
 }
 public enum GizConnectException : Swift.Int, Swift.Codable {

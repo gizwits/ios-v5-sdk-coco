@@ -299,8 +299,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC13GizwitsiOSSDK10LightDance")
-@interface LightDance : NSObject
+SWIFT_CLASS("_TtC13GizwitsiOSSDK13MusicalRhythm")
+@interface MusicalRhythm : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

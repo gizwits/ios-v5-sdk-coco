@@ -1056,6 +1056,15 @@ extension GizwitsiOSSDK.GizJSON : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
+public enum MusicalRhythmParseMode : Swift.String {
+  case rock
+  case jazz
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum GizWiFiActivatorEvent : Swift.String, Swift.Decodable, Swift.Encodable {
   case GIZ_CONNECT_SUCCESS
   case GIZ_CONFIG_SEND_SUCCESS
@@ -1531,7 +1540,7 @@ public protocol GizSdkEventHandlerDelegate {
   #if compiler(>=5.3) && $AsyncAwait
   public func sendDp(json: GizwitsiOSSDK.GizJSON) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizJSON?, GizwitsiOSSDK.GizCtrlException?>
   #endif
-  public func startMusicalRhythm(sensitivity: Swift.Int?, callback: ((GizwitsiOSSDK.GizMusicalRhythmData) -> Swift.Void)?)
+  public func startMusicalRhythm(sensitivity: Swift.Int?, mode: GizwitsiOSSDK.MusicalRhythmParseMode?, callback: ((GizwitsiOSSDK.GizMusicalRhythmData) -> Swift.Void)?)
   public func stopMusicalRhythm()
   @objc deinit
 }
@@ -1701,6 +1710,9 @@ extension GizwitsiOSSDK.`Type` : Swift.Hashable {}
 extension GizwitsiOSSDK.`Type` : Swift.RawRepresentable {}
 extension GizwitsiOSSDK.writingOptionsKeys : Swift.Equatable {}
 extension GizwitsiOSSDK.writingOptionsKeys : Swift.Hashable {}
+extension GizwitsiOSSDK.MusicalRhythmParseMode : Swift.Equatable {}
+extension GizwitsiOSSDK.MusicalRhythmParseMode : Swift.Hashable {}
+extension GizwitsiOSSDK.MusicalRhythmParseMode : Swift.RawRepresentable {}
 extension GizwitsiOSSDK.GizWiFiActivatorEvent : Swift.Equatable {}
 extension GizwitsiOSSDK.GizWiFiActivatorEvent : Swift.Hashable {}
 extension GizwitsiOSSDK.GizWiFiActivatorEvent : Swift.RawRepresentable {}

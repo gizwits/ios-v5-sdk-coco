@@ -1056,7 +1056,7 @@ extension GizwitsiOSSDK.GizJSON : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public enum MusicalRhythmParseMode : Swift.String {
+public enum MusicalRhythmParseMode : Swift.String, Swift.Decodable, Swift.Encodable {
   case rock
   case jazz
   public init?(rawValue: Swift.String)

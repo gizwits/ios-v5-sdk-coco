@@ -25297,10 +25297,7 @@
             "declKind": "EnumElement",
             "usr": "s:13GizwitsiOSSDK22MusicalRhythmParseModeO4rockyA2CmF",
             "mangledName": "$s13GizwitsiOSSDK22MusicalRhythmParseModeO4rockyA2CmF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "GizwitsiOSSDK"
           },
           {
             "kind": "Var",
@@ -25337,10 +25334,7 @@
             "declKind": "EnumElement",
             "usr": "s:13GizwitsiOSSDK22MusicalRhythmParseModeO4jazzyA2CmF",
             "mangledName": "$s13GizwitsiOSSDK22MusicalRhythmParseModeO4jazzyA2CmF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "GizwitsiOSSDK"
           },
           {
             "kind": "Constructor",
@@ -25459,6 +25453,20 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -49181,196 +49189,196 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "Dictionary",
-      "offset": 2821,
+      "offset": 2819,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 2885,
+      "offset": 2883,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "StringLiteral",
-      "offset": 2927,
+      "offset": 2925,
       "length": 9,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 2982,
+      "offset": 2980,
       "length": 7,
       "value": "44100.0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "StringLiteral",
-      "offset": 3024,
+      "offset": 3022,
       "length": 5,
       "value": "\"yin\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 3079,
+      "offset": 3077,
       "length": 7,
       "value": "44100.0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3217,
+      "offset": 3215,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3251,
+      "offset": 3249,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3274,
+      "offset": 3272,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "BooleanLiteral",
-      "offset": 3355,
+      "offset": 3353,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "BooleanLiteral",
-      "offset": 3388,
+      "offset": 3386,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "BooleanLiteral",
-      "offset": 3421,
+      "offset": 3427,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 3462,
+      "offset": 3468,
       "length": 7,
       "value": "44100.0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3530,
+      "offset": 3536,
       "length": 5,
       "value": "32768"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3624,
+      "offset": 3630,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3634,
+      "offset": 3640,
       "length": 5,
       "value": "32768"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3694,
+      "offset": 3700,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 3726,
+      "offset": 3732,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "FloatLiteral",
-      "offset": 3761,
+      "offset": 3767,
       "length": 7,
       "value": "48000.0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 3856,
+      "offset": 3862,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "BooleanLiteral",
-      "offset": 3888,
+      "offset": 3894,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 5100,
+      "offset": 5116,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 5146,
+      "offset": 5162,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 5187,
+      "offset": 5203,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 12410,
+      "offset": 12431,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 12488,
+      "offset": 12509,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 12523,
+      "offset": 12544,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 13077,
+      "offset": 13098,
       "length": 1,
       "value": "0"
     },
@@ -52772,28 +52780,28 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythmParse.swift",
       "kind": "StringLiteral",
-      "offset": 192,
+      "offset": 193,
       "length": 6,
       "value": "\"ROCK\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythmParse.swift",
       "kind": "StringLiteral",
-      "offset": 236,
+      "offset": 216,
       "length": 6,
       "value": "\"JAZZ\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythmParse.swift",
       "kind": "StringLiteral",
-      "offset": 192,
+      "offset": 193,
       "length": 6,
       "value": "\"ROCK\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythmParse.swift",
       "kind": "StringLiteral",
-      "offset": 236,
+      "offset": 216,
       "length": 6,
       "value": "\"JAZZ\""
     },

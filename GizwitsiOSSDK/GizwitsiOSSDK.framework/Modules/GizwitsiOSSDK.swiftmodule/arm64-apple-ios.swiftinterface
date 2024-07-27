@@ -527,6 +527,7 @@ public protocol GizMusicalRhythmDataProvider {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class MusicalRhythm : ObjectiveC.NSObject {
+  public static let sharedInstance: GizwitsiOSSDK.MusicalRhythm
   public func startRecording(mac: Swift.String, sensitivity: Swift.Int?, callback: @escaping (GizwitsiOSSDK.GizMusicalRhythmData) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
@@ -1540,7 +1541,7 @@ public protocol GizSdkEventHandlerDelegate {
   #if compiler(>=5.3) && $AsyncAwait
   public func sendDp(json: GizwitsiOSSDK.GizJSON) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizJSON?, GizwitsiOSSDK.GizCtrlException?>
   #endif
-  public func startMusicalRhythm(sensitivity: Swift.Int?, mode: GizwitsiOSSDK.MusicalRhythmParseMode?, callback: ((GizwitsiOSSDK.GizMusicalRhythmData) -> Swift.Void)?)
+  public func startMusicalRhythm(sensitivity: Swift.Int?, mode: GizwitsiOSSDK.MusicalRhythmParseMode?, callback: @escaping ((GizwitsiOSSDK.GizMusicalRhythmData) -> Swift.Void))
   public func stopMusicalRhythm()
   @objc deinit
 }

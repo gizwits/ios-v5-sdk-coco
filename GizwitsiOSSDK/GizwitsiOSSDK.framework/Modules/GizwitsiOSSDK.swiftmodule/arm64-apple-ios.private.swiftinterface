@@ -1058,7 +1058,7 @@ extension GizwitsiOSSDK.GizJSON : Swift.Codable {
 }
 public enum MusicalRhythmParseMode : Swift.String, Swift.Decodable, Swift.Encodable {
   case rock
-  case jazz
+  case soothing
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

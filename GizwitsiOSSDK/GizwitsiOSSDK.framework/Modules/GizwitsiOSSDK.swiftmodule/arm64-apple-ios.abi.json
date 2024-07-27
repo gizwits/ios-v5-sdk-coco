@@ -25301,8 +25301,8 @@
           },
           {
             "kind": "Var",
-            "name": "jazz",
-            "printedName": "jazz",
+            "name": "soothing",
+            "printedName": "soothing",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -25332,8 +25332,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13GizwitsiOSSDK22MusicalRhythmParseModeO4jazzyA2CmF",
-            "mangledName": "$s13GizwitsiOSSDK22MusicalRhythmParseModeO4jazzyA2CmF",
+            "usr": "s:13GizwitsiOSSDK22MusicalRhythmParseModeO8soothingyA2CmF",
+            "mangledName": "$s13GizwitsiOSSDK22MusicalRhythmParseModeO8soothingyA2CmF",
             "moduleName": "GizwitsiOSSDK"
           },
           {
@@ -49357,28 +49357,28 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 12431,
+      "offset": 12477,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 12509,
+      "offset": 12555,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 12544,
+      "offset": 12590,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
       "kind": "IntegerLiteral",
-      "offset": 13098,
+      "offset": 13144,
       "length": 1,
       "value": "0"
     },
@@ -52787,9 +52787,9 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythmParse.swift",
       "kind": "StringLiteral",
-      "offset": 216,
-      "length": 6,
-      "value": "\"JAZZ\""
+      "offset": 220,
+      "length": 10,
+      "value": "\"SOOTHING\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythmParse.swift",
@@ -52801,9 +52801,9 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythmParse.swift",
       "kind": "StringLiteral",
-      "offset": 216,
-      "length": 6,
-      "value": "\"JAZZ\""
+      "offset": 220,
+      "length": 10,
+      "value": "\"SOOTHING\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",

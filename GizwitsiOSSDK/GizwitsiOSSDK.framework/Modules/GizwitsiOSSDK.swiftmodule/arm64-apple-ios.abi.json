@@ -48819,49 +48819,49 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1300,
       "length": 19,
       "value": "\"usapi.gizwits.com\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1334,
+      "offset": 1370,
       "length": 19,
       "value": "\"euapi.gizwits.com\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1404,
+      "offset": 1440,
       "length": 17,
       "value": "\"api.gizwits.com\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1465,
+      "offset": 1501,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1510,
+      "offset": 1546,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "Array",
-      "offset": 1574,
+      "offset": 1610,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1665,
+      "offset": 1701,
       "length": 17,
       "value": "\"api.gizwits.com\""
     },

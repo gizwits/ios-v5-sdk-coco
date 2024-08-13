@@ -4,13 +4,16 @@
 import AVFoundation
 import Accelerate
 import AudioUnit
+import SystemConfiguration.CaptiveNetwork
 import Combine
 import CoreBluetooth
+import CoreLocation
 import CoreTelephony
 import Darwin
 import Foundation
 @_exported import GizwitsiOSSDK
 import Swift
+import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
@@ -1066,14 +1069,41 @@ public enum MusicalRhythmParseMode : Swift.String, Swift.Decodable, Swift.Encoda
     get
   }
 }
-public enum GizWiFiActivatorEvent : Swift.String, Swift.Decodable, Swift.Encodable {
-  case GIZ_CONNECT_SUCCESS
-  case GIZ_CONFIG_SEND_SUCCESS
-  case GIZ_CONFIG_RECV_SUCCESS
-  case GIZ_CONFIG_SUCCESS
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
+public enum GizWiFiActivatorEvent : Swift.Int, Swift.Decodable, Swift.Encodable {
+  case startWiFiConfig
+  case wifiConfigRecvSuccess
+  case startDiscoverDevice
+  case discoverDeviceFail
+  case discoverDeviceSuccess
+  case startConnectDevice
+  case connectDeviceSuccess
+  case connectDeviceFail
+  case startSendWiFiConfig
+  case startSendWiFiConfigSuccess
+  case startSendWiFiConfigFail
+  case startSearchRandomCode
+  case startSearchRandomCodeSuccess
+  case wifiConfigSuccess
+  case wifiConfigCancel
+  case wifiConfigFail
+  case startBindDevice
+  case bindDeviceSuccess
+  case bindDeviceFail
+  case eventInvalidOnboardingPkg
+  case eventConnectingRouter
+  case eventConnectRouterFailed
+  case eventRegistering
+  case eventRegisterFailed
+  case eventProvisioning
+  case eventProvisionFailed
+  case eventConnectingM2M
+  case eventConnectM2MFailed
+  case eventCloudConnected
+  case eventPackageFormateError
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }

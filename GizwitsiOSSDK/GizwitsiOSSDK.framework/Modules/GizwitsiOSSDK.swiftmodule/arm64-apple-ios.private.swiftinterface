@@ -563,6 +563,7 @@ public enum GizOTAException : Swift.Int, Swift.Codable {
   case GIZ_SDK_OTA_FIRMWARE_LENGTH_ERROR
   case GIZ_SDK_OTA_FIRMWARE_CRC32_ERROR
   case GIZ_SDK_OTA_CANCEL
+  case GIZ_SDK_OTA_DEVICE_CANCEL
   case GIZ_SDK_OTA_DEVICE_BUSY_IN_UPGRADE
   case GIZ_SITE_PRODUCTKEY_INVALID
   case GIZ_SDK_OTA_FIRMWARE_VERSION_TOO_LOW
@@ -688,6 +689,9 @@ public enum GizAPIException : Swift.Int, Swift.Codable {
 }
 @_hasMissingDesignatedInitializers public class GizLanCapability : GizwitsiOSSDK.GizBaseCapability {
   override public func encode(to encoder: any Swift.Encoder) throws
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendDpToUDP(data: GizwitsiOSSDK.GizJSON) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizJSON?, GizwitsiOSSDK.GizCtrlException?>
+  #endif
   @objc deinit
 }
 extension GizwitsiOSSDK.GizUserManager {
@@ -1071,24 +1075,18 @@ public enum MusicalRhythmParseMode : Swift.String, Swift.Decodable, Swift.Encoda
 }
 public enum GizWiFiActivatorEvent : Swift.Int, Swift.Decodable, Swift.Encodable {
   case startWiFiConfig
-  case wifiConfigRecvSuccess
-  case startDiscoverDevice
-  case discoverDeviceFail
-  case discoverDeviceSuccess
   case startConnectDevice
   case connectDeviceSuccess
   case connectDeviceFail
   case startSendWiFiConfig
   case startSendWiFiConfigSuccess
   case startSendWiFiConfigFail
+  case wifiConfigRecvSuccess
   case startSearchRandomCode
   case startSearchRandomCodeSuccess
   case wifiConfigSuccess
   case wifiConfigCancel
   case wifiConfigFail
-  case startBindDevice
-  case bindDeviceSuccess
-  case bindDeviceFail
   case eventInvalidOnboardingPkg
   case eventConnectingRouter
   case eventConnectRouterFailed
@@ -1336,6 +1334,19 @@ extension Foundation.Data {
   public func hexEncodedString(options: Foundation.Data.HexEncodingOptions = []) -> Swift.String
   public func asciiEncodedString() -> Swift.String
 }
+@_hasMissingDesignatedInitializers public class GizReportDevice {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GizConfigLog {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GizWifiConfigLogReport {
+  public func report()
+  public func initData(productKey: Swift.String, ssid: Swift.String, mode: Swift.Int, timeout: Swift.Int, isBind: Swift.Bool)
+  public func updateDevice(_ device: GizwitsiOSSDK.GizReportDevice)
+  public func appendEvent(withLog log: GizwitsiOSSDK.GizConfigLog)
+  @objc deinit
+}
 extension GizwitsiOSSDK.GizUserManager {
   #if compiler(>=5.3) && $AsyncAwait
   public func destroyAccount() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDestroyResultInfo, GizwitsiOSSDK.GizAPIException?>
@@ -1344,10 +1355,10 @@ extension GizwitsiOSSDK.GizUserManager {
 @_hasMissingDesignatedInitializers public class GizSDKManager : Foundation.ObservableObject {
   public var musicalRhythm: GizwitsiOSSDK.MusicalRhythm
   public var isInit: Swift.Bool
-  @Combine.Published @_projectedValueProperty($devices) public var devices: [GizwitsiOSSDK.GizDevice] {
+  public var _devices: [GizwitsiOSSDK.GizDevice] {
     get
   }
-  public var $devices: Combine.Published<[GizwitsiOSSDK.GizDevice]>.Publisher {
+  public var devices: Swift.Array<GizwitsiOSSDK.GizDevice> {
     get
   }
   public static let sharedInstance: GizwitsiOSSDK.GizSDKManager

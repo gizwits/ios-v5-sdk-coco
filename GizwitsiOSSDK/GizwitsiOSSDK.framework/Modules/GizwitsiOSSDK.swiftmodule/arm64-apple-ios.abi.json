@@ -53346,6 +53346,34 @@
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 445,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 512,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
+      "kind": "Array",
+      "offset": 573,
+      "length": 48,
+      "value": "[0x00, 0x00, 0x00, 0x03, 0x03, 0x00, 0x00, 0x15]"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
+      "kind": "Array",
+      "offset": 671,
+      "length": 48,
+      "value": "[0x00, 0x00, 0x00, 0x03, 0x03, 0x00, 0x00, 0x16]"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
       "kind": "StringLiteral",
       "offset": 110,
       "length": 16,

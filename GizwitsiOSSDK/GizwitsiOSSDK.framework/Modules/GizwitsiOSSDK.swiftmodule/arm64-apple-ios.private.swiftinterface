@@ -109,7 +109,7 @@ public struct GizConfigStruct : Swift.Codable {
   public func getDp(attrs: [Swift.String]?) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizJSON?, GizwitsiOSSDK.GizCtrlException?>
   public func connect() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizConnectException?>
   public func disConnect() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizConnectException?>
-  public func provideWiFiCredentials(ssid: Swift.String, password: Swift.String, timeout: Swift.Int, processHandler: @escaping (GizwitsiOSSDK.GizWiFiActivatorEvent) -> (), isAirLink: Swift.Bool = false) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>
+  public func provideWiFiCredentials(ssid: Swift.String, password: Swift.String, timeout: Swift.Int, processHandler: @escaping (GizwitsiOSSDK.GizWiFiActivatorEvent) -> ()) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>
   public func stopProvideWiFiCredentials() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizActivatorException?>
   public func sendDp(data: GizwitsiOSSDK.GizJSON) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizJSON?, GizwitsiOSSDK.GizCtrlException?>
   public func removeDeviceDataListener(closure: @escaping (_ data: GizwitsiOSSDK.GizJSON) -> Swift.Void)
@@ -1078,7 +1078,6 @@ public enum GizCapability : Swift.String, Swift.Decodable, Swift.Encodable {
   case GizBleCapability
   case GizLanCapability
   case GizMQTTCapability
-  case GizAirLinkCapability
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

@@ -1989,6 +1989,20 @@
       },
       {
         "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3016,7 +3030,7 @@
           {
             "kind": "Function",
             "name": "provideWiFiCredentials",
-            "printedName": "provideWiFiCredentials(ssid:password:timeout:processHandler:isAirLink:)",
+            "printedName": "provideWiFiCredentials(ssid:password:timeout:processHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3089,18 +3103,11 @@
                     "usr": "s:13GizwitsiOSSDK21GizWiFiActivatorEventO"
                   }
                 ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK17GizBaseCapabilityC22provideWiFiCredentials4ssid8password7timeout14processHandler9isAirLinkAA0C6ResultCyAA0cD7ProfileCSgAA0C18ActivatorExceptionOSgGSS_SSSiyAA0cghT5EventOcSbtYaF",
-            "mangledName": "$s13GizwitsiOSSDK17GizBaseCapabilityC22provideWiFiCredentials4ssid8password7timeout14processHandler9isAirLinkAA0C6ResultCyAA0cD7ProfileCSgAA0C18ActivatorExceptionOSgGSS_SSSiyAA0cghT5EventOcSbtYaF",
+            "usr": "s:13GizwitsiOSSDK17GizBaseCapabilityC22provideWiFiCredentials4ssid8password7timeout14processHandlerAA0C6ResultCyAA0cD7ProfileCSgAA0C18ActivatorExceptionOSgGSS_SSSiyAA0cghQ5EventOctYaF",
+            "mangledName": "$s13GizwitsiOSSDK17GizBaseCapabilityC22provideWiFiCredentials4ssid8password7timeout14processHandlerAA0C6ResultCyAA0cD7ProfileCSgAA0C18ActivatorExceptionOSgGSS_SSSiyAA0cghQ5EventOctYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl",
@@ -27943,46 +27950,6 @@
             "moduleName": "GizwitsiOSSDK"
           },
           {
-            "kind": "Var",
-            "name": "GizAirLinkCapability",
-            "printedName": "GizAirLinkCapability",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(GizwitsiOSSDK.GizCapability.Type) -> GizwitsiOSSDK.GizCapability",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GizCapability",
-                    "printedName": "GizwitsiOSSDK.GizCapability",
-                    "usr": "s:13GizwitsiOSSDK13GizCapabilityO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "GizwitsiOSSDK.GizCapability.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GizCapability",
-                        "printedName": "GizwitsiOSSDK.GizCapability",
-                        "usr": "s:13GizwitsiOSSDK13GizCapabilityO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:13GizwitsiOSSDK13GizCapabilityO0c7AirLinkD0yA2CmF",
-            "mangledName": "$s13GizwitsiOSSDK13GizCapabilityO0c7AirLinkD0yA2CmF",
-            "moduleName": "GizwitsiOSSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -51375,13 +51342,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/Capability\/Base\/GizBaseCapability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3881,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
       "kind": "Array",
       "offset": 455,
@@ -51422,13 +51382,6 @@
       "offset": 1266,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/BleHandler\/BleDeviceHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2321,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/BleHandler\/BKSendDataTask.swift",
@@ -54099,491 +54052,484 @@
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
-      "kind": "StringLiteral",
-      "offset": 5371,
-      "length": 9,
-      "value": "\"AirLink\""
-    },
-    {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5433,
+      "offset": 5306,
       "length": 6,
       "value": "0x0001"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5486,
+      "offset": 5359,
       "length": 6,
       "value": "0x0002"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5540,
+      "offset": 5413,
       "length": 6,
       "value": "0x0003"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5593,
+      "offset": 5466,
       "length": 6,
       "value": "0x0004"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5640,
+      "offset": 5513,
       "length": 6,
       "value": "0x0005"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5688,
+      "offset": 5561,
       "length": 6,
       "value": "0x0006"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5735,
+      "offset": 5608,
       "length": 6,
       "value": "0x0007"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5783,
+      "offset": 5656,
       "length": 6,
       "value": "0x0008"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5833,
+      "offset": 5706,
       "length": 6,
       "value": "0x0009"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5885,
+      "offset": 5758,
       "length": 6,
       "value": "0x000C"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5954,
+      "offset": 5827,
       "length": 6,
       "value": "0x000D"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6018,
+      "offset": 5891,
       "length": 6,
       "value": "0x0010"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6088,
+      "offset": 5961,
       "length": 6,
       "value": "0x0011"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6165,
+      "offset": 6038,
       "length": 6,
       "value": "0x0013"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6230,
+      "offset": 6103,
       "length": 6,
       "value": "0x0014"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6289,
+      "offset": 6162,
       "length": 6,
       "value": "0x0015"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6337,
+      "offset": 6210,
       "length": 6,
       "value": "0x0016"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6394,
+      "offset": 6267,
       "length": 6,
       "value": "0x0017"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6446,
+      "offset": 6319,
       "length": 6,
       "value": "0x0018"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6487,
+      "offset": 6360,
       "length": 6,
       "value": "0x0019"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6533,
+      "offset": 6406,
       "length": 6,
       "value": "0x001A"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6564,
+      "offset": 6437,
       "length": 6,
       "value": "0x001B"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6605,
+      "offset": 6478,
       "length": 6,
       "value": "0x001C"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6647,
+      "offset": 6520,
       "length": 6,
       "value": "0x001D"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6690,
+      "offset": 6563,
       "length": 6,
       "value": "0x001E"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6734,
+      "offset": 6607,
       "length": 6,
       "value": "0x001F"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6768,
+      "offset": 6641,
       "length": 6,
       "value": "0x0020"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6803,
+      "offset": 6676,
       "length": 6,
       "value": "0x0021"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6840,
+      "offset": 6713,
       "length": 6,
       "value": "0x0022"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6878,
+      "offset": 6751,
       "length": 6,
       "value": "0x0023"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6912,
+      "offset": 6785,
       "length": 6,
       "value": "0x0024"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6947,
+      "offset": 6820,
       "length": 6,
       "value": "0x0025"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6980,
+      "offset": 6853,
       "length": 6,
       "value": "0x0012"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7017,
+      "offset": 6890,
       "length": 6,
       "value": "0x0090"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7048,
+      "offset": 6921,
       "length": 6,
       "value": "0x0091"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7091,
+      "offset": 6964,
       "length": 6,
       "value": "0x0092"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7131,
+      "offset": 7004,
       "length": 6,
       "value": "0x0093"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7167,
+      "offset": 7040,
       "length": 6,
       "value": "0x0094"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7208,
+      "offset": 7081,
       "length": 6,
       "value": "0x010D"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7250,
+      "offset": 7123,
       "length": 6,
       "value": "0x0111"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7335,
+      "offset": 7208,
       "length": 6,
       "value": "0x0050"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7369,
+      "offset": 7242,
       "length": 6,
       "value": "0x0042"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7403,
+      "offset": 7276,
       "length": 6,
       "value": "0x0044"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7444,
+      "offset": 7317,
       "length": 6,
       "value": "0x0048"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7486,
+      "offset": 7359,
       "length": 4,
       "value": "0x52"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7539,
+      "offset": 7412,
       "length": 6,
       "value": "0x0061"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7591,
+      "offset": 7464,
       "length": 6,
       "value": "0x0062"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7646,
+      "offset": 7519,
       "length": 6,
       "value": "0x0063"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7701,
+      "offset": 7574,
       "length": 6,
       "value": "0x0064"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7805,
+      "offset": 7678,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7848,
+      "offset": 7721,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7898,
+      "offset": 7771,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7968,
+      "offset": 7841,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8012,
+      "offset": 7885,
       "length": 4,
       "value": "0x05"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8042,
+      "offset": 7915,
       "length": 4,
       "value": "0x08"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8076,
+      "offset": 7949,
       "length": 4,
       "value": "0x09"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8100,
+      "offset": 7973,
       "length": 4,
       "value": "0x0A"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8132,
+      "offset": 8005,
       "length": 4,
       "value": "0x0B"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8157,
+      "offset": 8030,
       "length": 4,
       "value": "0x0F"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8219,
+      "offset": 8092,
       "length": 4,
       "value": "0x20"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8292,
+      "offset": 8165,
       "length": 4,
       "value": "0x21"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8354,
+      "offset": 8227,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8394,
+      "offset": 8267,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8475,
+      "offset": 8348,
       "length": 4,
       "value": "0x24"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8539,
+      "offset": 8412,
       "length": 4,
       "value": "0x25"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8606,
+      "offset": 8479,
       "length": 4,
       "value": "0x26"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8663,
+      "offset": 8536,
       "length": 4,
       "value": "0x40"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8689,
+      "offset": 8562,
       "length": 4,
       "value": "0x41"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8720,
+      "offset": 8593,
       "length": 4,
       "value": "0x42"
     },
@@ -54964,27 +54910,6 @@
       "offset": 2704,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18204,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26271,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26989,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/MQTTHandler\/GizwitsMQTTClient\/GizMQTTDeviceSubscribeInfo.swift",

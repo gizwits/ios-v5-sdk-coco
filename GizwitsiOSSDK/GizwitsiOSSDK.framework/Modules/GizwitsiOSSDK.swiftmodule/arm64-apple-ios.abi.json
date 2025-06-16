@@ -2002,6 +2002,410 @@
         "moduleName": "GizwitsiOSSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ESPTouchSmartConfig",
+        "printedName": "ESPTouchSmartConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ESPTouchSmartConfig",
+                "printedName": "GizwitsiOSSDK.ESPTouchSmartConfig",
+                "usr": "c:@M@GizwitsiOSSDK@objc(cs)ESPTouchSmartConfig"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK19ESPTouchSmartConfigC14sharedInstanceACvpZ",
+            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC14sharedInstanceACvpZ",
+            "moduleName": "GizwitsiOSSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ESPTouchSmartConfig",
+                    "printedName": "GizwitsiOSSDK.ESPTouchSmartConfig",
+                    "usr": "c:@M@GizwitsiOSSDK@objc(cs)ESPTouchSmartConfig"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK19ESPTouchSmartConfigC14sharedInstanceACvgZ",
+                "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC14sharedInstanceACvgZ",
+                "moduleName": "GizwitsiOSSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "provideWiFiCredentialsWithAirLink",
+            "printedName": "provideWiFiCredentialsWithAirLink(ssid:password:timeout:productKey:processHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizBaseProfile?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizBaseProfile",
+                        "printedName": "GizwitsiOSSDK.GizBaseProfile",
+                        "usr": "s:13GizwitsiOSSDK14GizBaseProfileC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizActivatorException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizActivatorException",
+                        "printedName": "GizwitsiOSSDK.GizActivatorException",
+                        "usr": "s:13GizwitsiOSSDK21GizActivatorExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GizwitsiOSSDK.GizWiFiActivatorEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizWiFiActivatorEvent",
+                    "printedName": "GizwitsiOSSDK.GizWiFiActivatorEvent",
+                    "usr": "s:13GizwitsiOSSDK21GizWiFiActivatorEventO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK19ESPTouchSmartConfigC33provideWiFiCredentialsWithAirLink4ssid8password7timeout10productKey14processHandlerAA9GizResultCyAA0T11BaseProfileCSgAA0T18ActivatorExceptionOSgGSS_SSSiSSyAA0tghX5EventOctYaF",
+            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC33provideWiFiCredentialsWithAirLink4ssid8password7timeout10productKey14processHandlerAA9GizResultCyAA0T11BaseProfileCSgAA0T18ActivatorExceptionOSgGSS_SSSiSSyAA0tghX5EventOctYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "_provideWiFiCredentialsWithAirLink",
+            "printedName": "_provideWiFiCredentialsWithAirLink(ssid:password:timeout:productKey:processHandler:completeHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GizwitsiOSSDK.GizWiFiActivatorEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizWiFiActivatorEvent",
+                    "printedName": "GizwitsiOSSDK.GizWiFiActivatorEvent",
+                    "usr": "s:13GizwitsiOSSDK21GizWiFiActivatorEventO"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizResult",
+                    "printedName": "GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GizwitsiOSSDK.GizBaseProfile?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GizBaseProfile",
+                            "printedName": "GizwitsiOSSDK.GizBaseProfile",
+                            "usr": "s:13GizwitsiOSSDK14GizBaseProfileC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GizwitsiOSSDK.GizActivatorException?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GizActivatorException",
+                            "printedName": "GizwitsiOSSDK.GizActivatorException",
+                            "usr": "s:13GizwitsiOSSDK21GizActivatorExceptionO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:13GizwitsiOSSDK9GizResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK19ESPTouchSmartConfigC34_provideWiFiCredentialsWithAirLink4ssid8password7timeout10productKey14processHandler08completeS0ySS_SSSiSSyAA03GizgH14ActivatorEventOcyAA0U6ResultCyAA0U11BaseProfileCSgAA0uV9ExceptionOSgGctYaF",
+            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC34_provideWiFiCredentialsWithAirLink4ssid8password7timeout10productKey14processHandler08completeS0ySS_SSSiSSyAA03GizgH14ActivatorEventOcyAA0U6ResultCyAA0U11BaseProfileCSgAA0uV9ExceptionOSgGctYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ESPTouchSmartConfig",
+                "printedName": "GizwitsiOSSDK.ESPTouchSmartConfig",
+                "usr": "c:@M@GizwitsiOSSDK@objc(cs)ESPTouchSmartConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GizwitsiOSSDK@objc(cs)ESPTouchSmartConfig(im)init",
+            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigCACycfc",
+            "moduleName": "GizwitsiOSSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onEsptouchResultAdded",
+            "printedName": "onEsptouchResultAdded(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "GizwitsiOSSDK.ESPTouchResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ESPTouchResult",
+                    "printedName": "GizwitsiOSSDK.ESPTouchResult",
+                    "usr": "c:objc(cs)ESPTouchResult"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@GizwitsiOSSDK@objc(cs)ESPTouchSmartConfig(im)onEsptouchResultAddedWithResult:",
+            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC21onEsptouchResultAdded4withySo0cH0CSg_tF",
+            "moduleName": "GizwitsiOSSDK",
+            "objc_name": "onEsptouchResultAddedWithResult:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GizwitsiOSSDK@objc(cs)ESPTouchSmartConfig",
+        "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",

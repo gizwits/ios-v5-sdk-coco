@@ -283,6 +283,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ObjectiveC;
 #endif
 
+#import <GizwitsiOSSDK/GizwitsiOSSDK.h>
+
 #endif
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -302,6 +304,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC13GizwitsiOSSDK19ESPTouchSmartConfig")
+@interface ESPTouchSmartConfig : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class ESPTouchResult;
+
+@interface ESPTouchSmartConfig (SWIFT_EXTENSION(GizwitsiOSSDK)) <ESPTouchDelegate>
+- (void)onEsptouchResultAddedWithResult:(ESPTouchResult * _Null_unspecified)result;
+@end
+
 
 SWIFT_CLASS("_TtC13GizwitsiOSSDK13MusicalRhythm")
 @interface MusicalRhythm : NSObject

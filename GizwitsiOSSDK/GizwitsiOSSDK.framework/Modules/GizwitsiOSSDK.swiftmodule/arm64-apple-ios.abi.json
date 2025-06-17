@@ -2060,7 +2060,7 @@
           {
             "kind": "Function",
             "name": "provideWiFiCredentialsWithAirLink",
-            "printedName": "provideWiFiCredentialsWithAirLink(ssid:password:timeout:productKey:processHandler:)",
+            "printedName": "provideWiFiCredentialsWithAirLink(ssid:password:timeout:productKeys:processHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2118,9 +2118,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeFunc",
@@ -2142,8 +2150,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK19ESPTouchSmartConfigC33provideWiFiCredentialsWithAirLink4ssid8password7timeout10productKey14processHandlerAA9GizResultCyAA0T11BaseProfileCSgAA0T18ActivatorExceptionOSgGSS_SSSiSSyAA0tghX5EventOctYaF",
-            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC33provideWiFiCredentialsWithAirLink4ssid8password7timeout10productKey14processHandlerAA9GizResultCyAA0T11BaseProfileCSgAA0T18ActivatorExceptionOSgGSS_SSSiSSyAA0tghX5EventOctYaF",
+            "usr": "s:13GizwitsiOSSDK19ESPTouchSmartConfigC33provideWiFiCredentialsWithAirLink4ssid8password7timeout11productKeys14processHandlerAA9GizResultCyAA0T11BaseProfileCSgAA0T18ActivatorExceptionOSgGSS_SSSiSaySSGyAA0tghX5EventOctYaF",
+            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC33provideWiFiCredentialsWithAirLink4ssid8password7timeout11productKeys14processHandlerAA9GizResultCyAA0T11BaseProfileCSgAA0T18ActivatorExceptionOSgGSS_SSSiSaySSGyAA0tghX5EventOctYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -2153,7 +2161,7 @@
           {
             "kind": "Function",
             "name": "_provideWiFiCredentialsWithAirLink",
-            "printedName": "_provideWiFiCredentialsWithAirLink(ssid:password:timeout:productKey:processHandler:completeHandler:)",
+            "printedName": "_provideWiFiCredentialsWithAirLink(ssid:password:timeout:productKeys:processHandler:completeHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2180,9 +2188,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeFunc",
@@ -2252,11 +2268,63 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK19ESPTouchSmartConfigC34_provideWiFiCredentialsWithAirLink4ssid8password7timeout10productKey14processHandler08completeS0ySS_SSSiSSyAA03GizgH14ActivatorEventOcyAA0U6ResultCyAA0U11BaseProfileCSgAA0uV9ExceptionOSgGctYaF",
-            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC34_provideWiFiCredentialsWithAirLink4ssid8password7timeout10productKey14processHandler08completeS0ySS_SSSiSSyAA03GizgH14ActivatorEventOcyAA0U6ResultCyAA0U11BaseProfileCSgAA0uV9ExceptionOSgGctYaF",
+            "usr": "s:13GizwitsiOSSDK19ESPTouchSmartConfigC34_provideWiFiCredentialsWithAirLink4ssid8password7timeout11productKeys14processHandler08completeS0ySS_SSSiSaySSGyAA03GizgH14ActivatorEventOcyAA0U6ResultCyAA0U11BaseProfileCSgAA0uV9ExceptionOSgGctYaF",
+            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC34_provideWiFiCredentialsWithAirLink4ssid8password7timeout11productKeys14processHandler08completeS0ySS_SSSiSaySSGyAA03GizgH14ActivatorEventOcyAA0U6ResultCyAA0U11BaseProfileCSgAA0uV9ExceptionOSgGctYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopProvideWiFiCredentialsWithAirLink",
+            "printedName": "stopProvideWiFiCredentialsWithAirLink()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizResult",
+                "printedName": "GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizActivatorException?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GizwitsiOSSDK.GizActivatorException?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizActivatorException",
+                        "printedName": "GizwitsiOSSDK.GizActivatorException",
+                        "usr": "s:13GizwitsiOSSDK21GizActivatorExceptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:13GizwitsiOSSDK9GizResultC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GizwitsiOSSDK19ESPTouchSmartConfigC37stopProvideWiFiCredentialsWithAirLinkAA9GizResultCySiSgAA0N18ActivatorExceptionOSgGyYaF",
+            "mangledName": "$s13GizwitsiOSSDK19ESPTouchSmartConfigC37stopProvideWiFiCredentialsWithAirLinkAA9GizResultCySiSgAA0N18ActivatorExceptionOSgGyYaF",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },

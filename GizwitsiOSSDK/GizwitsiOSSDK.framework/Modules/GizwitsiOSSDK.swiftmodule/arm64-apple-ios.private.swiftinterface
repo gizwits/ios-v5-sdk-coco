@@ -66,8 +66,9 @@ public struct GizConfigStruct : Swift.Codable {
 }
 @objc @_inheritsConvenienceInitializers public class ESPTouchSmartConfig : ObjectiveC.NSObject {
   public static let sharedInstance: GizwitsiOSSDK.ESPTouchSmartConfig
-  public func provideWiFiCredentialsWithAirLink(ssid: Swift.String, password: Swift.String, timeout: Swift.Int, productKey: Swift.String, processHandler: @escaping (GizwitsiOSSDK.GizWiFiActivatorEvent) -> ()) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>
-  public func _provideWiFiCredentialsWithAirLink(ssid: Swift.String, password: Swift.String, timeout: Swift.Int, productKey: Swift.String, processHandler: @escaping (GizwitsiOSSDK.GizWiFiActivatorEvent) -> (), completeHandler: @escaping (GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>) -> ()) async
+  public func provideWiFiCredentialsWithAirLink(ssid: Swift.String, password: Swift.String, timeout: Swift.Int, productKeys: [Swift.String], processHandler: @escaping (GizwitsiOSSDK.GizWiFiActivatorEvent) -> ()) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>
+  public func _provideWiFiCredentialsWithAirLink(ssid: Swift.String, password: Swift.String, timeout: Swift.Int, productKeys: [Swift.String], processHandler: @escaping (GizwitsiOSSDK.GizWiFiActivatorEvent) -> (), completeHandler: @escaping (GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizBaseProfile?, GizwitsiOSSDK.GizActivatorException?>) -> ()) async
+  public func stopProvideWiFiCredentialsWithAirLink() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizActivatorException?>
   @objc override dynamic public init()
   @objc deinit
 }

@@ -51990,57 +51990,50 @@
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5950,
-      "length": 5,
-      "value": "12416"
-    },
-    {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "StringLiteral",
-      "offset": 6018,
+      "offset": 6084,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
-      "offset": 6102,
+      "offset": 6168,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "StringLiteral",
-      "offset": 7149,
+      "offset": 7215,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
-      "offset": 7220,
+      "offset": 7286,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "StringLiteral",
-      "offset": 9692,
+      "offset": 9758,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9776,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
       "offset": 9842,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9908,
       "length": 1,
       "value": "0"
     },
@@ -53740,36 +53733,29 @@
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 356,
-      "length": 5,
-      "value": "12414"
-    },
-    {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 445,
+      "offset": 367,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 512,
+      "offset": 434,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
       "kind": "Array",
-      "offset": 573,
+      "offset": 495,
       "length": 48,
       "value": "[0x00, 0x00, 0x00, 0x03, 0x03, 0x00, 0x00, 0x15]"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
       "kind": "Array",
-      "offset": 671,
+      "offset": 593,
       "length": 48,
       "value": "[0x00, 0x00, 0x00, 0x03, 0x03, 0x00, 0x00, 0x16]"
     },
@@ -54091,21 +54077,21 @@
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 462,
+      "offset": 469,
       "length": 5,
       "value": "12414"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 520,
+      "offset": 527,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 848,
+      "offset": 855,
       "length": 5,
       "value": "false"
     },

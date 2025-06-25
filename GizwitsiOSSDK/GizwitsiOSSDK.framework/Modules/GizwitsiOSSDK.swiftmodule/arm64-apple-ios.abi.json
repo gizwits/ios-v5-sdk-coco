@@ -51990,50 +51990,57 @@
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5950,
+      "length": 5,
+      "value": "12416"
+    },
+    {
+      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "StringLiteral",
-      "offset": 6084,
+      "offset": 6018,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
-      "offset": 6168,
+      "offset": 6102,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "StringLiteral",
-      "offset": 7216,
+      "offset": 7150,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
-      "offset": 7287,
+      "offset": 7221,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "StringLiteral",
-      "offset": 9759,
+      "offset": 9693,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9777,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
       "offset": 9843,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9909,
       "length": 1,
       "value": "0"
     },

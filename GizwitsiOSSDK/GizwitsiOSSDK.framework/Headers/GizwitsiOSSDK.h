@@ -11,7 +11,6 @@
 #import "CocoaAsyncSocket.h"
 #import "_ZipArchive.h"
 #import "aubio.h"
-#import "ESPTouch.h"
 
 //! Project version number for GizSDKV5.
 FOUNDATION_EXPORT double GizSDKV5VersionNumber;

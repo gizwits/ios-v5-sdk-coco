@@ -53767,6 +53767,20 @@
       "value": "[0x00, 0x00, 0x00, 0x03, 0x03, 0x00, 0x00, 0x16]"
     },
     {
+      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 677,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 793,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Parse\/src2cli\/SerOnlineParse.swift",
       "kind": "StringLiteral",
       "offset": 160,

@@ -53750,7 +53750,7 @@
       "kind": "IntegerLiteral",
       "offset": 677,
       "length": 1,
-      "value": "3"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",

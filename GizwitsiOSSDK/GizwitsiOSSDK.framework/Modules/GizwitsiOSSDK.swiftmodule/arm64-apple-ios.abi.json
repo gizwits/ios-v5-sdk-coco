@@ -54112,7 +54112,21 @@
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 855,
+      "offset": 717,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 810,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1050,
       "length": 5,
       "value": "false"
     },

@@ -18747,6 +18747,27 @@
       },
       {
         "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -54070,23 +54091,30 @@
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
+      "offset": 384,
       "length": 5,
       "value": "12416"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 394,
+      "offset": 469,
       "length": 5,
       "value": "12414"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 452,
+      "offset": 527,
       "length": 2,
       "value": "14"
+    },
+    {
+      "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/LanHandler\/LanHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 855,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Utils\/JSON\/SwiftyJSON.swift",

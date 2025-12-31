@@ -3502,7 +3502,7 @@
           {
             "kind": "Function",
             "name": "provideWiFiCredentials",
-            "printedName": "provideWiFiCredentials(ssid:password:timeout:processHandler:)",
+            "printedName": "provideWiFiCredentials(ssid:password:timeout:processHandler:bindWithUid:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3575,11 +3575,25 @@
                     "usr": "s:13GizwitsiOSSDK21GizWiFiActivatorEventO"
                   }
                 ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK17GizBaseCapabilityC22provideWiFiCredentials4ssid8password7timeout14processHandlerAA0C6ResultCyAA0cD7ProfileCSgAA0C18ActivatorExceptionOSgGSS_SSSiyAA0cghQ5EventOctYaF",
-            "mangledName": "$s13GizwitsiOSSDK17GizBaseCapabilityC22provideWiFiCredentials4ssid8password7timeout14processHandlerAA0C6ResultCyAA0cD7ProfileCSgAA0C18ActivatorExceptionOSgGSS_SSSiyAA0cghQ5EventOctYaF",
+            "usr": "s:13GizwitsiOSSDK17GizBaseCapabilityC22provideWiFiCredentials4ssid8password7timeout14processHandler11bindWithUidAA0C6ResultCyAA0cD7ProfileCSgAA0C18ActivatorExceptionOSgGSS_SSSiyAA0cghT5EventOcSbSgtYaF",
+            "mangledName": "$s13GizwitsiOSSDK17GizBaseCapabilityC22provideWiFiCredentials4ssid8password7timeout14processHandler11bindWithUidAA0C6ResultCyAA0cD7ProfileCSgAA0C18ActivatorExceptionOSgGSS_SSSiyAA0cghT5EventOcSbSgtYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl",
@@ -51725,7 +51739,7 @@
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 20257,
+      "offset": 20717,
       "length": 2,
       "value": "\"\""
     },

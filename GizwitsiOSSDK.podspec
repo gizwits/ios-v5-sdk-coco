@@ -22,11 +22,11 @@ spec.description  = <<-DESC
     机智云设备接入iOS SDK，用于和设备的连接和通讯
                    DESC
                    
-spec.homepage     = "https://github.com/gizwits/ios-v5-sdk"
+spec.homepage     = "https://github.com/gizwits/ios-v5-sdk-coco"
 spec.license = { :type => 'MIT', :file => 'LICENSE.txt' }
 spec.author       = { "Owner" => "rbwang@gizwits.com" }
 spec.platform     = :ios, "13.0"
-spec.source       = { :git => "https://github.com/gizwits/ios-v5-sdk.git", :tag => "#{spec.version}" }
+spec.source       = { :git => "https://github.com/gizwits/ios-v5-sdk-coco.git", :tag => "#{spec.version}" }
 #在上传之前可以进行本地测试,稍后另起文章写
 # spec.source = {:path=> '.'}
 # 开放的头文件，从工程根目录下开始写起

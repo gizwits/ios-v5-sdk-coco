@@ -42893,6 +42893,13 @@
       },
       {
         "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK"
+      },
+      {
+        "kind": "Import",
         "name": "CryptoSwift",
         "printedName": "CryptoSwift",
         "declKind": "Import",
@@ -51739,7 +51746,7 @@
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 20717,
+      "offset": 20681,
       "length": 2,
       "value": "\"\""
     },
@@ -55372,77 +55379,77 @@
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Array",
-      "offset": 835,
+      "offset": 833,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Array",
-      "offset": 907,
+      "offset": 905,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1070,
+      "offset": 1068,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1200,
+      "offset": 1198,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1368,
+      "offset": 1366,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1435,
       "length": 36,
       "value": "\"com.gizwits.dataPointCallBackQueue\""
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Dictionary",
-      "offset": 1575,
+      "offset": 1573,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1991,
+      "offset": 1989,
       "length": 29,
       "value": "\"com.gizwits.snCallBackQueue\""
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Dictionary",
-      "offset": 2112,
+      "offset": 2110,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2580,
+      "offset": 2578,
       "length": 30,
       "value": "\"com.gizwits.cmdCallBackQueue\""
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Dictionary",
-      "offset": 2704,
+      "offset": 2702,
       "length": 3,
       "value": "[]"
     },
@@ -56198,21 +56205,21 @@
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 427,
+      "offset": 2297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 2353,
       "length": 8,
       "value": "\"GizSDK\""
     },
     {
       "filePath": "\/Users\/codemak1r\/Documents\/gizwits_sdk\/iossdk\/GizwitsiOSSDK\/Utils\/Logs\/GizLog.swift",
       "kind": "StringLiteral",
-      "offset": 832,
+      "offset": 2702,
       "length": 15,
       "value": "\"GizSDKLog.log\""
     },

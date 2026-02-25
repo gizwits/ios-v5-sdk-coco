@@ -19,6 +19,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os
 public enum GizActivatorException : Swift.Int, Swift.Codable {
   case GIZ_SDK_DEVICE_CONFIG_TIMEOUT
   case GIZ_SDK_BLE_DEVICE_NOT_FOUND

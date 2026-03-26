@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
 spec.name         = "GizwitsiOSSDK"
-spec.version      = "2.1.0"
+spec.version      = "2.1.1"
 spec.summary      = "GizwitsiOSSDK"
 spec.description  = <<-DESC
     机智云设备接入iOS SDK，用于和设备的连接和通讯
@@ -36,6 +36,7 @@ spec.swift_versions= "5.0"
 # spec.exclude_files = "Example"
 
 spec.vendored_frameworks = 'GizwitsiOSSDK/GizwitsiOSSDK.framework'
+spec.preserve_paths = 'GizwitsiOSSDK/GizwitsiOSSDK.framework.dSYM'
 
 # 依赖系统静态库，省略其名称的lib前缀，以及.后缀
 # spec.library   = "z"

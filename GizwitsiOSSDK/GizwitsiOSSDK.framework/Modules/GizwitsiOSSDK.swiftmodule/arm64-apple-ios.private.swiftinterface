@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GizwitsiOSSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
@@ -129,7 +129,6 @@ extension GizwitsiOSSDK.ESPTouchSmartConfig : GizwitsiOSSDK.ESPTouchDelegate {
   public func checkUpdate(firmwareType: GizwitsiOSSDK.GizOTAFirmwareType) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizCheckUpdateResultInfo, GizwitsiOSSDK.GizOTAException?>
   public func startUpgrade(firmwareType: GizwitsiOSSDK.GizOTAFirmwareType, progressHandler: @escaping (GizwitsiOSSDK.GizOTAProgressData) -> Swift.Void) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizOTAException?>
   public func cancelUpgrade() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizOTAException?>
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -309,7 +308,6 @@ public protocol GizBaseProfileProvider {
   public func encode(to encoder: any Swift.Encoder) throws
   public func isSame(device: GizwitsiOSSDK.GizBaseProfile) -> Swift.Bool
   public func getDataPointConfig() async -> GizwitsiOSSDK.DataPointConfig?
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -1202,7 +1200,6 @@ public class GizUserProfileParams {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -1315,7 +1312,6 @@ extension GizwitsiOSSDK.GizUserManager {
   public func onDeviceListUpdate(devices: Swift.Array<GizwitsiOSSDK.GizBaseProfile>)
   public func onDeviceData(device: GizwitsiOSSDK.GizBaseProfile, result: GizwitsiOSSDK.GizJSON, type: GizwitsiOSSDK.GizCapability)
   public func onDeviceState(device: GizwitsiOSSDK.GizBaseProfile, type: GizwitsiOSSDK.GizCapability)
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }

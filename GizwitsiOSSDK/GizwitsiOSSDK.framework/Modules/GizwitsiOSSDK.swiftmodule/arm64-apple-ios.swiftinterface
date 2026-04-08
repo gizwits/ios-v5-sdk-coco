@@ -1275,6 +1275,9 @@ extension Foundation.Data {
   }
   public func hexEncodedString(options: Foundation.Data.HexEncodingOptions = []) -> Swift.String
   public func asciiEncodedString() -> Swift.String
+  public var bytes: [Swift.UInt8] {
+    get
+  }
 }
 @_hasMissingDesignatedInitializers public class GizReportDevice {
   @objc deinit

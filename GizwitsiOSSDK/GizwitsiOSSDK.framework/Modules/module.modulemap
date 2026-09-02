@@ -7,5 +7,4 @@ framework module GizwitsiOSSDK {
 
 module GizwitsiOSSDK.Swift {
   header "GizwitsiOSSDK-Swift.h"
-  requires objc
 }

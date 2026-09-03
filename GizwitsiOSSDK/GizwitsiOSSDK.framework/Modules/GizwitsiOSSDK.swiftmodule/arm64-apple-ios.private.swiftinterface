@@ -46,7 +46,9 @@ public protocol ActivatorProfile {
 public struct GizProductInfoStruct : Swift.Codable {
   public var productKey: Swift.String
   public var productSecret: Swift.String
+  public var cmbDeviceTypeId: Swift.String?
   public init(productKey: Swift.String, productSecret: Swift.String)
+  public init(productKey: Swift.String, productSecret: Swift.String, cmbDeviceTypeId: Swift.String?)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -402,6 +404,15 @@ public enum BlueToothVersion : Swift.String {
     get
   }
 }
+public enum GizBleModuleVariant : Swift.String {
+  case standard
+  case chinaMobileAijia
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   var name: Swift.String { get }
   var deviceId: Swift.String { get }
@@ -410,6 +421,13 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   var peripheral: CoreBluetooth.CBPeripheral? { get set }
   var blueToothType: GizwitsiOSSDK.BlueToothType { get set }
   var blueToothVersion: GizwitsiOSSDK.BlueToothVersion { get set }
+  var bleModuleVariant: GizwitsiOSSDK.GizBleModuleVariant { get set }
+}
+extension GizwitsiOSSDK.GizBleProfileProvider {
+  public var bleModuleVariant: GizwitsiOSSDK.GizBleModuleVariant {
+    get
+    set
+  }
 }
 @_hasMissingDesignatedInitializers public class GizBleProfile : GizwitsiOSSDK.GizBaseProfile, Swift.Equatable, GizwitsiOSSDK.GizBleProfileProvider {
   @Combine.Published<Swift.String> @_projectedValueProperty($deviceId) public var deviceId: Swift.String {
@@ -468,6 +486,18 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
     _modify
   }
   public var $blueToothVersion: Combine.Published<GizwitsiOSSDK.BlueToothVersion>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published<GizwitsiOSSDK.GizBleModuleVariant> @_projectedValueProperty($bleModuleVariant) public var bleModuleVariant: GizwitsiOSSDK.GizBleModuleVariant {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $bleModuleVariant: Combine.Published<GizwitsiOSSDK.GizBleModuleVariant>.Publisher {
     get
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
@@ -1661,6 +1691,9 @@ extension GizwitsiOSSDK.BlueToothType : Swift.RawRepresentable {}
 extension GizwitsiOSSDK.BlueToothVersion : Swift.Equatable {}
 extension GizwitsiOSSDK.BlueToothVersion : Swift.Hashable {}
 extension GizwitsiOSSDK.BlueToothVersion : Swift.RawRepresentable {}
+extension GizwitsiOSSDK.GizBleModuleVariant : Swift.Equatable {}
+extension GizwitsiOSSDK.GizBleModuleVariant : Swift.Hashable {}
+extension GizwitsiOSSDK.GizBleModuleVariant : Swift.RawRepresentable {}
 extension GizwitsiOSSDK.GizOTAException : Swift.Equatable {}
 extension GizwitsiOSSDK.GizOTAException : Swift.Hashable {}
 extension GizwitsiOSSDK.GizOTAException : Swift.RawRepresentable {}

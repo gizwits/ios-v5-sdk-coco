@@ -1084,6 +1084,117 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "cmbDeviceTypeId",
+            "printedName": "cmbDeviceTypeId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK20GizProductInfoStructV15cmbDeviceTypeIdSSSgvp",
+            "mangledName": "$s13GizwitsiOSSDK20GizProductInfoStructV15cmbDeviceTypeIdSSSgvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizProductInfoStructV15cmbDeviceTypeIdSSSgvg",
+                "mangledName": "$s13GizwitsiOSSDK20GizProductInfoStructV15cmbDeviceTypeIdSSSgvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizProductInfoStructV15cmbDeviceTypeIdSSSgvs",
+                "mangledName": "$s13GizwitsiOSSDK20GizProductInfoStructV15cmbDeviceTypeIdSSSgvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK20GizProductInfoStructV15cmbDeviceTypeIdSSSgvM",
+                "mangledName": "$s13GizwitsiOSSDK20GizProductInfoStructV15cmbDeviceTypeIdSSSgvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(productKey:productSecret:)",
@@ -1110,6 +1221,53 @@
             "declKind": "Constructor",
             "usr": "s:13GizwitsiOSSDK20GizProductInfoStructV10productKey0G6SecretACSS_SStcfc",
             "mangledName": "$s13GizwitsiOSSDK20GizProductInfoStructV10productKey0G6SecretACSS_SStcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(productKey:productSecret:cmbDeviceTypeId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizProductInfoStruct",
+                "printedName": "GizwitsiOSSDK.GizProductInfoStruct",
+                "usr": "s:13GizwitsiOSSDK20GizProductInfoStructV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK20GizProductInfoStructV10productKey0G6Secret15cmbDeviceTypeIdACSS_S2SSgtcfc",
+            "mangledName": "$s13GizwitsiOSSDK20GizProductInfoStructV10productKey0G6Secret15cmbDeviceTypeIdACSS_S2SSgtcfc",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -10057,6 +10215,220 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "GizBleModuleVariant",
+        "printedName": "GizBleModuleVariant",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "standard",
+            "printedName": "standard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GizwitsiOSSDK.GizBleModuleVariant.Type) -> GizwitsiOSSDK.GizBleModuleVariant",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizBleModuleVariant",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                    "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizBleModuleVariant",
+                        "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                        "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO8standardyA2CmF",
+            "mangledName": "$s13GizwitsiOSSDK19GizBleModuleVariantO8standardyA2CmF",
+            "moduleName": "GizwitsiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "chinaMobileAijia",
+            "printedName": "chinaMobileAijia",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GizwitsiOSSDK.GizBleModuleVariant.Type) -> GizwitsiOSSDK.GizBleModuleVariant",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizBleModuleVariant",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                    "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizBleModuleVariant",
+                        "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                        "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO16chinaMobileAijiayA2CmF",
+            "mangledName": "$s13GizwitsiOSSDK19GizBleModuleVariantO16chinaMobileAijiayA2CmF",
+            "moduleName": "GizwitsiOSSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GizwitsiOSSDK.GizBleModuleVariant?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizBleModuleVariant",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                    "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13GizwitsiOSSDK19GizBleModuleVariantO8rawValueACSgSS_tcfc",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO8rawValueSSvp",
+            "mangledName": "$s13GizwitsiOSSDK19GizBleModuleVariantO8rawValueSSvp",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO8rawValueSSvg",
+                "mangledName": "$s13GizwitsiOSSDK19GizBleModuleVariantO8rawValueSSvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO",
+        "mangledName": "$s13GizwitsiOSSDK19GizBleModuleVariantO",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GizBleProfileProvider",
         "printedName": "GizBleProfileProvider",
         "children": [
@@ -10620,6 +10992,188 @@
                 "protocolReq": true,
                 "implicit": true,
                 "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bleModuleVariant",
+            "printedName": "bleModuleVariant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizBleModuleVariant",
+                "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderP16bleModuleVariantAA0cdhI0Ovp",
+            "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderP16bleModuleVariantAA0cdhI0Ovp",
+            "moduleName": "GizwitsiOSSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizBleModuleVariant",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                    "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderP16bleModuleVariantAA0cdhI0Ovg",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderP16bleModuleVariantAA0cdhI0Ovg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizBleModuleVariant",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                    "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderP16bleModuleVariantAA0cdhI0Ovs",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderP16bleModuleVariantAA0cdhI0Ovs",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderP16bleModuleVariantAA0cdhI0OvM",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderP16bleModuleVariantAA0cdhI0OvM",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bleModuleVariant",
+            "printedName": "bleModuleVariant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizBleModuleVariant",
+                "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0Ovp",
+            "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0Ovp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizBleModuleVariant",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                    "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0Ovg",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0Ovg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizBleModuleVariant",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                    "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0Ovs",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0Ovs",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0OvM",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0OvM",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -11680,6 +12234,212 @@
                 "declKind": "Accessor",
                 "usr": "s:13GizwitsiOSSDK13GizBleProfileC17$blueToothVersion7Combine9PublishedV9PublisherVyAA04BluegH0O_GvM",
                 "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC17$blueToothVersion7Combine9PublishedV9PublisherVyAA04BluegH0O_GvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bleModuleVariant",
+            "printedName": "bleModuleVariant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GizBleModuleVariant",
+                "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK13GizBleProfileC16bleModuleVariantAA0cdgH0Ovp",
+            "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC16bleModuleVariantAA0cdgH0Ovp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizBleModuleVariant",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                    "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC16bleModuleVariantAA0cdgH0Ovg",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC16bleModuleVariantAA0cdgH0Ovg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizBleModuleVariant",
+                    "printedName": "GizwitsiOSSDK.GizBleModuleVariant",
+                    "usr": "s:13GizwitsiOSSDK19GizBleModuleVariantO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC16bleModuleVariantAA0cdgH0Ovs",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC16bleModuleVariantAA0cdgH0Ovs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC16bleModuleVariantAA0cdgH0OvM",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC16bleModuleVariantAA0cdgH0OvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$bleModuleVariant",
+            "printedName": "$bleModuleVariant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<GizwitsiOSSDK.GizBleModuleVariant>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_Gvp",
+            "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_Gvp",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<GizwitsiOSSDK.GizBleModuleVariant>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_Gvg",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_Gvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<GizwitsiOSSDK.GizBleModuleVariant>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_Gvs",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_Gvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_GvM",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_GvM",
                 "moduleName": "GizwitsiOSSDK",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -18553,6 +19313,16 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -51970,49 +52740,49 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1263,
+      "offset": 1648,
       "length": 19,
       "value": "\"usapi.gizwits.com\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1333,
+      "offset": 1718,
       "length": 19,
       "value": "\"euapi.gizwits.com\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1403,
+      "offset": 1788,
       "length": 17,
       "value": "\"api.gizwits.com\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1464,
+      "offset": 1849,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1509,
+      "offset": 1894,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "Array",
-      "offset": 1573,
+      "offset": 1958,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Config\/GizConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1664,
+      "offset": 2049,
       "length": 17,
       "value": "\"api.gizwits.com\""
     },
@@ -52264,21 +53034,35 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "StringLiteral",
-      "offset": 9693,
+      "offset": 9308,
+      "length": 10,
+      "value": "\"STANDARD\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 9347,
+      "length": 20,
+      "value": "\"CHINA_MOBILE_AIJIA\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 10129,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
-      "offset": 9777,
+      "offset": 10213,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
-      "offset": 9843,
+      "offset": 10279,
       "length": 1,
       "value": "0"
     },
@@ -54047,6 +54831,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/CmbBleAdvertisementParser.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 31,
+      "value": "\"^CMB(\\d+)-([0-9A-Fa-f]{4})$\""
+    },
+    {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/BleSetResetParser.swift",
       "kind": "IntegerLiteral",
       "offset": 497,
@@ -54273,63 +55064,84 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 900,
+      "offset": 752,
+      "length": 6,
+      "value": "\"D459\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 822,
+      "length": 6,
+      "value": "\"0013\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 6,
+      "value": "\"0014\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1099,
       "length": 6,
       "value": "\"ABF8\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 1123,
       "length": 6,
       "value": "\"ABF0\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 948,
+      "offset": 1147,
       "length": 6,
       "value": "\"F0AB\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 972,
+      "offset": 1171,
       "length": 6,
       "value": "\"F8AB\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 996,
+      "offset": 1195,
       "length": 6,
       "value": "\"ABD0\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1219,
       "length": 6,
       "value": "\"D0AB\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1116,
+      "offset": 1344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1325,
+      "offset": 1553,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/BleHandler\/BleHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1346,
+      "offset": 1574,
       "length": 3,
       "value": "-70"
     },

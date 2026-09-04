@@ -11089,6 +11089,97 @@
           },
           {
             "kind": "Var",
+            "name": "support5GConfig",
+            "printedName": "support5GConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderP15support5GConfigSbvp",
+            "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderP15support5GConfigSbvp",
+            "moduleName": "GizwitsiOSSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderP15support5GConfigSbvg",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderP15support5GConfigSbvg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderP15support5GConfigSbvs",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderP15support5GConfigSbvs",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderP15support5GConfigSbvM",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderP15support5GConfigSbvM",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "bleModuleVariant",
             "printedName": "bleModuleVariant",
             "children": [
@@ -11169,6 +11260,94 @@
                 "declKind": "Accessor",
                 "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0OvM",
                 "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderPAAE16bleModuleVariantAA0cdhI0OvM",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "support5GConfig",
+            "printedName": "support5GConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderPAAE15support5GConfigSbvp",
+            "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderPAAE15support5GConfigSbvp",
+            "moduleName": "GizwitsiOSSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderPAAE15support5GConfigSbvg",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderPAAE15support5GConfigSbvg",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderPAAE15support5GConfigSbvs",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderPAAE15support5GConfigSbvs",
+                "moduleName": "GizwitsiOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
+                "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK21GizBleProfileProviderPAAE15support5GConfigSbvM",
+                "mangledName": "$s13GizwitsiOSSDK21GizBleProfileProviderPAAE15support5GConfigSbvM",
                 "moduleName": "GizwitsiOSSDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : GizwitsiOSSDK.GizBleProfileProvider>",
                 "sugared_genericSig": "<Self where Self : GizwitsiOSSDK.GizBleProfileProvider>",
@@ -12440,6 +12619,212 @@
                 "declKind": "Accessor",
                 "usr": "s:13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_GvM",
                 "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC17$bleModuleVariant7Combine9PublishedV9PublisherVyAA0cdgH0O_GvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "support5GConfig",
+            "printedName": "support5GConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK13GizBleProfileC15support5GConfigSbvp",
+            "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC15support5GConfigSbvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC15support5GConfigSbvg",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC15support5GConfigSbvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC15support5GConfigSbvs",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC15support5GConfigSbvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC15support5GConfigSbvM",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC15support5GConfigSbvM",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$support5GConfig",
+            "printedName": "$support5GConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK13GizBleProfileC16$support5GConfig7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC16$support5GConfig7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "GizwitsiOSSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC16$support5GConfig7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC16$support5GConfig7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC16$support5GConfig7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC16$support5GConfig7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizBleProfileC16$support5GConfig7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s13GizwitsiOSSDK13GizBleProfileC16$support5GConfig7Combine9PublishedV9PublisherVySb_GvM",
                 "moduleName": "GizwitsiOSSDK",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -52733,7 +53118,7 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/ActivatorParser.swift",
       "kind": "StringLiteral",
-      "offset": 20681,
+      "offset": 21833,
       "length": 2,
       "value": "\"\""
     },
@@ -53055,23 +53440,30 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "StringLiteral",
-      "offset": 10129,
+      "offset": 10245,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
-      "offset": 10213,
+      "offset": 10329,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
       "kind": "IntegerLiteral",
-      "offset": 10279,
+      "offset": 10395,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Interface\/Device\/GizBaseProfile.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10656,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Light\/MusicalRhythm.swift",
@@ -55654,467 +56046,488 @@
       "kind": "IntegerLiteral",
       "offset": 5413,
       "length": 6,
+      "value": "0x0100"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5493,
+      "length": 6,
+      "value": "0x0101"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5553,
+      "length": 6,
+      "value": "0x000A"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5611,
+      "length": 6,
       "value": "0x0003"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5466,
+      "offset": 5664,
       "length": 6,
       "value": "0x0004"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5513,
+      "offset": 5711,
       "length": 6,
       "value": "0x0005"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5561,
+      "offset": 5759,
       "length": 6,
       "value": "0x0006"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5608,
+      "offset": 5806,
       "length": 6,
       "value": "0x0007"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5656,
+      "offset": 5854,
       "length": 6,
       "value": "0x0008"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5706,
+      "offset": 5904,
       "length": 6,
       "value": "0x0009"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5758,
+      "offset": 5956,
       "length": 6,
       "value": "0x000C"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5827,
+      "offset": 6025,
       "length": 6,
       "value": "0x000D"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5891,
+      "offset": 6089,
       "length": 6,
       "value": "0x0010"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 5961,
+      "offset": 6159,
       "length": 6,
       "value": "0x0011"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6038,
+      "offset": 6236,
       "length": 6,
       "value": "0x0013"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6103,
+      "offset": 6301,
       "length": 6,
       "value": "0x0014"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6162,
+      "offset": 6360,
       "length": 6,
       "value": "0x0015"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6210,
+      "offset": 6408,
       "length": 6,
       "value": "0x0016"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6267,
+      "offset": 6465,
       "length": 6,
       "value": "0x0017"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6319,
+      "offset": 6517,
       "length": 6,
       "value": "0x0018"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6360,
+      "offset": 6558,
       "length": 6,
       "value": "0x0019"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6406,
+      "offset": 6604,
       "length": 6,
       "value": "0x001A"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6437,
+      "offset": 6635,
       "length": 6,
       "value": "0x001B"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6478,
+      "offset": 6676,
       "length": 6,
       "value": "0x001C"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6520,
+      "offset": 6718,
       "length": 6,
       "value": "0x001D"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6563,
+      "offset": 6761,
       "length": 6,
       "value": "0x001E"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6607,
+      "offset": 6805,
       "length": 6,
       "value": "0x001F"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6641,
+      "offset": 6839,
       "length": 6,
       "value": "0x0020"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6676,
+      "offset": 6874,
       "length": 6,
       "value": "0x0021"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6713,
+      "offset": 6911,
       "length": 6,
       "value": "0x0022"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6751,
+      "offset": 6949,
       "length": 6,
       "value": "0x0023"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6785,
+      "offset": 6983,
       "length": 6,
       "value": "0x0024"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6820,
+      "offset": 7018,
       "length": 6,
       "value": "0x0025"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6853,
+      "offset": 7051,
       "length": 6,
       "value": "0x0012"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6890,
+      "offset": 7088,
       "length": 6,
       "value": "0x0090"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6921,
+      "offset": 7119,
       "length": 6,
       "value": "0x0091"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6964,
+      "offset": 7162,
       "length": 6,
       "value": "0x0092"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7004,
+      "offset": 7202,
       "length": 6,
       "value": "0x0093"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7040,
+      "offset": 7238,
       "length": 6,
       "value": "0x0094"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7081,
+      "offset": 7279,
       "length": 6,
       "value": "0x010D"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7123,
+      "offset": 7321,
       "length": 6,
       "value": "0x0111"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7208,
+      "offset": 7406,
       "length": 6,
       "value": "0x0050"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7242,
+      "offset": 7440,
       "length": 6,
       "value": "0x0042"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7276,
+      "offset": 7474,
       "length": 6,
       "value": "0x0044"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7317,
+      "offset": 7515,
       "length": 6,
       "value": "0x0048"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7359,
+      "offset": 7557,
       "length": 4,
       "value": "0x52"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7412,
+      "offset": 7610,
       "length": 6,
       "value": "0x0061"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7464,
+      "offset": 7662,
       "length": 6,
       "value": "0x0062"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7519,
+      "offset": 7717,
       "length": 6,
       "value": "0x0063"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7574,
+      "offset": 7772,
       "length": 6,
       "value": "0x0064"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7678,
+      "offset": 7876,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7721,
+      "offset": 7919,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7771,
+      "offset": 7969,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7841,
+      "offset": 8039,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7885,
+      "offset": 8083,
       "length": 4,
       "value": "0x05"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7915,
+      "offset": 8113,
       "length": 4,
       "value": "0x08"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7949,
+      "offset": 8147,
       "length": 4,
       "value": "0x09"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 7973,
+      "offset": 8171,
       "length": 4,
       "value": "0x0A"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8005,
+      "offset": 8203,
       "length": 4,
       "value": "0x0B"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8030,
+      "offset": 8228,
       "length": 4,
       "value": "0x0F"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8092,
+      "offset": 8290,
       "length": 4,
       "value": "0x20"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8165,
+      "offset": 8363,
       "length": 4,
       "value": "0x21"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8227,
+      "offset": 8425,
       "length": 4,
       "value": "0x22"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8267,
+      "offset": 8465,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8348,
+      "offset": 8546,
       "length": 4,
       "value": "0x24"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8412,
+      "offset": 8610,
       "length": 4,
       "value": "0x25"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8479,
+      "offset": 8677,
       "length": 4,
       "value": "0x26"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8536,
+      "offset": 8734,
       "length": 4,
       "value": "0x40"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8562,
+      "offset": 8760,
       "length": 4,
       "value": "0x41"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Base\/GizDefinitions.swift",
       "kind": "IntegerLiteral",
-      "offset": 8593,
+      "offset": 8791,
       "length": 4,
       "value": "0x42"
     },

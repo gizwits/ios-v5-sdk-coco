@@ -10,6 +10,7 @@ import Combine
 import CoreBluetooth
 import CoreLocation
 import CoreTelephony
+import CryptoKit
 import Darwin
 import Foundation
 @_exported import GizwitsiOSSDK
@@ -423,8 +424,13 @@ public protocol GizBleProfileProvider : GizwitsiOSSDK.GizBaseProfileProvider {
   var blueToothVersion: GizwitsiOSSDK.BlueToothVersion { get set }
   var bleModuleVariant: GizwitsiOSSDK.GizBleModuleVariant { get set }
   var support5GConfig: Swift.Bool { get set }
+  var requiresEncryption: Swift.Bool { get set }
 }
 extension GizwitsiOSSDK.GizBleProfileProvider {
+  public var requiresEncryption: Swift.Bool {
+    get
+    set
+  }
   public var bleModuleVariant: GizwitsiOSSDK.GizBleModuleVariant {
     get
     set
@@ -515,6 +521,18 @@ extension GizwitsiOSSDK.GizBleProfileProvider {
     _modify
   }
   public var $support5GConfig: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published<Swift.Bool> @_projectedValueProperty($requiresEncryption) public var requiresEncryption: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $requiresEncryption: Combine.Published<Swift.Bool>.Publisher {
     get
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
@@ -718,8 +736,20 @@ extension GizwitsiOSSDK.GizUserManager {
   public func registerWithAccount(username: Swift.String, password: Swift.String) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizLoginResultInfo?, GizwitsiOSSDK.GizAPIException?>
 }
 @_hasMissingDesignatedInitializers public class GizBleCapability : GizwitsiOSSDK.GizBaseCapability {
+  public func getWiFiList(timeout: Foundation.TimeInterval = 30) async -> GizwitsiOSSDK.GizResult<[GizwitsiOSSDK.GizWiFiNetwork], GizwitsiOSSDK.GizCtrlException?>
+  public func cancelGetWiFiList()
+  public func syncTime(timeout: Foundation.TimeInterval = 30) async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizCtrlException?>
+  public func cancelSyncTime()
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
+}
+public struct GizWiFiNetwork : Swift.Codable, Swift.Equatable {
+  public let ssid: Swift.String
+  public let signalStrength: Swift.Int
+  public init(ssid: Swift.String, signalStrength: Swift.Int)
+  public static func == (a: GizwitsiOSSDK.GizWiFiNetwork, b: GizwitsiOSSDK.GizWiFiNetwork) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum GizJSONError : Swift.Int, Swift.Error {
   case unsupportedType

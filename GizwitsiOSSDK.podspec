@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
 spec.name         = "GizwitsiOSSDK"
-spec.version      = "2.1.9"
+spec.version      = "2.1.10"
 spec.summary      = "GizwitsiOSSDK"
 spec.description  = <<-DESC
     机智云设备接入iOS SDK，用于和设备的连接和通讯
@@ -30,20 +30,17 @@ spec.source       = { :git => "https://github.com/gizwits/ios-v5-sdk-coco.git", 
 #在上传之前可以进行本地测试,稍后另起文章写
 # spec.source = {:path=> '.'}
 # 开放的头文件，从工程根目录下开始写起
-spec.source_files  = "GizwitsiOSSDK/GizwitsiOSSDK.framework/Headers/*.{h,m}"
 spec.swift_versions= "5.0"
 # 排除文件，没有排除文件可不写
 # spec.exclude_files = "Example"
 
-spec.vendored_frameworks = 'GizwitsiOSSDK/GizwitsiOSSDK.framework'
-spec.preserve_paths = 'GizwitsiOSSDK/GizwitsiOSSDK.framework.dSYM'
+spec.vendored_frameworks = 'GizwitsiOSSDK/GizwitsiOSSDK.xcframework'
+spec.preserve_paths = 'GizwitsiOSSDK/GizwitsiOSSDK.xcframework'
 
 # 依赖系统静态库，省略其名称的lib前缀，以及.后缀
 # spec.library   = "z"
 
 spec.dependency 'CryptoSwift', '~> 1.8.0'
 
-# 项目配置，注意这里的SDK不支持模拟器
-spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+# XCFramework 包含真机和模拟器版本，由 CocoaPods 自动选择。
 end

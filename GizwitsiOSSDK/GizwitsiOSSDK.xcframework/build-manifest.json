@@ -1,0 +1,21 @@
+{
+  "version": "2.1.10",
+  "source_base_commit": "32f2e8da33afe794399718497152ecd38cd829b9",
+  "source_prepared_changes": true,
+  "device_archs": [
+    "arm64"
+  ],
+  "simulator_archs": [
+    "arm64",
+    "x86_64"
+  ],
+  "xcode": "26.4.1",
+  "prepared_file_sha256": {
+    "GizwitsiOSSDK.xcodeproj/project.pbxproj": "2e09f7ecaf7ff273bd4c7044000b59bed68dea6f8e64f97cb6e10f9852768ea9",
+    "scripts/build_xcframework.py": "56b8d86a6751e6db085d9536ef076e2dedddd3d59579e71c0c01c742fefd1694",
+    "GizwitsiOSSDK/SimulatorLibraries/aubio.a": "bef0b7c7cdc8e23d9491807cd9304e769597029e0e43d96de82ecf2585e5997d",
+    "GizwitsiOSSDK/SimulatorLibraries/build-manifest.json": "f0245d84faf85e5269e15ab7d5dbc2f7ef1c8a568ea8f736d9954e55fbfbfaee",
+    "GizwitsiOSSDK/SimulatorLibraries/libcrypto.a": "943133bc2b0f87403fee278e1aa890a5eb725cd7676cbf6189acd787a10cd59e",
+    "GizwitsiOSSDK/SimulatorLibraries/libssl.a": "3c4b77ecf812b83efdd1a6a48d800b9c46cc0f231d0e11a5a8955f71cd4d43c0"
+  }
+}

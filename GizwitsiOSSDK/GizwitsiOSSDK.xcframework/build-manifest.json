@@ -1,9 +1,10 @@
 {
-  "version": "2.1.11",
+  "version": "2.1.12",
   "source": "/Users/Kylewang/Documents/Project/iossdkv5",
-  "source_commit": "27ac6c524a47ff57abbee928e7631f1941625778",
+  "source_commit": "3b19222455eab9632bf0e3d4279f3ceb38f6bc56",
   "source_dirty": false,
   "xcode": "Xcode 26.4.1\nBuild version 17E202",
+  "change": "Require is_online for bound-device-list provisioning confirmation",
   "device_archs": [
     "arm64"
   ],
@@ -11,14 +12,37 @@
     "arm64",
     "x86_64"
   ],
-  "dependencies": {
-    "openssl": {
-      "url": "https://codeload.github.com/openssl/openssl/tar.gz/refs/tags/OpenSSL_1_1_0c",
-      "sha256": "356e501d9734db874ba0ecc8c372985091691d88031890fe8361483ec63f3dad"
+  "verified_libraries": [
+    {
+      "slice": "ios-arm64",
+      "architectures": [
+        "arm64"
+      ],
+      "uuids": [
+        [
+          "4D666E87-394D-3618-9459-BC6CE9E5136E",
+          "arm64"
+        ]
+      ],
+      "sha256": "f81df0c3e42ed0353e9b4dc3c5a3377813f734f1a0443f0de75dc671f34f55ee"
     },
-    "aubio": {
-      "url": "https://aubio.org/pub/aubio-0.4.9.tar.bz2",
-      "sha256": "d48282ae4dab83b3dc94c16cf011bcb63835c1c02b515490e1883049c3d1f3da"
+    {
+      "slice": "ios-arm64_x86_64-simulator",
+      "architectures": [
+        "x86_64",
+        "arm64"
+      ],
+      "uuids": [
+        [
+          "11714AE1-AEFB-3878-9DDB-D9157FDFEBE2",
+          "x86_64"
+        ],
+        [
+          "C821C428-3C18-374C-BC63-572DCA20E66E",
+          "arm64"
+        ]
+      ],
+      "sha256": "3034c84c533b2a64a1ca9db9965bc20050e87ee6a53a8158476f35afd033d31b"
     }
-  }
+  ]
 }

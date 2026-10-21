@@ -1,22 +1,22 @@
 {
-  "version": "2.1.14",
-  "source_commit": "0b699ce13a0a97e3c4a058716bf0d8ef619ad943",
+  "version": "2.1.15",
+  "source_commit": "61dd455f2ca05ea9902086e305c6acbfe878b27e",
   "checks": [
     {
       "archive": "ios.xcarchive",
-      "version": "2.1.14",
+      "version": "2.1.15",
       "architectures": "arm64",
       "uuids": [
-        "UUID: 55DC2051-00DD-3B76-9D15-4615CF83950C (arm64) /tmp/giz-release-20261021/ios/ios.xcarchive/Products/Library/Frameworks/GizwitsiOSSDK.framework/GizwitsiOSSDK"
+        "UUID: E86F20AF-B700-3A22-8179-30654DCBDD30 (arm64) /private/tmp/giz-release-2.1.9/ios/ios.xcarchive/Products/Library/Frameworks/GizwitsiOSSDK.framework/GizwitsiOSSDK"
       ]
     },
     {
       "archive": "simulator.xcarchive",
-      "version": "2.1.14",
+      "version": "2.1.15",
       "architectures": "x86_64 arm64",
       "uuids": [
-        "UUID: 57E1158D-9EE6-3A6E-9B7B-F136C68510B0 (x86_64) /tmp/giz-release-20261021/ios/simulator.xcarchive/Products/Library/Frameworks/GizwitsiOSSDK.framework/GizwitsiOSSDK",
-        "UUID: 424156E9-5E60-336A-9D40-C36876BC7913 (arm64) /tmp/giz-release-20261021/ios/simulator.xcarchive/Products/Library/Frameworks/GizwitsiOSSDK.framework/GizwitsiOSSDK"
+        "UUID: D42DDA14-4C3A-3695-AF2D-114922F9AEAA (x86_64) /private/tmp/giz-release-2.1.9/ios/simulator.xcarchive/Products/Library/Frameworks/GizwitsiOSSDK.framework/GizwitsiOSSDK",
+        "UUID: 8E5B9634-AD31-3936-89F6-31ECE07452CD (arm64) /private/tmp/giz-release-2.1.9/ios/simulator.xcarchive/Products/Library/Frameworks/GizwitsiOSSDK.framework/GizwitsiOSSDK"
       ]
     }
   ],

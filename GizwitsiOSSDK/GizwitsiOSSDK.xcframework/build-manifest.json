@@ -1,48 +1,38 @@
 {
-  "version": "2.1.13",
-  "source": "/Users/Kylewang/Documents/Project/iossdkv5",
-  "source_commit": "cf92a0cf91df1ff81a30b4a91240ad1193467e31",
-  "source_dirty": false,
-  "xcode": "Xcode 26.4.1\nBuild version 17E202",
-  "change": "Preserve LAN and MQTT origins in device data callbacks",
-  "device_archs": [
-    "arm64"
-  ],
-  "simulator_archs": [
-    "arm64",
-    "x86_64"
-  ],
-  "verified_libraries": [
+  "version": "2.1.14",
+  "source_commit": "0b699ce13a0a97e3c4a058716bf0d8ef619ad943",
+  "checks": [
     {
-      "slice": "ios-arm64",
-      "architectures": [
-        "arm64"
-      ],
+      "archive": "ios.xcarchive",
+      "version": "2.1.14",
+      "architectures": "arm64",
       "uuids": [
-        [
-          "8454D73E-9C9C-35A0-B2E5-67C3021C9441",
-          "arm64"
-        ]
-      ],
-      "sha256": "a383021a57e1fb5843bc7953c89814079e95e4e6c451450d1e5ab43888b5f348"
+        "UUID: 55DC2051-00DD-3B76-9D15-4615CF83950C (arm64) /tmp/giz-release-20261021/ios/ios.xcarchive/Products/Library/Frameworks/GizwitsiOSSDK.framework/GizwitsiOSSDK"
+      ]
     },
     {
-      "slice": "ios-arm64_x86_64-simulator",
-      "architectures": [
-        "x86_64",
-        "arm64"
-      ],
+      "archive": "simulator.xcarchive",
+      "version": "2.1.14",
+      "architectures": "x86_64 arm64",
       "uuids": [
-        [
-          "F7604111-8757-359F-B9E0-2D56884B2D9E",
-          "x86_64"
-        ],
-        [
-          "DB8AD600-9BED-3243-BC7C-988D1466CF63",
-          "arm64"
-        ]
-      ],
-      "sha256": "5e2fc73c0c36956de33ed858977acd5fde2ad2e955b0ade99bceace5d450f3cf"
+        "UUID: 57E1158D-9EE6-3A6E-9B7B-F136C68510B0 (x86_64) /tmp/giz-release-20261021/ios/simulator.xcarchive/Products/Library/Frameworks/GizwitsiOSSDK.framework/GizwitsiOSSDK",
+        "UUID: 424156E9-5E60-336A-9D40-C36876BC7913 (arm64) /tmp/giz-release-20261021/ios/simulator.xcarchive/Products/Library/Frameworks/GizwitsiOSSDK.framework/GizwitsiOSSDK"
+      ]
     }
-  ]
+  ],
+  "simulator_libraries": {
+    "platform": "ios-simulator",
+    "architectures": [
+      "arm64",
+      "x86_64"
+    ],
+    "openssl": "1.1.0c",
+    "aubio": "0.4.9",
+    "xcode": "26.4.1",
+    "files": {
+      "libcrypto.a": "943133bc2b0f87403fee278e1aa890a5eb725cd7676cbf6189acd787a10cd59e",
+      "aubio.a": "bef0b7c7cdc8e23d9491807cd9304e769597029e0e43d96de82ecf2585e5997d",
+      "libssl.a": "3c4b77ecf812b83efdd1a6a48d800b9c46cc0f231d0e11a5a8955f71cd4d43c0"
+    }
+  }
 }

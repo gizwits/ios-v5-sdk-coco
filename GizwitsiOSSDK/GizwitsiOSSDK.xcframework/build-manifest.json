@@ -1,8 +1,8 @@
 {
   "version": "2.1.16",
-  "source": "/Users/Kylewang/Documents/Project/iossdkv5",
+  "source": "/Users/codemak1r/Documents/gizwits_sdk/iossdk",
   "source_commit": "e65ce441e7ac67bd4f249364ea606647bef0cec4",
-  "source_dirty": false,
+  "source_dirty": true,
   "xcode": "Xcode 26.4.1\nBuild version 17E202",
   "device_archs": [
     "arm64"

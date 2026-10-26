@@ -64,9 +64,11 @@ public struct GizConfigStruct : Swift.Codable {
   public var appSecret: Swift.String
   public var productInfos: [GizwitsiOSSDK.GizProductInfoStruct]
   public var serverInfo: GizwitsiOSSDK.GizServerInfoStruct?
-  public init(appID: Swift.String, appSecret: Swift.String, productInfos: [GizwitsiOSSDK.GizProductInfoStruct], serverInfo: GizwitsiOSSDK.GizServerInfoStruct?)
-  public func encode(to encoder: any Swift.Encoder) throws
+  public var enableBleAdvertisementData: Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
+  public init(appID: Swift.String, appSecret: Swift.String, productInfos: [GizwitsiOSSDK.GizProductInfoStruct], serverInfo: GizwitsiOSSDK.GizServerInfoStruct?)
+  public init(appID: Swift.String, appSecret: Swift.String, productInfos: [GizwitsiOSSDK.GizProductInfoStruct], serverInfo: GizwitsiOSSDK.GizServerInfoStruct?, enableBleAdvertisementData: Swift.Bool)
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_inheritsConvenienceInitializers public class ESPTouchSmartConfig : ObjectiveC.NSObject {
   public static let sharedInstance: GizwitsiOSSDK.ESPTouchSmartConfig
@@ -541,6 +543,21 @@ extension GizwitsiOSSDK.GizBleProfileProvider {
   public static func == (lhs: GizwitsiOSSDK.GizBleProfile, rhs: GizwitsiOSSDK.GizBleProfile) -> Swift.Bool
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
+}
+public struct GizBleAdvertisement : Swift.Encodable, Swift.Equatable {
+  public let rawHex: Swift.String?
+  public let source: Swift.String
+  public let receivedAt: Swift.Int64
+  public let manufacturerDataHex: Swift.String?
+  public let localName: Swift.String?
+  public let serviceUUIDs: [Swift.String]
+  public let serviceData: [Swift.String : Swift.String]
+  public let overflowServiceUUIDs: [Swift.String]
+  public let solicitedServiceUUIDs: [Swift.String]
+  public let txPowerLevel: Swift.Int?
+  public let isConnectable: Swift.Bool?
+  public static func == (a: GizwitsiOSSDK.GizBleAdvertisement, b: GizwitsiOSSDK.GizBleAdvertisement) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol GizMusicalRhythmDataProvider {
   var isBeat: Swift.Bool? { get }
@@ -1539,6 +1556,10 @@ public protocol GizSdkEventHandlerDelegate {
   func onDeviceBindState(did: Swift.String, isBind: Swift.Bool)
 }
 @_hasMissingDesignatedInitializers public class GizDevice : GizwitsiOSSDK.GizBaseProfile {
+  public var bleAdvertisement: GizwitsiOSSDK.GizBleAdvertisement? {
+    get
+  }
+  public func subscribeBleAdvertisement() -> Combine.AnyPublisher<GizwitsiOSSDK.GizBleAdvertisement?, Swift.Never>
   @Combine.Published<GizwitsiOSSDK.GizBleCapability> @_projectedValueProperty($bleCapability) public var bleCapability: GizwitsiOSSDK.GizBleCapability {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
